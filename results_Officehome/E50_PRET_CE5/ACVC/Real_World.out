@@ -1,0 +1,1365 @@
+
+Loading experiment Officehome/ResNet18_step
+
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 1/50] 
+ {loss} cls : 4.482, fac : 12.751, total : 17.233 
+ {acc} cls : 1.56
+[31/61 iteration of epoch 1/50] 
+ {loss} cls : 1.658, fac : 11.769, total : 13.427 
+ {acc} cls : 61.72
+[61/61 iteration of epoch 1/50] 
+ {loss} cls : 0.964, fac : 11.951, total : 12.915 
+ {acc} cls : 74.22
+------------------------------
+<Losses on train> cls : 2.265, fac : 11.929, total : 14.194
+<Accuracies on train> cls : 44.25
+Train epoch time: 273.675
+------------------------------
+<Accuracies on val> class : 73.33
+------------------------------
+<Accuracies on test> class : 52.21
+------------------------------
+<Accuracies on Art> test class : 51.71
+------------------------------
+<Accuracies on Clipart> test class : 40.99
+------------------------------
+<Accuracies on Product> test class : 63.53
+------------------------------
+Total epoch time: 372.383
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 2/50] 
+ {loss} cls : 1.335, fac : 11.982, total : 13.317 
+ {acc} cls : 61.72
+[31/61 iteration of epoch 2/50] 
+ {loss} cls : 0.994, fac : 11.719, total : 12.713 
+ {acc} cls : 70.31
+[61/61 iteration of epoch 2/50] 
+ {loss} cls : 0.843, fac : 11.788, total : 12.631 
+ {acc} cls : 75.78
+------------------------------
+<Losses on train> cls : 1.073, fac : 11.786, total : 12.858
+<Accuracies on train> cls : 70.07
+Train epoch time: 262.260
+------------------------------
+<Accuracies on val> class : 76.78
+------------------------------
+<Accuracies on test> class : 54.53
+------------------------------
+<Accuracies on Art> test class : 51.96
+------------------------------
+<Accuracies on Clipart> test class : 44.31
+------------------------------
+<Accuracies on Product> test class : 65.98
+------------------------------
+Total epoch time: 362.676
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 3/50] 
+ {loss} cls : 0.939, fac : 11.822, total : 12.761 
+ {acc} cls : 77.34
+[31/61 iteration of epoch 3/50] 
+ {loss} cls : 0.935, fac : 11.755, total : 12.690 
+ {acc} cls : 73.44
+[61/61 iteration of epoch 3/50] 
+ {loss} cls : 0.726, fac : 11.725, total : 12.451 
+ {acc} cls : 81.25
+------------------------------
+<Losses on train> cls : 0.819, fac : 11.772, total : 12.591
+<Accuracies on train> cls : 76.14
+Train epoch time: 273.386
+------------------------------
+<Accuracies on val> class : 77.01
+------------------------------
+<Accuracies on test> class : 53.52
+------------------------------
+<Accuracies on Art> test class : 53.48
+------------------------------
+<Accuracies on Clipart> test class : 41.83
+------------------------------
+<Accuracies on Product> test class : 65.04
+------------------------------
+Total epoch time: 373.959
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 4/50] 
+ {loss} cls : 0.537, fac : 11.727, total : 12.264 
+ {acc} cls : 82.81
+[31/61 iteration of epoch 4/50] 
+ {loss} cls : 0.581, fac : 11.749, total : 12.330 
+ {acc} cls : 84.38
+[61/61 iteration of epoch 4/50] 
+ {loss} cls : 0.897, fac : 11.810, total : 12.707 
+ {acc} cls : 75.00
+------------------------------
+<Losses on train> cls : 0.693, fac : 11.736, total : 12.429
+<Accuracies on train> cls : 80.15
+Train epoch time: 275.619
+------------------------------
+<Accuracies on val> class : 80.92
+------------------------------
+<Accuracies on test> class : 56.77
+------------------------------
+<Accuracies on Art> test class : 55.21
+------------------------------
+<Accuracies on Clipart> test class : 46.30
+------------------------------
+<Accuracies on Product> test class : 67.92
+------------------------------
+Total epoch time: 374.646
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 5/50] 
+ {loss} cls : 0.548, fac : 11.763, total : 12.311 
+ {acc} cls : 82.03
+[31/61 iteration of epoch 5/50] 
+ {loss} cls : 0.490, fac : 11.738, total : 12.228 
+ {acc} cls : 88.28
+[61/61 iteration of epoch 5/50] 
+ {loss} cls : 0.530, fac : 11.707, total : 12.237 
+ {acc} cls : 86.72
+------------------------------
+<Losses on train> cls : 0.577, fac : 11.757, total : 12.334
+<Accuracies on train> cls : 83.31
+Train epoch time: 265.222
+------------------------------
+<Accuracies on val> class : 77.24
+------------------------------
+<Accuracies on test> class : 54.02
+------------------------------
+<Accuracies on Art> test class : 54.31
+------------------------------
+<Accuracies on Clipart> test class : 40.99
+------------------------------
+<Accuracies on Product> test class : 66.68
+------------------------------
+Total epoch time: 362.487
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 6/50] 
+ {loss} cls : 0.304, fac : 11.707, total : 12.011 
+ {acc} cls : 90.62
+[31/61 iteration of epoch 6/50] 
+ {loss} cls : 0.368, fac : 11.716, total : 12.084 
+ {acc} cls : 92.97
+[61/61 iteration of epoch 6/50] 
+ {loss} cls : 0.694, fac : 11.706, total : 12.400 
+ {acc} cls : 82.81
+------------------------------
+<Losses on train> cls : 0.498, fac : 11.727, total : 12.225
+<Accuracies on train> cls : 85.62
+Train epoch time: 270.065
+------------------------------
+<Accuracies on val> class : 80.69
+------------------------------
+<Accuracies on test> class : 58.30
+------------------------------
+<Accuracies on Art> test class : 55.46
+------------------------------
+<Accuracies on Clipart> test class : 48.11
+------------------------------
+<Accuracies on Product> test class : 69.88
+------------------------------
+Total epoch time: 369.537
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 7/50] 
+ {loss} cls : 0.376, fac : 11.705, total : 12.081 
+ {acc} cls : 85.94
+[31/61 iteration of epoch 7/50] 
+ {loss} cls : 0.264, fac : 11.760, total : 12.024 
+ {acc} cls : 93.75
+[61/61 iteration of epoch 7/50] 
+ {loss} cls : 0.449, fac : 11.695, total : 12.144 
+ {acc} cls : 89.06
+------------------------------
+<Losses on train> cls : 0.396, fac : 11.722, total : 12.118
+<Accuracies on train> cls : 88.73
+Train epoch time: 297.340
+------------------------------
+<Accuracies on val> class : 81.15
+------------------------------
+<Accuracies on test> class : 57.55
+------------------------------
+<Accuracies on Art> test class : 55.01
+------------------------------
+<Accuracies on Clipart> test class : 46.87
+------------------------------
+<Accuracies on Product> test class : 69.43
+------------------------------
+Total epoch time: 399.353
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 8/50] 
+ {loss} cls : 0.336, fac : 11.691, total : 12.027 
+ {acc} cls : 89.84
+[31/61 iteration of epoch 8/50] 
+ {loss} cls : 0.322, fac : 11.733, total : 12.055 
+ {acc} cls : 90.62
+[61/61 iteration of epoch 8/50] 
+ {loss} cls : 0.423, fac : 11.698, total : 12.121 
+ {acc} cls : 85.16
+------------------------------
+<Losses on train> cls : 0.386, fac : 11.720, total : 12.106
+<Accuracies on train> cls : 88.95
+Train epoch time: 282.606
+------------------------------
+<Accuracies on val> class : 79.08
+------------------------------
+<Accuracies on test> class : 57.14
+------------------------------
+<Accuracies on Art> test class : 55.34
+------------------------------
+<Accuracies on Clipart> test class : 46.21
+------------------------------
+<Accuracies on Product> test class : 68.87
+------------------------------
+Total epoch time: 383.279
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 9/50] 
+ {loss} cls : 0.324, fac : 11.707, total : 12.031 
+ {acc} cls : 89.84
+[31/61 iteration of epoch 9/50] 
+ {loss} cls : 0.349, fac : 11.714, total : 12.063 
+ {acc} cls : 87.50
+[61/61 iteration of epoch 9/50] 
+ {loss} cls : 0.381, fac : 11.689, total : 12.070 
+ {acc} cls : 89.84
+------------------------------
+<Losses on train> cls : 0.361, fac : 11.708, total : 12.069
+<Accuracies on train> cls : 89.70
+Train epoch time: 248.308
+------------------------------
+<Accuracies on val> class : 77.47
+------------------------------
+<Accuracies on test> class : 56.99
+------------------------------
+<Accuracies on Art> test class : 53.11
+------------------------------
+<Accuracies on Clipart> test class : 47.42
+------------------------------
+<Accuracies on Product> test class : 68.51
+------------------------------
+Total epoch time: 346.636
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 10/50] 
+ {loss} cls : 0.363, fac : 11.691, total : 12.054 
+ {acc} cls : 90.62
+[31/61 iteration of epoch 10/50] 
+ {loss} cls : 0.225, fac : 11.799, total : 12.024 
+ {acc} cls : 95.31
+[61/61 iteration of epoch 10/50] 
+ {loss} cls : 0.249, fac : 11.687, total : 11.936 
+ {acc} cls : 94.53
+------------------------------
+<Losses on train> cls : 0.315, fac : 11.707, total : 12.021
+<Accuracies on train> cls : 90.97
+Train epoch time: 269.123
+------------------------------
+<Accuracies on val> class : 80.46
+------------------------------
+<Accuracies on test> class : 56.92
+------------------------------
+<Accuracies on Art> test class : 53.23
+------------------------------
+<Accuracies on Clipart> test class : 46.64
+------------------------------
+<Accuracies on Product> test class : 69.05
+------------------------------
+Total epoch time: 366.498
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 11/50] 
+ {loss} cls : 0.273, fac : 11.693, total : 11.966 
+ {acc} cls : 91.41
+[31/61 iteration of epoch 11/50] 
+ {loss} cls : 0.419, fac : 11.686, total : 12.105 
+ {acc} cls : 86.72
+[61/61 iteration of epoch 11/50] 
+ {loss} cls : 0.384, fac : 11.690, total : 12.074 
+ {acc} cls : 90.62
+------------------------------
+<Losses on train> cls : 0.300, fac : 11.697, total : 11.998
+<Accuracies on train> cls : 91.37
+Train epoch time: 270.597
+------------------------------
+<Accuracies on val> class : 81.38
+------------------------------
+<Accuracies on test> class : 57.10
+------------------------------
+<Accuracies on Art> test class : 53.07
+------------------------------
+<Accuracies on Clipart> test class : 47.06
+------------------------------
+<Accuracies on Product> test class : 69.18
+------------------------------
+Total epoch time: 367.935
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 12/50] 
+ {loss} cls : 0.295, fac : 11.690, total : 11.984 
+ {acc} cls : 92.19
+[31/61 iteration of epoch 12/50] 
+ {loss} cls : 0.361, fac : 11.689, total : 12.051 
+ {acc} cls : 88.28
+[61/61 iteration of epoch 12/50] 
+ {loss} cls : 0.334, fac : 11.685, total : 12.019 
+ {acc} cls : 89.06
+------------------------------
+<Losses on train> cls : 0.286, fac : 11.697, total : 11.983
+<Accuracies on train> cls : 91.71
+Train epoch time: 263.437
+------------------------------
+<Accuracies on val> class : 80.00
+------------------------------
+<Accuracies on test> class : 57.28
+------------------------------
+<Accuracies on Art> test class : 52.53
+------------------------------
+<Accuracies on Clipart> test class : 47.86
+------------------------------
+<Accuracies on Product> test class : 69.14
+------------------------------
+Total epoch time: 360.288
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 13/50] 
+ {loss} cls : 0.181, fac : 11.686, total : 11.867 
+ {acc} cls : 96.09
+[31/61 iteration of epoch 13/50] 
+ {loss} cls : 0.290, fac : 11.692, total : 11.982 
+ {acc} cls : 89.84
+[61/61 iteration of epoch 13/50] 
+ {loss} cls : 0.304, fac : 11.689, total : 11.993 
+ {acc} cls : 92.19
+------------------------------
+<Losses on train> cls : 0.256, fac : 11.703, total : 11.959
+<Accuracies on train> cls : 92.61
+Train epoch time: 265.947
+------------------------------
+<Accuracies on val> class : 80.92
+------------------------------
+<Accuracies on test> class : 57.74
+------------------------------
+<Accuracies on Art> test class : 54.35
+------------------------------
+<Accuracies on Clipart> test class : 48.77
+------------------------------
+<Accuracies on Product> test class : 68.42
+------------------------------
+Total epoch time: 361.126
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 14/50] 
+ {loss} cls : 0.250, fac : 11.689, total : 11.939 
+ {acc} cls : 92.97
+[31/61 iteration of epoch 14/50] 
+ {loss} cls : 0.301, fac : 11.685, total : 11.986 
+ {acc} cls : 92.19
+[61/61 iteration of epoch 14/50] 
+ {loss} cls : 0.152, fac : 11.681, total : 11.832 
+ {acc} cls : 96.09
+------------------------------
+<Losses on train> cls : 0.257, fac : 11.685, total : 11.941
+<Accuracies on train> cls : 92.55
+Train epoch time: 259.573
+------------------------------
+<Accuracies on val> class : 79.31
+------------------------------
+<Accuracies on test> class : 56.98
+------------------------------
+<Accuracies on Art> test class : 53.56
+------------------------------
+<Accuracies on Clipart> test class : 46.53
+------------------------------
+<Accuracies on Product> test class : 69.11
+------------------------------
+Total epoch time: 352.731
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 15/50] 
+ {loss} cls : 0.225, fac : 11.681, total : 11.906 
+ {acc} cls : 93.75
+[31/61 iteration of epoch 15/50] 
+ {loss} cls : 0.263, fac : 11.732, total : 11.995 
+ {acc} cls : 89.06
+[61/61 iteration of epoch 15/50] 
+ {loss} cls : 0.220, fac : 11.682, total : 11.903 
+ {acc} cls : 92.97
+------------------------------
+<Losses on train> cls : 0.225, fac : 11.692, total : 11.917
+<Accuracies on train> cls : 93.67
+Train epoch time: 256.569
+------------------------------
+<Accuracies on val> class : 80.46
+------------------------------
+<Accuracies on test> class : 57.01
+------------------------------
+<Accuracies on Art> test class : 55.09
+------------------------------
+<Accuracies on Clipart> test class : 46.41
+------------------------------
+<Accuracies on Product> test class : 68.48
+------------------------------
+Total epoch time: 350.014
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 16/50] 
+ {loss} cls : 0.102, fac : 11.686, total : 11.788 
+ {acc} cls : 96.88
+[31/61 iteration of epoch 16/50] 
+ {loss} cls : 0.388, fac : 11.683, total : 12.071 
+ {acc} cls : 88.28
+[61/61 iteration of epoch 16/50] 
+ {loss} cls : 0.164, fac : 11.686, total : 11.850 
+ {acc} cls : 93.75
+------------------------------
+<Losses on train> cls : 0.214, fac : 11.685, total : 11.899
+<Accuracies on train> cls : 94.17
+Train epoch time: 259.451
+------------------------------
+<Accuracies on val> class : 79.31
+------------------------------
+<Accuracies on test> class : 58.77
+------------------------------
+<Accuracies on Art> test class : 56.61
+------------------------------
+<Accuracies on Clipart> test class : 49.46
+------------------------------
+<Accuracies on Product> test class : 69.09
+------------------------------
+Total epoch time: 354.381
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 17/50] 
+ {loss} cls : 0.232, fac : 11.685, total : 11.917 
+ {acc} cls : 95.31
+[31/61 iteration of epoch 17/50] 
+ {loss} cls : 0.238, fac : 11.752, total : 11.990 
+ {acc} cls : 90.62
+[61/61 iteration of epoch 17/50] 
+ {loss} cls : 0.246, fac : 11.684, total : 11.930 
+ {acc} cls : 93.75
+------------------------------
+<Losses on train> cls : 0.219, fac : 11.693, total : 11.912
+<Accuracies on train> cls : 93.79
+Train epoch time: 257.449
+------------------------------
+<Accuracies on val> class : 79.31
+------------------------------
+<Accuracies on test> class : 57.29
+------------------------------
+<Accuracies on Art> test class : 54.72
+------------------------------
+<Accuracies on Clipart> test class : 48.20
+------------------------------
+<Accuracies on Product> test class : 67.63
+------------------------------
+Total epoch time: 350.924
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 18/50] 
+ {loss} cls : 0.212, fac : 11.685, total : 11.897 
+ {acc} cls : 92.97
+[31/61 iteration of epoch 18/50] 
+ {loss} cls : 0.187, fac : 11.684, total : 11.870 
+ {acc} cls : 94.53
+[61/61 iteration of epoch 18/50] 
+ {loss} cls : 0.127, fac : 11.689, total : 11.816 
+ {acc} cls : 96.88
+------------------------------
+<Losses on train> cls : 0.202, fac : 11.693, total : 11.895
+<Accuracies on train> cls : 94.19
+Train epoch time: 265.800
+------------------------------
+<Accuracies on val> class : 82.07
+------------------------------
+<Accuracies on test> class : 57.43
+------------------------------
+<Accuracies on Art> test class : 54.72
+------------------------------
+<Accuracies on Clipart> test class : 48.43
+------------------------------
+<Accuracies on Product> test class : 67.76
+------------------------------
+Total epoch time: 359.313
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 19/50] 
+ {loss} cls : 0.109, fac : 11.687, total : 11.795 
+ {acc} cls : 96.88
+[31/61 iteration of epoch 19/50] 
+ {loss} cls : 0.131, fac : 11.689, total : 11.820 
+ {acc} cls : 96.09
+[61/61 iteration of epoch 19/50] 
+ {loss} cls : 0.231, fac : 11.700, total : 11.931 
+ {acc} cls : 92.19
+------------------------------
+<Losses on train> cls : 0.191, fac : 11.687, total : 11.877
+<Accuracies on train> cls : 94.76
+Train epoch time: 272.040
+------------------------------
+<Accuracies on val> class : 79.77
+------------------------------
+<Accuracies on test> class : 57.10
+------------------------------
+<Accuracies on Art> test class : 54.88
+------------------------------
+<Accuracies on Clipart> test class : 46.94
+------------------------------
+<Accuracies on Product> test class : 68.30
+------------------------------
+Total epoch time: 365.062
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 20/50] 
+ {loss} cls : 0.126, fac : 11.700, total : 11.826 
+ {acc} cls : 96.09
+[31/61 iteration of epoch 20/50] 
+ {loss} cls : 0.138, fac : 11.699, total : 11.838 
+ {acc} cls : 93.75
+[61/61 iteration of epoch 20/50] 
+ {loss} cls : 0.167, fac : 11.685, total : 11.853 
+ {acc} cls : 93.75
+------------------------------
+<Losses on train> cls : 0.170, fac : 11.686, total : 11.857
+<Accuracies on train> cls : 94.88
+Train epoch time: 267.958
+------------------------------
+<Accuracies on val> class : 80.00
+------------------------------
+<Accuracies on test> class : 58.77
+------------------------------
+<Accuracies on Art> test class : 55.75
+------------------------------
+<Accuracies on Clipart> test class : 49.64
+------------------------------
+<Accuracies on Product> test class : 69.38
+------------------------------
+Total epoch time: 360.498
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 21/50] 
+ {loss} cls : 0.152, fac : 11.683, total : 11.836 
+ {acc} cls : 95.31
+[31/61 iteration of epoch 21/50] 
+ {loss} cls : 0.198, fac : 11.687, total : 11.885 
+ {acc} cls : 94.53
+[61/61 iteration of epoch 21/50] 
+ {loss} cls : 0.192, fac : 11.762, total : 11.954 
+ {acc} cls : 95.31
+------------------------------
+<Losses on train> cls : 0.168, fac : 11.693, total : 11.861
+<Accuracies on train> cls : 95.21
+Train epoch time: 264.848
+------------------------------
+<Accuracies on val> class : 78.85
+------------------------------
+<Accuracies on test> class : 58.98
+------------------------------
+<Accuracies on Art> test class : 55.71
+------------------------------
+<Accuracies on Clipart> test class : 50.33
+------------------------------
+<Accuracies on Product> test class : 69.27
+------------------------------
+Total epoch time: 357.634
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 22/50] 
+ {loss} cls : 0.094, fac : 11.747, total : 11.841 
+ {acc} cls : 96.88
+[31/61 iteration of epoch 22/50] 
+ {loss} cls : 0.217, fac : 11.680, total : 11.897 
+ {acc} cls : 92.97
+[61/61 iteration of epoch 22/50] 
+ {loss} cls : 0.165, fac : 11.682, total : 11.847 
+ {acc} cls : 95.31
+------------------------------
+<Losses on train> cls : 0.172, fac : 11.685, total : 11.858
+<Accuracies on train> cls : 95.29
+Train epoch time: 272.409
+------------------------------
+<Accuracies on val> class : 80.92
+------------------------------
+<Accuracies on test> class : 58.25
+------------------------------
+<Accuracies on Art> test class : 54.72
+------------------------------
+<Accuracies on Clipart> test class : 49.00
+------------------------------
+<Accuracies on Product> test class : 69.27
+------------------------------
+Total epoch time: 365.171
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 23/50] 
+ {loss} cls : 0.094, fac : 11.682, total : 11.776 
+ {acc} cls : 97.66
+[31/61 iteration of epoch 23/50] 
+ {loss} cls : 0.093, fac : 11.682, total : 11.775 
+ {acc} cls : 98.44
+[61/61 iteration of epoch 23/50] 
+ {loss} cls : 0.174, fac : 11.681, total : 11.855 
+ {acc} cls : 94.53
+------------------------------
+<Losses on train> cls : 0.164, fac : 11.682, total : 11.846
+<Accuracies on train> cls : 95.35
+Train epoch time: 259.039
+------------------------------
+<Accuracies on val> class : 80.69
+------------------------------
+<Accuracies on test> class : 57.59
+------------------------------
+<Accuracies on Art> test class : 53.36
+------------------------------
+<Accuracies on Clipart> test class : 48.16
+------------------------------
+<Accuracies on Product> test class : 69.18
+------------------------------
+Total epoch time: 352.602
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 24/50] 
+ {loss} cls : 0.213, fac : 11.680, total : 11.893 
+ {acc} cls : 93.75
+[31/61 iteration of epoch 24/50] 
+ {loss} cls : 0.145, fac : 11.699, total : 11.844 
+ {acc} cls : 96.09
+[61/61 iteration of epoch 24/50] 
+ {loss} cls : 0.207, fac : 11.683, total : 11.890 
+ {acc} cls : 94.53
+------------------------------
+<Losses on train> cls : 0.159, fac : 11.692, total : 11.851
+<Accuracies on train> cls : 95.21
+Train epoch time: 255.363
+------------------------------
+<Accuracies on val> class : 79.77
+------------------------------
+<Accuracies on test> class : 58.07
+------------------------------
+<Accuracies on Art> test class : 53.89
+------------------------------
+<Accuracies on Clipart> test class : 49.94
+------------------------------
+<Accuracies on Product> test class : 68.35
+------------------------------
+Total epoch time: 349.135
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 25/50] 
+ {loss} cls : 0.094, fac : 11.683, total : 11.776 
+ {acc} cls : 96.88
+[31/61 iteration of epoch 25/50] 
+ {loss} cls : 0.224, fac : 11.681, total : 11.906 
+ {acc} cls : 93.75
+[61/61 iteration of epoch 25/50] 
+ {loss} cls : 0.124, fac : 11.682, total : 11.806 
+ {acc} cls : 96.88
+------------------------------
+<Losses on train> cls : 0.146, fac : 11.681, total : 11.827
+<Accuracies on train> cls : 96.06
+Train epoch time: 272.005
+------------------------------
+<Accuracies on val> class : 80.69
+------------------------------
+<Accuracies on test> class : 57.42
+------------------------------
+<Accuracies on Art> test class : 52.86
+------------------------------
+<Accuracies on Clipart> test class : 48.57
+------------------------------
+<Accuracies on Product> test class : 68.62
+------------------------------
+Total epoch time: 364.276
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 26/50] 
+ {loss} cls : 0.124, fac : 11.680, total : 11.804 
+ {acc} cls : 96.09
+[31/61 iteration of epoch 26/50] 
+ {loss} cls : 0.082, fac : 11.689, total : 11.772 
+ {acc} cls : 99.22
+[61/61 iteration of epoch 26/50] 
+ {loss} cls : 0.146, fac : 11.680, total : 11.826 
+ {acc} cls : 95.31
+------------------------------
+<Losses on train> cls : 0.140, fac : 11.687, total : 11.827
+<Accuracies on train> cls : 96.06
+Train epoch time: 280.365
+------------------------------
+<Accuracies on val> class : 79.31
+------------------------------
+<Accuracies on test> class : 56.23
+------------------------------
+<Accuracies on Art> test class : 51.26
+------------------------------
+<Accuracies on Clipart> test class : 48.18
+------------------------------
+<Accuracies on Product> test class : 66.86
+------------------------------
+Total epoch time: 374.575
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 27/50] 
+ {loss} cls : 0.087, fac : 11.680, total : 11.767 
+ {acc} cls : 98.44
+[31/61 iteration of epoch 27/50] 
+ {loss} cls : 0.148, fac : 11.682, total : 11.830 
+ {acc} cls : 95.31
+[61/61 iteration of epoch 27/50] 
+ {loss} cls : 0.237, fac : 11.694, total : 11.931 
+ {acc} cls : 95.31
+------------------------------
+<Losses on train> cls : 0.141, fac : 11.682, total : 11.822
+<Accuracies on train> cls : 96.14
+Train epoch time: 275.183
+------------------------------
+<Accuracies on val> class : 80.23
+------------------------------
+<Accuracies on test> class : 56.65
+------------------------------
+<Accuracies on Art> test class : 52.78
+------------------------------
+<Accuracies on Clipart> test class : 47.58
+------------------------------
+<Accuracies on Product> test class : 67.67
+------------------------------
+Total epoch time: 371.181
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 28/50] 
+ {loss} cls : 0.056, fac : 11.704, total : 11.760 
+ {acc} cls : 97.66
+[31/61 iteration of epoch 28/50] 
+ {loss} cls : 0.161, fac : 11.681, total : 11.842 
+ {acc} cls : 93.75
+[61/61 iteration of epoch 28/50] 
+ {loss} cls : 0.094, fac : 11.700, total : 11.794 
+ {acc} cls : 97.66
+------------------------------
+<Losses on train> cls : 0.130, fac : 11.684, total : 11.814
+<Accuracies on train> cls : 96.27
+Train epoch time: 274.307
+------------------------------
+<Accuracies on val> class : 79.31
+------------------------------
+<Accuracies on test> class : 56.79
+------------------------------
+<Accuracies on Art> test class : 53.65
+------------------------------
+<Accuracies on Clipart> test class : 47.93
+------------------------------
+<Accuracies on Product> test class : 67.22
+------------------------------
+Total epoch time: 368.138
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 29/50] 
+ {loss} cls : 0.100, fac : 11.697, total : 11.797 
+ {acc} cls : 97.66
+[31/61 iteration of epoch 29/50] 
+ {loss} cls : 0.175, fac : 11.679, total : 11.855 
+ {acc} cls : 92.97
+[61/61 iteration of epoch 29/50] 
+ {loss} cls : 0.121, fac : 11.678, total : 11.799 
+ {acc} cls : 96.88
+------------------------------
+<Losses on train> cls : 0.136, fac : 11.685, total : 11.821
+<Accuracies on train> cls : 96.30
+Train epoch time: 254.821
+------------------------------
+<Accuracies on val> class : 79.08
+------------------------------
+<Accuracies on test> class : 57.99
+------------------------------
+<Accuracies on Art> test class : 54.10
+------------------------------
+<Accuracies on Clipart> test class : 49.32
+------------------------------
+<Accuracies on Product> test class : 68.64
+------------------------------
+Total epoch time: 349.091
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 30/50] 
+ {loss} cls : 0.089, fac : 11.679, total : 11.767 
+ {acc} cls : 96.88
+[31/61 iteration of epoch 30/50] 
+ {loss} cls : 0.107, fac : 11.681, total : 11.788 
+ {acc} cls : 96.88
+[61/61 iteration of epoch 30/50] 
+ {loss} cls : 0.187, fac : 11.682, total : 11.869 
+ {acc} cls : 93.75
+------------------------------
+<Losses on train> cls : 0.136, fac : 11.682, total : 11.818
+<Accuracies on train> cls : 96.12
+Train epoch time: 257.984
+------------------------------
+<Accuracies on val> class : 79.54
+------------------------------
+<Accuracies on test> class : 56.83
+------------------------------
+<Accuracies on Art> test class : 53.11
+------------------------------
+<Accuracies on Clipart> test class : 48.06
+------------------------------
+<Accuracies on Product> test class : 67.49
+------------------------------
+Total epoch time: 350.223
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 31/50] 
+ {loss} cls : 0.061, fac : 11.679, total : 11.740 
+ {acc} cls : 98.44
+[31/61 iteration of epoch 31/50] 
+ {loss} cls : 0.115, fac : 11.687, total : 11.802 
+ {acc} cls : 97.66
+[61/61 iteration of epoch 31/50] 
+ {loss} cls : 0.068, fac : 11.685, total : 11.753 
+ {acc} cls : 96.09
+------------------------------
+<Losses on train> cls : 0.128, fac : 11.685, total : 11.813
+<Accuracies on train> cls : 96.45
+Train epoch time: 281.110
+------------------------------
+<Accuracies on val> class : 79.54
+------------------------------
+<Accuracies on test> class : 56.97
+------------------------------
+<Accuracies on Art> test class : 54.06
+------------------------------
+<Accuracies on Clipart> test class : 48.38
+------------------------------
+<Accuracies on Product> test class : 67.00
+------------------------------
+Total epoch time: 373.498
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 32/50] 
+ {loss} cls : 0.046, fac : 11.683, total : 11.729 
+ {acc} cls : 98.44
+[31/61 iteration of epoch 32/50] 
+ {loss} cls : 0.216, fac : 11.681, total : 11.897 
+ {acc} cls : 95.31
+[61/61 iteration of epoch 32/50] 
+ {loss} cls : 0.238, fac : 11.691, total : 11.929 
+ {acc} cls : 95.31
+------------------------------
+<Losses on train> cls : 0.121, fac : 11.684, total : 11.804
+<Accuracies on train> cls : 96.58
+Train epoch time: 246.328
+------------------------------
+<Accuracies on val> class : 78.85
+------------------------------
+<Accuracies on test> class : 57.96
+------------------------------
+<Accuracies on Art> test class : 53.85
+------------------------------
+<Accuracies on Clipart> test class : 49.14
+------------------------------
+<Accuracies on Product> test class : 68.89
+------------------------------
+Total epoch time: 341.448
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 33/50] 
+ {loss} cls : 0.073, fac : 11.690, total : 11.762 
+ {acc} cls : 97.66
+[31/61 iteration of epoch 33/50] 
+ {loss} cls : 0.149, fac : 11.680, total : 11.829 
+ {acc} cls : 95.31
+[61/61 iteration of epoch 33/50] 
+ {loss} cls : 0.124, fac : 11.683, total : 11.807 
+ {acc} cls : 95.31
+------------------------------
+<Losses on train> cls : 0.113, fac : 11.683, total : 11.796
+<Accuracies on train> cls : 96.79
+Train epoch time: 282.020
+------------------------------
+<Accuracies on val> class : 78.62
+------------------------------
+<Accuracies on test> class : 57.31
+------------------------------
+<Accuracies on Art> test class : 52.74
+------------------------------
+<Accuracies on Clipart> test class : 48.61
+------------------------------
+<Accuracies on Product> test class : 68.37
+------------------------------
+Total epoch time: 377.100
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 34/50] 
+ {loss} cls : 0.095, fac : 11.685, total : 11.780 
+ {acc} cls : 97.66
+[31/61 iteration of epoch 34/50] 
+ {loss} cls : 0.097, fac : 11.681, total : 11.778 
+ {acc} cls : 98.44
+[61/61 iteration of epoch 34/50] 
+ {loss} cls : 0.083, fac : 11.680, total : 11.762 
+ {acc} cls : 98.44
+------------------------------
+<Losses on train> cls : 0.128, fac : 11.683, total : 11.811
+<Accuracies on train> cls : 96.40
+Train epoch time: 252.541
+------------------------------
+<Accuracies on val> class : 78.85
+------------------------------
+<Accuracies on test> class : 58.10
+------------------------------
+<Accuracies on Art> test class : 54.22
+------------------------------
+<Accuracies on Clipart> test class : 49.62
+------------------------------
+<Accuracies on Product> test class : 68.55
+------------------------------
+Total epoch time: 344.340
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 35/50] 
+ {loss} cls : 0.161, fac : 11.679, total : 11.840 
+ {acc} cls : 95.31
+[31/61 iteration of epoch 35/50] 
+ {loss} cls : 0.059, fac : 11.682, total : 11.741 
+ {acc} cls : 98.44
+[61/61 iteration of epoch 35/50] 
+ {loss} cls : 0.283, fac : 11.682, total : 11.965 
+ {acc} cls : 91.41
+------------------------------
+<Losses on train> cls : 0.121, fac : 11.684, total : 11.805
+<Accuracies on train> cls : 96.61
+Train epoch time: 253.728
+------------------------------
+<Accuracies on val> class : 78.39
+------------------------------
+<Accuracies on test> class : 57.92
+------------------------------
+<Accuracies on Art> test class : 54.64
+------------------------------
+<Accuracies on Clipart> test class : 49.55
+------------------------------
+<Accuracies on Product> test class : 67.94
+------------------------------
+Total epoch time: 345.643
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 36/50] 
+ {loss} cls : 0.071, fac : 11.682, total : 11.753 
+ {acc} cls : 96.88
+[31/61 iteration of epoch 36/50] 
+ {loss} cls : 0.088, fac : 11.679, total : 11.767 
+ {acc} cls : 97.66
+[61/61 iteration of epoch 36/50] 
+ {loss} cls : 0.111, fac : 11.681, total : 11.792 
+ {acc} cls : 98.44
+------------------------------
+<Losses on train> cls : 0.116, fac : 11.680, total : 11.796
+<Accuracies on train> cls : 96.72
+Train epoch time: 245.766
+------------------------------
+<Accuracies on val> class : 79.77
+------------------------------
+<Accuracies on test> class : 57.37
+------------------------------
+<Accuracies on Art> test class : 53.03
+------------------------------
+<Accuracies on Clipart> test class : 48.43
+------------------------------
+<Accuracies on Product> test class : 68.53
+------------------------------
+Total epoch time: 341.307
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 37/50] 
+ {loss} cls : 0.098, fac : 11.684, total : 11.782 
+ {acc} cls : 96.88
+[31/61 iteration of epoch 37/50] 
+ {loss} cls : 0.125, fac : 11.677, total : 11.802 
+ {acc} cls : 96.09
+[61/61 iteration of epoch 37/50] 
+ {loss} cls : 0.143, fac : 11.688, total : 11.830 
+ {acc} cls : 97.66
+------------------------------
+<Losses on train> cls : 0.112, fac : 11.679, total : 11.791
+<Accuracies on train> cls : 96.86
+Train epoch time: 264.483
+------------------------------
+<Accuracies on val> class : 79.54
+------------------------------
+<Accuracies on test> class : 57.96
+------------------------------
+<Accuracies on Art> test class : 53.85
+------------------------------
+<Accuracies on Clipart> test class : 49.71
+------------------------------
+<Accuracies on Product> test class : 68.33
+------------------------------
+Total epoch time: 358.513
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 38/50] 
+ {loss} cls : 0.288, fac : 11.685, total : 11.974 
+ {acc} cls : 92.97
+[31/61 iteration of epoch 38/50] 
+ {loss} cls : 0.054, fac : 11.680, total : 11.734 
+ {acc} cls : 99.22
+[61/61 iteration of epoch 38/50] 
+ {loss} cls : 0.111, fac : 11.693, total : 11.804 
+ {acc} cls : 97.66
+------------------------------
+<Losses on train> cls : 0.107, fac : 11.684, total : 11.791
+<Accuracies on train> cls : 96.98
+Train epoch time: 266.720
+------------------------------
+<Accuracies on val> class : 77.93
+------------------------------
+<Accuracies on test> class : 58.12
+------------------------------
+<Accuracies on Art> test class : 53.48
+------------------------------
+<Accuracies on Clipart> test class : 49.83
+------------------------------
+<Accuracies on Product> test class : 68.80
+------------------------------
+Total epoch time: 359.863
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 39/50] 
+ {loss} cls : 0.094, fac : 11.688, total : 11.782 
+ {acc} cls : 97.66
+[31/61 iteration of epoch 39/50] 
+ {loss} cls : 0.068, fac : 11.679, total : 11.747 
+ {acc} cls : 97.66
+[61/61 iteration of epoch 39/50] 
+ {loss} cls : 0.162, fac : 11.680, total : 11.842 
+ {acc} cls : 95.31
+------------------------------
+<Losses on train> cls : 0.109, fac : 11.680, total : 11.789
+<Accuracies on train> cls : 96.99
+Train epoch time: 256.882
+------------------------------
+<Accuracies on val> class : 78.39
+------------------------------
+<Accuracies on test> class : 57.32
+------------------------------
+<Accuracies on Art> test class : 53.32
+------------------------------
+<Accuracies on Clipart> test class : 48.93
+------------------------------
+<Accuracies on Product> test class : 67.76
+------------------------------
+Total epoch time: 348.833
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 40/50] 
+ {loss} cls : 0.096, fac : 11.682, total : 11.778 
+ {acc} cls : 96.88
+[31/61 iteration of epoch 40/50] 
+ {loss} cls : 0.118, fac : 11.683, total : 11.801 
+ {acc} cls : 96.09
+[61/61 iteration of epoch 40/50] 
+ {loss} cls : 0.084, fac : 11.680, total : 11.764 
+ {acc} cls : 97.66
+------------------------------
+<Losses on train> cls : 0.105, fac : 11.683, total : 11.788
+<Accuracies on train> cls : 96.98
+Train epoch time: 259.534
+------------------------------
+<Accuracies on val> class : 79.31
+------------------------------
+<Accuracies on test> class : 56.52
+------------------------------
+<Accuracies on Art> test class : 52.41
+------------------------------
+<Accuracies on Clipart> test class : 48.20
+------------------------------
+<Accuracies on Product> test class : 66.95
+------------------------------
+Total epoch time: 351.979
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 41/50] 
+ {loss} cls : 0.094, fac : 11.679, total : 11.773 
+ {acc} cls : 97.66
+[31/61 iteration of epoch 41/50] 
+ {loss} cls : 0.137, fac : 11.681, total : 11.818 
+ {acc} cls : 96.09
+[61/61 iteration of epoch 41/50] 
+ {loss} cls : 0.157, fac : 11.679, total : 11.835 
+ {acc} cls : 96.09
+------------------------------
+<Losses on train> cls : 0.111, fac : 11.680, total : 11.792
+<Accuracies on train> cls : 96.80
+Train epoch time: 265.726
+------------------------------
+<Accuracies on val> class : 77.70
+------------------------------
+<Accuracies on test> class : 57.76
+------------------------------
+<Accuracies on Art> test class : 53.11
+------------------------------
+<Accuracies on Clipart> test class : 50.42
+------------------------------
+<Accuracies on Product> test class : 67.52
+------------------------------
+Total epoch time: 360.085
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 42/50] 
+ {loss} cls : 0.108, fac : 11.679, total : 11.787 
+ {acc} cls : 97.66
+[31/61 iteration of epoch 42/50] 
+ {loss} cls : 0.157, fac : 11.678, total : 11.835 
+ {acc} cls : 95.31
+[61/61 iteration of epoch 42/50] 
+ {loss} cls : 0.119, fac : 11.678, total : 11.797 
+ {acc} cls : 96.88
+------------------------------
+<Losses on train> cls : 0.100, fac : 11.679, total : 11.780
+<Accuracies on train> cls : 97.26
+Train epoch time: 260.586
+------------------------------
+<Accuracies on val> class : 79.31
+------------------------------
+<Accuracies on test> class : 57.40
+------------------------------
+<Accuracies on Art> test class : 53.44
+------------------------------
+<Accuracies on Clipart> test class : 49.05
+------------------------------
+<Accuracies on Product> test class : 67.79
+------------------------------
+Total epoch time: 354.588
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 43/50] 
+ {loss} cls : 0.062, fac : 11.681, total : 11.743 
+ {acc} cls : 97.66
+[31/61 iteration of epoch 43/50] 
+ {loss} cls : 0.039, fac : 11.679, total : 11.718 
+ {acc} cls : 99.22
+[61/61 iteration of epoch 43/50] 
+ {loss} cls : 0.085, fac : 11.680, total : 11.765 
+ {acc} cls : 96.88
+------------------------------
+<Losses on train> cls : 0.092, fac : 11.682, total : 11.774
+<Accuracies on train> cls : 97.36
+Train epoch time: 266.744
+------------------------------
+<Accuracies on val> class : 77.70
+------------------------------
+<Accuracies on test> class : 57.69
+------------------------------
+<Accuracies on Art> test class : 53.65
+------------------------------
+<Accuracies on Clipart> test class : 49.69
+------------------------------
+<Accuracies on Product> test class : 67.76
+------------------------------
+Total epoch time: 361.371
+
+New epoch - lr: 0.003
+[1/61 iteration of epoch 44/50] 
+ {loss} cls : 0.050, fac : 11.679, total : 11.729 
+ {acc} cls : 99.22
+[31/61 iteration of epoch 44/50] 
+ {loss} cls : 0.105, fac : 11.679, total : 11.784 
+ {acc} cls : 96.88
+[61/61 iteration of epoch 44/50] 
+ {loss} cls : 0.072, fac : 11.678, total : 11.751 
+ {acc} cls : 97.66
+------------------------------
+<Losses on train> cls : 0.088, fac : 11.681, total : 11.769
+<Accuracies on train> cls : 97.66
+Train epoch time: 266.431
+------------------------------
+<Accuracies on val> class : 77.70
+------------------------------
+<Accuracies on test> class : 57.85
+------------------------------
+<Accuracies on Art> test class : 53.93
+------------------------------
+<Accuracies on Clipart> test class : 49.69
+------------------------------
+<Accuracies on Product> test class : 68.01
+------------------------------
+Total epoch time: 362.441
+
+New epoch - lr: 0.0009000000000000002
+[1/61 iteration of epoch 45/50] 
+ {loss} cls : 0.116, fac : 11.677, total : 11.794 
+ {acc} cls : 96.09
+[31/61 iteration of epoch 45/50] 
+ {loss} cls : 0.058, fac : 11.678, total : 11.736 
+ {acc} cls : 99.22
+[61/61 iteration of epoch 45/50] 
+ {loss} cls : 0.109, fac : 11.678, total : 11.788 
+ {acc} cls : 96.09
+------------------------------
+<Losses on train> cls : 0.085, fac : 11.677, total : 11.762
+<Accuracies on train> cls : 97.67
+Train epoch time: 264.906
+------------------------------
+<Accuracies on val> class : 78.85
+------------------------------
+<Accuracies on test> class : 58.34
+------------------------------
+<Accuracies on Art> test class : 53.98
+------------------------------
+<Accuracies on Clipart> test class : 50.13
+------------------------------
+<Accuracies on Product> test class : 68.80
+------------------------------
+Total epoch time: 359.899
+
+New epoch - lr: 0.0009000000000000002
+[1/61 iteration of epoch 46/50] 
+ {loss} cls : 0.134, fac : 11.677, total : 11.811 
+ {acc} cls : 96.88
+[31/61 iteration of epoch 46/50] 
+ {loss} cls : 0.084, fac : 11.679, total : 11.762 
+ {acc} cls : 97.66
+[61/61 iteration of epoch 46/50] 
+ {loss} cls : 0.090, fac : 11.677, total : 11.767 
+ {acc} cls : 96.88
+------------------------------
+<Losses on train> cls : 0.080, fac : 11.677, total : 11.757
+<Accuracies on train> cls : 97.62
+Train epoch time: 281.781
+------------------------------
+<Accuracies on val> class : 78.16
+------------------------------
+<Accuracies on test> class : 58.77
+------------------------------
+<Accuracies on Art> test class : 54.43
+------------------------------
+<Accuracies on Clipart> test class : 50.31
+------------------------------
+<Accuracies on Product> test class : 69.45
+------------------------------
+Total epoch time: 374.143
+
+New epoch - lr: 0.0009000000000000002
+[1/61 iteration of epoch 47/50] 
+ {loss} cls : 0.045, fac : 11.677, total : 11.722 
+ {acc} cls : 99.22
+[31/61 iteration of epoch 47/50] 
+ {loss} cls : 0.086, fac : 11.678, total : 11.764 
+ {acc} cls : 96.88
+[61/61 iteration of epoch 47/50] 
+ {loss} cls : 0.046, fac : 11.677, total : 11.723 
+ {acc} cls : 99.22
+------------------------------
+<Losses on train> cls : 0.072, fac : 11.677, total : 11.749
+<Accuracies on train> cls : 98.12
+Train epoch time: 287.120
+------------------------------
+<Accuracies on val> class : 79.31
+------------------------------
+<Accuracies on test> class : 58.46
+------------------------------
+<Accuracies on Art> test class : 54.02
+------------------------------
+<Accuracies on Clipart> test class : 50.56
+------------------------------
+<Accuracies on Product> test class : 68.66
+------------------------------
+Total epoch time: 380.436
+
+New epoch - lr: 0.0009000000000000002
+[1/61 iteration of epoch 48/50] 
+ {loss} cls : 0.071, fac : 11.677, total : 11.748 
+ {acc} cls : 97.66
+[31/61 iteration of epoch 48/50] 
+ {loss} cls : 0.109, fac : 11.677, total : 11.787 
+ {acc} cls : 96.88
+[61/61 iteration of epoch 48/50] 
+ {loss} cls : 0.020, fac : 11.678, total : 11.697 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.070, fac : 11.677, total : 11.747
+<Accuracies on train> cls : 97.98
+Train epoch time: 284.193
+------------------------------
+<Accuracies on val> class : 79.08
+------------------------------
+<Accuracies on test> class : 58.54
+------------------------------
+<Accuracies on Art> test class : 53.81
+------------------------------
+<Accuracies on Clipart> test class : 50.52
+------------------------------
+<Accuracies on Product> test class : 69.02
+------------------------------
+Total epoch time: 378.972
+
+New epoch - lr: 0.0009000000000000002
+[1/61 iteration of epoch 49/50] 
+ {loss} cls : 0.123, fac : 11.678, total : 11.801 
+ {acc} cls : 96.88
+[31/61 iteration of epoch 49/50] 
+ {loss} cls : 0.078, fac : 11.677, total : 11.755 
+ {acc} cls : 96.09
+[61/61 iteration of epoch 49/50] 
+ {loss} cls : 0.087, fac : 11.677, total : 11.764 
+ {acc} cls : 96.09
+------------------------------
+<Losses on train> cls : 0.083, fac : 11.677, total : 11.760
+<Accuracies on train> cls : 97.78
+Train epoch time: 264.431
+------------------------------
+<Accuracies on val> class : 79.54
+------------------------------
+<Accuracies on test> class : 57.92
+------------------------------
+<Accuracies on Art> test class : 53.56
+------------------------------
+<Accuracies on Clipart> test class : 49.32
+------------------------------
+<Accuracies on Product> test class : 68.75
+------------------------------
+Total epoch time: 358.719
+
+New epoch - lr: 0.0009000000000000002
+[1/61 iteration of epoch 50/50] 
+ {loss} cls : 0.039, fac : 11.677, total : 11.716 
+ {acc} cls : 98.44
+[31/61 iteration of epoch 50/50] 
+ {loss} cls : 0.042, fac : 11.677, total : 11.718 
+ {acc} cls : 100.00
+[61/61 iteration of epoch 50/50] 
+ {loss} cls : 0.045, fac : 11.677, total : 11.722 
+ {acc} cls : 99.22
+------------------------------
+<Losses on train> cls : 0.065, fac : 11.677, total : 11.742
+<Accuracies on train> cls : 98.18
+Train epoch time: 276.822
+------------------------------
+<Accuracies on val> class : 79.31
+------------------------------
+<Accuracies on test> class : 58.42
+------------------------------
+<Accuracies on Art> test class : 53.89
+------------------------------
+<Accuracies on Clipart> test class : 50.06
+------------------------------
+<Accuracies on Product> test class : 69.11
+------------------------------
+Total epoch time: 370.871
+
+******************************
+Best val 0.82069, corresponding test 0.574303 - best test: 0.589796
+
+******************************
+Best val 0.8206896781921387, corresponding Art test 0.5471776127815247
+
+******************************
+Best val 0.8206896781921387, corresponding Clipart test 0.4843069911003113
+
+******************************
+Best val 0.8206896781921387, corresponding Product test 0.6776301264762878

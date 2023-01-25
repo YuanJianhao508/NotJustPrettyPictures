@@ -1,0 +1,23 @@
+
+Loading experiment PACS/ResNet18_step
+
+/datasets/jianhaoy/PACS_TEST/OURS/PACS_ResNet18_step/sketch/2022-10-26-16-18-43/best_model.tar
+------------------------------
+<Accuracies on test> class : 68.84
+------------------------------
+<Accuracies on adaptation> class : 36.36
+------------------------------
+<Accuracies on adap_photo> class : 43.77
+------------------------------
+<Accuracies on adap_cartoon> class : 43.05
+------------------------------
+<Accuracies on adap_art_painting> class : 22.66
+------------------------------
+<Accuracies on photo> class : 74.79
+------------------------------
+<Accuracies on cartoon> class : 74.70
+------------------------------
+<Accuracies on art_painting> class : 57.28
+AdaECE:0.25672680139541626
+Rejection:47.81975248223635
+{'AdaECE': 0.25672680139541626, 'Rejection': 47.81975248223635, 'TextureBias': 1.0}

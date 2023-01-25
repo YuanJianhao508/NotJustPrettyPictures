@@ -1,0 +1,1962 @@
+Include CIRL
+WARNING:tensorflow:From /homes/55/jianhaoy/projects/EKI/utils/tf_logger.py:16: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+WARNING:tensorflow:From /homes/55/jianhaoy/projects/EKI/utils/tf_logger.py:20: The name tf.Summary is deprecated. Please use tf.compat.v1.Summary instead.
+
+
+Loading experiment Officehome/ResNet18_multi
+
+Train: ['/datasets/jianhaoy/officehome/multi_label_dumb/Real_World-Art/Art_train.txt', '/datasets/jianhaoy/officehome/multi_label_dumb/Real_World-Art/Clipart_train.txt', '/datasets/jianhaoy/officehome/multi_label_dumb/Real_World-Art/Product_train.txt', '/datasets/jianhaoy/officehome/multi_label_dumb/Real_World-Art/Real_World_train.txt']
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 1/50] 
+ {loss} sup : 4.418, inf : 4.358, fac : 0.205, total : 4.395 
+ {acc} sup : 2.73, inf : 1.95
+[31/245 iteration of epoch 1/50] 
+ {loss} sup : 1.974, inf : 1.981, fac : 0.143, total : 1.982 
+ {acc} sup : 57.81, inf : 54.30
+[61/245 iteration of epoch 1/50] 
+ {loss} sup : 1.163, inf : 1.181, fac : 0.061, total : 1.174 
+ {acc} sup : 71.48, inf : 69.92
+[91/245 iteration of epoch 1/50] 
+ {loss} sup : 0.907, inf : 0.924, fac : 0.073, total : 0.918 
+ {acc} sup : 75.00, inf : 75.78
+[121/245 iteration of epoch 1/50] 
+ {loss} sup : 0.911, inf : 0.936, fac : 0.049, total : 0.925 
+ {acc} sup : 77.34, inf : 75.39
+[151/245 iteration of epoch 1/50] 
+ {loss} sup : 0.851, inf : 0.846, fac : 0.044, total : 0.850 
+ {acc} sup : 80.86, inf : 79.69
+[181/245 iteration of epoch 1/50] 
+ {loss} sup : 0.579, inf : 0.583, fac : 0.032, total : 0.582 
+ {acc} sup : 85.94, inf : 87.11
+[211/245 iteration of epoch 1/50] 
+ {loss} sup : 0.708, inf : 0.684, fac : 0.024, total : 0.697 
+ {acc} sup : 82.42, inf : 81.64
+[241/245 iteration of epoch 1/50] 
+ {loss} sup : 0.597, inf : 0.607, fac : 0.042, total : 0.603 
+ {acc} sup : 83.20, inf : 82.81
+------------------------------
+<Losses on train> sup : 1.144, inf : 1.144, fac : 0.066, total : 1.146
+<Accuracies on train> sup : 71.53, inf : 71.67
+Train epoch time: 600.956
+------------------------------
+<Accuracies on val> class : 64.46
+------------------------------
+<Accuracies on test> class : 56.04
+------------------------------
+Total epoch time: 627.710
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 2/50] 
+ {loss} sup : 0.517, inf : 0.520, fac : 0.029, total : 0.525 
+ {acc} sup : 84.38, inf : 83.59
+[31/245 iteration of epoch 2/50] 
+ {loss} sup : 0.504, inf : 0.501, fac : 0.031, total : 0.509 
+ {acc} sup : 87.89, inf : 87.50
+[61/245 iteration of epoch 2/50] 
+ {loss} sup : 0.548, inf : 0.542, fac : 0.027, total : 0.550 
+ {acc} sup : 84.77, inf : 85.16
+[91/245 iteration of epoch 2/50] 
+ {loss} sup : 0.486, inf : 0.475, fac : 0.020, total : 0.485 
+ {acc} sup : 85.16, inf : 84.77
+[121/245 iteration of epoch 2/50] 
+ {loss} sup : 0.628, inf : 0.634, fac : 0.023, total : 0.636 
+ {acc} sup : 83.59, inf : 82.03
+[151/245 iteration of epoch 2/50] 
+ {loss} sup : 0.549, inf : 0.542, fac : 0.023, total : 0.550 
+ {acc} sup : 83.20, inf : 83.59
+[181/245 iteration of epoch 2/50] 
+ {loss} sup : 0.455, inf : 0.448, fac : 0.026, total : 0.457 
+ {acc} sup : 86.72, inf : 87.11
+[211/245 iteration of epoch 2/50] 
+ {loss} sup : 0.403, inf : 0.404, fac : 0.018, total : 0.407 
+ {acc} sup : 90.23, inf : 91.02
+[241/245 iteration of epoch 2/50] 
+ {loss} sup : 0.394, inf : 0.385, fac : 0.029, total : 0.395 
+ {acc} sup : 86.33, inf : 86.33
+------------------------------
+<Losses on train> sup : 0.496, inf : 0.496, fac : 0.026, total : 0.501
+<Accuracies on train> sup : 86.12, inf : 86.17
+Train epoch time: 597.887
+------------------------------
+<Accuracies on val> class : 65.55
+------------------------------
+<Accuracies on test> class : 56.53
+------------------------------
+Total epoch time: 618.258
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 3/50] 
+ {loss} sup : 0.373, inf : 0.372, fac : 0.021, total : 0.390 
+ {acc} sup : 89.06, inf : 88.28
+[31/245 iteration of epoch 3/50] 
+ {loss} sup : 0.438, inf : 0.427, fac : 0.027, total : 0.455 
+ {acc} sup : 88.28, inf : 87.11
+[61/245 iteration of epoch 3/50] 
+ {loss} sup : 0.235, inf : 0.246, fac : 0.013, total : 0.251 
+ {acc} sup : 92.97, inf : 92.19
+[91/245 iteration of epoch 3/50] 
+ {loss} sup : 0.382, inf : 0.377, fac : 0.018, total : 0.394 
+ {acc} sup : 87.50, inf : 87.50
+[121/245 iteration of epoch 3/50] 
+ {loss} sup : 0.376, inf : 0.379, fac : 0.020, total : 0.394 
+ {acc} sup : 88.28, inf : 87.50
+[151/245 iteration of epoch 3/50] 
+ {loss} sup : 0.233, inf : 0.232, fac : 0.018, total : 0.248 
+ {acc} sup : 92.97, inf : 94.14
+[181/245 iteration of epoch 3/50] 
+ {loss} sup : 0.311, inf : 0.314, fac : 0.017, total : 0.327 
+ {acc} sup : 91.80, inf : 91.80
+[211/245 iteration of epoch 3/50] 
+ {loss} sup : 0.308, inf : 0.307, fac : 0.015, total : 0.319 
+ {acc} sup : 90.62, inf : 88.67
+[241/245 iteration of epoch 3/50] 
+ {loss} sup : 0.390, inf : 0.400, fac : 0.017, total : 0.410 
+ {acc} sup : 89.06, inf : 88.28
+------------------------------
+<Losses on train> sup : 0.368, inf : 0.368, fac : 0.018, total : 0.383
+<Accuracies on train> sup : 89.46, inf : 89.39
+Train epoch time: 593.402
+------------------------------
+<Accuracies on val> class : 65.36
+------------------------------
+<Accuracies on test> class : 55.54
+------------------------------
+Total epoch time: 613.399
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 4/50] 
+ {loss} sup : 0.337, inf : 0.333, fac : 0.011, total : 0.359 
+ {acc} sup : 90.23, inf : 89.84
+[31/245 iteration of epoch 4/50] 
+ {loss} sup : 0.256, inf : 0.251, fac : 0.015, total : 0.286 
+ {acc} sup : 92.58, inf : 93.36
+[61/245 iteration of epoch 4/50] 
+ {loss} sup : 0.172, inf : 0.177, fac : 0.011, total : 0.198 
+ {acc} sup : 96.09, inf : 95.31
+[91/245 iteration of epoch 4/50] 
+ {loss} sup : 0.320, inf : 0.310, fac : 0.017, total : 0.354 
+ {acc} sup : 91.02, inf : 91.02
+[121/245 iteration of epoch 4/50] 
+ {loss} sup : 0.436, inf : 0.424, fac : 0.022, total : 0.479 
+ {acc} sup : 85.16, inf : 85.94
+[151/245 iteration of epoch 4/50] 
+ {loss} sup : 0.200, inf : 0.199, fac : 0.017, total : 0.239 
+ {acc} sup : 94.92, inf : 94.92
+[181/245 iteration of epoch 4/50] 
+ {loss} sup : 0.290, inf : 0.283, fac : 0.014, total : 0.318 
+ {acc} sup : 89.84, inf : 90.23
+[211/245 iteration of epoch 4/50] 
+ {loss} sup : 0.297, inf : 0.297, fac : 0.013, total : 0.325 
+ {acc} sup : 89.45, inf : 89.06
+[241/245 iteration of epoch 4/50] 
+ {loss} sup : 0.311, inf : 0.308, fac : 0.017, total : 0.347 
+ {acc} sup : 90.23, inf : 90.62
+------------------------------
+<Losses on train> sup : 0.291, inf : 0.291, fac : 0.013, total : 0.319
+<Accuracies on train> sup : 91.84, inf : 91.88
+Train epoch time: 599.690
+------------------------------
+<Accuracies on val> class : 66.45
+------------------------------
+<Accuracies on test> class : 54.92
+------------------------------
+Total epoch time: 619.803
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 5/50] 
+ {loss} sup : 0.258, inf : 0.260, fac : 0.012, total : 0.307 
+ {acc} sup : 91.80, inf : 91.02
+[31/245 iteration of epoch 5/50] 
+ {loss} sup : 0.268, inf : 0.275, fac : 0.011, total : 0.316 
+ {acc} sup : 90.23, inf : 91.02
+[61/245 iteration of epoch 5/50] 
+ {loss} sup : 0.267, inf : 0.267, fac : 0.015, total : 0.328 
+ {acc} sup : 91.02, inf : 91.02
+[91/245 iteration of epoch 5/50] 
+ {loss} sup : 0.272, inf : 0.273, fac : 0.008, total : 0.307 
+ {acc} sup : 89.84, inf : 89.84
+[121/245 iteration of epoch 5/50] 
+ {loss} sup : 0.244, inf : 0.241, fac : 0.007, total : 0.270 
+ {acc} sup : 92.58, inf : 92.97
+[151/245 iteration of epoch 5/50] 
+ {loss} sup : 0.272, inf : 0.268, fac : 0.005, total : 0.290 
+ {acc} sup : 93.75, inf : 93.75
+[181/245 iteration of epoch 5/50] 
+ {loss} sup : 0.200, inf : 0.197, fac : 0.008, total : 0.232 
+ {acc} sup : 94.92, inf : 94.53
+[211/245 iteration of epoch 5/50] 
+ {loss} sup : 0.226, inf : 0.224, fac : 0.008, total : 0.259 
+ {acc} sup : 93.75, inf : 94.14
+[241/245 iteration of epoch 5/50] 
+ {loss} sup : 0.270, inf : 0.270, fac : 0.009, total : 0.305 
+ {acc} sup : 91.41, inf : 91.02
+------------------------------
+<Losses on train> sup : 0.236, inf : 0.236, fac : 0.009, total : 0.273
+<Accuracies on train> sup : 93.43, inf : 93.47
+Train epoch time: 594.137
+------------------------------
+<Accuracies on val> class : 66.58
+------------------------------
+<Accuracies on test> class : 55.29
+------------------------------
+Total epoch time: 614.215
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 6/50] 
+ {loss} sup : 0.215, inf : 0.208, fac : 0.007, total : 0.245 
+ {acc} sup : 94.53, inf : 94.53
+[31/245 iteration of epoch 6/50] 
+ {loss} sup : 0.149, inf : 0.153, fac : 0.006, total : 0.183 
+ {acc} sup : 95.70, inf : 95.70
+[61/245 iteration of epoch 6/50] 
+ {loss} sup : 0.207, inf : 0.211, fac : 0.009, total : 0.253 
+ {acc} sup : 93.75, inf : 94.14
+[91/245 iteration of epoch 6/50] 
+ {loss} sup : 0.220, inf : 0.226, fac : 0.010, total : 0.272 
+ {acc} sup : 94.53, inf : 94.53
+[121/245 iteration of epoch 6/50] 
+ {loss} sup : 0.197, inf : 0.192, fac : 0.007, total : 0.231 
+ {acc} sup : 95.31, inf : 95.31
+[151/245 iteration of epoch 6/50] 
+ {loss} sup : 0.206, inf : 0.201, fac : 0.009, total : 0.248 
+ {acc} sup : 94.14, inf : 93.36
+[181/245 iteration of epoch 6/50] 
+ {loss} sup : 0.108, inf : 0.108, fac : 0.007, total : 0.145 
+ {acc} sup : 98.83, inf : 99.22
+[211/245 iteration of epoch 6/50] 
+ {loss} sup : 0.172, inf : 0.168, fac : 0.006, total : 0.199 
+ {acc} sup : 95.70, inf : 95.70
+[241/245 iteration of epoch 6/50] 
+ {loss} sup : 0.170, inf : 0.165, fac : 0.006, total : 0.196 
+ {acc} sup : 93.75, inf : 94.92
+------------------------------
+<Losses on train> sup : 0.187, inf : 0.187, fac : 0.007, total : 0.223
+<Accuracies on train> sup : 95.03, inf : 95.03
+Train epoch time: 599.578
+------------------------------
+<Accuracies on val> class : 66.26
+------------------------------
+<Accuracies on test> class : 55.71
+------------------------------
+Total epoch time: 619.788
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 7/50] 
+ {loss} sup : 0.954, inf : 0.387, fac : 0.007, total : 0.707 
+ {acc} sup : 88.67, inf : 91.41
+[31/245 iteration of epoch 7/50] 
+ {loss} sup : 0.791, inf : 0.380, fac : 0.006, total : 0.618 
+ {acc} sup : 91.02, inf : 91.80
+[61/245 iteration of epoch 7/50] 
+ {loss} sup : 0.795, inf : 0.400, fac : 0.012, total : 0.657 
+ {acc} sup : 87.89, inf : 90.23
+[91/245 iteration of epoch 7/50] 
+ {loss} sup : 0.613, inf : 0.277, fac : 0.007, total : 0.479 
+ {acc} sup : 90.62, inf : 94.53
+[121/245 iteration of epoch 7/50] 
+ {loss} sup : 0.609, inf : 0.312, fac : 0.006, total : 0.491 
+ {acc} sup : 88.28, inf : 91.80
+[151/245 iteration of epoch 7/50] 
+ {loss} sup : 0.467, inf : 0.221, fac : 0.004, total : 0.366 
+ {acc} sup : 92.97, inf : 95.70
+[181/245 iteration of epoch 7/50] 
+ {loss} sup : 0.528, inf : 0.308, fac : 0.008, total : 0.457 
+ {acc} sup : 89.84, inf : 91.80
+[211/245 iteration of epoch 7/50] 
+ {loss} sup : 0.460, inf : 0.230, fac : 0.005, total : 0.369 
+ {acc} sup : 90.62, inf : 94.53
+[241/245 iteration of epoch 7/50] 
+ {loss} sup : 0.494, inf : 0.294, fac : 0.007, total : 0.431 
+ {acc} sup : 89.45, inf : 92.97
+------------------------------
+<Losses on train> sup : 0.605, inf : 0.284, fac : 0.006, total : 0.474
+<Accuracies on train> sup : 89.87, inf : 93.37
+Train epoch time: 601.467
+------------------------------
+<Accuracies on val> class : 66.84
+------------------------------
+<Accuracies on test> class : 55.29
+------------------------------
+Total epoch time: 621.687
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 8/50] 
+ {loss} sup : 0.493, inf : 0.227, fac : 0.004, total : 0.381 
+ {acc} sup : 91.80, inf : 94.92
+[31/245 iteration of epoch 8/50] 
+ {loss} sup : 0.355, inf : 0.166, fac : 0.003, total : 0.277 
+ {acc} sup : 92.58, inf : 96.48
+[61/245 iteration of epoch 8/50] 
+ {loss} sup : 0.453, inf : 0.215, fac : 0.008, total : 0.373 
+ {acc} sup : 92.58, inf : 94.14
+[91/245 iteration of epoch 8/50] 
+ {loss} sup : 0.443, inf : 0.219, fac : 0.005, total : 0.354 
+ {acc} sup : 90.23, inf : 95.31
+[121/245 iteration of epoch 8/50] 
+ {loss} sup : 0.480, inf : 0.234, fac : 0.008, total : 0.395 
+ {acc} sup : 89.84, inf : 92.97
+[151/245 iteration of epoch 8/50] 
+ {loss} sup : 0.290, inf : 0.162, fac : 0.005, total : 0.251 
+ {acc} sup : 95.31, inf : 96.09
+[181/245 iteration of epoch 8/50] 
+ {loss} sup : 0.460, inf : 0.289, fac : 0.005, total : 0.400 
+ {acc} sup : 91.02, inf : 92.97
+[211/245 iteration of epoch 8/50] 
+ {loss} sup : 0.388, inf : 0.221, fac : 0.004, total : 0.327 
+ {acc} sup : 90.23, inf : 94.53
+[241/245 iteration of epoch 8/50] 
+ {loss} sup : 0.393, inf : 0.180, fac : 0.005, total : 0.311 
+ {acc} sup : 92.97, inf : 96.09
+------------------------------
+<Losses on train> sup : 0.415, inf : 0.226, fac : 0.005, total : 0.348
+<Accuracies on train> sup : 91.41, inf : 94.24
+Train epoch time: 595.533
+------------------------------
+<Accuracies on val> class : 67.29
+------------------------------
+<Accuracies on test> class : 56.74
+------------------------------
+Total epoch time: 615.982
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 9/50] 
+ {loss} sup : 0.349, inf : 0.219, fac : 0.006, total : 0.315 
+ {acc} sup : 92.97, inf : 94.14
+[31/245 iteration of epoch 9/50] 
+ {loss} sup : 0.351, inf : 0.160, fac : 0.004, total : 0.275 
+ {acc} sup : 91.80, inf : 96.88
+[61/245 iteration of epoch 9/50] 
+ {loss} sup : 0.281, inf : 0.185, fac : 0.004, total : 0.254 
+ {acc} sup : 94.53, inf : 93.75
+[91/245 iteration of epoch 9/50] 
+ {loss} sup : 0.404, inf : 0.268, fac : 0.006, total : 0.366 
+ {acc} sup : 91.02, inf : 91.80
+[121/245 iteration of epoch 9/50] 
+ {loss} sup : 0.278, inf : 0.135, fac : 0.004, total : 0.226 
+ {acc} sup : 94.92, inf : 97.66
+[151/245 iteration of epoch 9/50] 
+ {loss} sup : 0.301, inf : 0.154, fac : 0.006, total : 0.259 
+ {acc} sup : 94.92, inf : 96.88
+[181/245 iteration of epoch 9/50] 
+ {loss} sup : 0.399, inf : 0.214, fac : 0.005, total : 0.331 
+ {acc} sup : 89.06, inf : 92.58
+[211/245 iteration of epoch 9/50] 
+ {loss} sup : 0.360, inf : 0.173, fac : 0.005, total : 0.291 
+ {acc} sup : 91.80, inf : 94.92
+[241/245 iteration of epoch 9/50] 
+ {loss} sup : 0.383, inf : 0.207, fac : 0.007, total : 0.332 
+ {acc} sup : 90.62, inf : 93.75
+------------------------------
+<Losses on train> sup : 0.338, inf : 0.191, fac : 0.005, total : 0.290
+<Accuracies on train> sup : 92.55, inf : 95.12
+Train epoch time: 595.620
+------------------------------
+<Accuracies on val> class : 66.77
+------------------------------
+<Accuracies on test> class : 55.75
+------------------------------
+Total epoch time: 615.789
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 10/50] 
+ {loss} sup : 0.303, inf : 0.167, fac : 0.004, total : 0.256 
+ {acc} sup : 92.58, inf : 95.31
+[31/245 iteration of epoch 10/50] 
+ {loss} sup : 0.342, inf : 0.173, fac : 0.005, total : 0.283 
+ {acc} sup : 93.36, inf : 94.53
+[61/245 iteration of epoch 10/50] 
+ {loss} sup : 0.301, inf : 0.132, fac : 0.005, total : 0.240 
+ {acc} sup : 93.36, inf : 96.88
+[91/245 iteration of epoch 10/50] 
+ {loss} sup : 0.242, inf : 0.147, fac : 0.006, total : 0.223 
+ {acc} sup : 94.14, inf : 96.09
+[121/245 iteration of epoch 10/50] 
+ {loss} sup : 0.371, inf : 0.204, fac : 0.006, total : 0.316 
+ {acc} sup : 91.41, inf : 94.53
+[151/245 iteration of epoch 10/50] 
+ {loss} sup : 0.362, inf : 0.225, fac : 0.004, total : 0.315 
+ {acc} sup : 91.41, inf : 94.14
+[181/245 iteration of epoch 10/50] 
+ {loss} sup : 0.233, inf : 0.152, fac : 0.003, total : 0.208 
+ {acc} sup : 96.48, inf : 95.70
+[211/245 iteration of epoch 10/50] 
+ {loss} sup : 0.410, inf : 0.220, fac : 0.005, total : 0.338 
+ {acc} sup : 89.45, inf : 94.92
+[241/245 iteration of epoch 10/50] 
+ {loss} sup : 0.319, inf : 0.221, fac : 0.009, total : 0.315 
+ {acc} sup : 93.36, inf : 93.75
+------------------------------
+<Losses on train> sup : 0.294, inf : 0.168, fac : 0.005, total : 0.255
+<Accuracies on train> sup : 93.45, inf : 95.73
+Train epoch time: 596.203
+------------------------------
+<Accuracies on val> class : 66.77
+------------------------------
+<Accuracies on test> class : 54.96
+------------------------------
+Total epoch time: 616.450
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 11/50] 
+ {loss} sup : 0.249, inf : 0.147, fac : 0.004, total : 0.220 
+ {acc} sup : 96.48, inf : 95.70
+[31/245 iteration of epoch 11/50] 
+ {loss} sup : 0.304, inf : 0.217, fac : 0.006, total : 0.289 
+ {acc} sup : 91.80, inf : 93.36
+[61/245 iteration of epoch 11/50] 
+ {loss} sup : 0.285, inf : 0.124, fac : 0.004, total : 0.222 
+ {acc} sup : 94.14, inf : 96.09
+[91/245 iteration of epoch 11/50] 
+ {loss} sup : 0.229, inf : 0.107, fac : 0.004, total : 0.189 
+ {acc} sup : 95.31, inf : 97.27
+[121/245 iteration of epoch 11/50] 
+ {loss} sup : 0.280, inf : 0.165, fac : 0.004, total : 0.244 
+ {acc} sup : 94.53, inf : 96.09
+[151/245 iteration of epoch 11/50] 
+ {loss} sup : 0.267, inf : 0.171, fac : 0.003, total : 0.235 
+ {acc} sup : 95.70, inf : 96.48
+[181/245 iteration of epoch 11/50] 
+ {loss} sup : 0.291, inf : 0.155, fac : 0.004, total : 0.244 
+ {acc} sup : 92.19, inf : 95.31
+[211/245 iteration of epoch 11/50] 
+ {loss} sup : 0.334, inf : 0.180, fac : 0.004, total : 0.277 
+ {acc} sup : 91.02, inf : 94.14
+[241/245 iteration of epoch 11/50] 
+ {loss} sup : 0.259, inf : 0.132, fac : 0.002, total : 0.208 
+ {acc} sup : 92.19, inf : 96.88
+------------------------------
+<Losses on train> sup : 0.256, inf : 0.147, fac : 0.004, total : 0.224
+<Accuracies on train> sup : 94.51, inf : 96.21
+Train epoch time: 593.742
+------------------------------
+<Accuracies on val> class : 66.52
+------------------------------
+<Accuracies on test> class : 56.41
+------------------------------
+Total epoch time: 613.914
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 12/50] 
+ {loss} sup : 0.198, inf : 0.104, fac : 0.003, total : 0.164 
+ {acc} sup : 96.09, inf : 96.88
+[31/245 iteration of epoch 12/50] 
+ {loss} sup : 0.218, inf : 0.133, fac : 0.002, total : 0.187 
+ {acc} sup : 95.70, inf : 97.27
+[61/245 iteration of epoch 12/50] 
+ {loss} sup : 0.157, inf : 0.051, fac : 0.002, total : 0.112 
+ {acc} sup : 97.66, inf : 99.22
+[91/245 iteration of epoch 12/50] 
+ {loss} sup : 0.182, inf : 0.082, fac : 0.004, total : 0.150 
+ {acc} sup : 94.92, inf : 98.05
+[121/245 iteration of epoch 12/50] 
+ {loss} sup : 0.197, inf : 0.100, fac : 0.006, total : 0.179 
+ {acc} sup : 96.48, inf : 98.44
+[151/245 iteration of epoch 12/50] 
+ {loss} sup : 0.214, inf : 0.078, fac : 0.005, total : 0.173 
+ {acc} sup : 94.14, inf : 98.05
+[181/245 iteration of epoch 12/50] 
+ {loss} sup : 0.190, inf : 0.111, fac : 0.003, total : 0.168 
+ {acc} sup : 95.70, inf : 97.27
+[211/245 iteration of epoch 12/50] 
+ {loss} sup : 0.230, inf : 0.161, fac : 0.004, total : 0.214 
+ {acc} sup : 95.31, inf : 95.70
+[241/245 iteration of epoch 12/50] 
+ {loss} sup : 0.201, inf : 0.143, fac : 0.004, total : 0.193 
+ {acc} sup : 96.48, inf : 96.48
+------------------------------
+<Losses on train> sup : 0.227, inf : 0.127, fac : 0.004, total : 0.198
+<Accuracies on train> sup : 95.12, inf : 96.92
+Train epoch time: 597.327
+------------------------------
+<Accuracies on val> class : 66.26
+------------------------------
+<Accuracies on test> class : 56.20
+------------------------------
+Total epoch time: 617.582
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 13/50] 
+ {loss} sup : 0.157, inf : 0.101, fac : 0.003, total : 0.142 
+ {acc} sup : 97.66, inf : 97.66
+[31/245 iteration of epoch 13/50] 
+ {loss} sup : 0.159, inf : 0.096, fac : 0.004, total : 0.147 
+ {acc} sup : 98.44, inf : 98.05
+[61/245 iteration of epoch 13/50] 
+ {loss} sup : 0.273, inf : 0.152, fac : 0.004, total : 0.234 
+ {acc} sup : 92.58, inf : 96.09
+[91/245 iteration of epoch 13/50] 
+ {loss} sup : 0.196, inf : 0.102, fac : 0.004, total : 0.167 
+ {acc} sup : 95.70, inf : 97.66
+[121/245 iteration of epoch 13/50] 
+ {loss} sup : 0.196, inf : 0.094, fac : 0.004, total : 0.167 
+ {acc} sup : 95.70, inf : 96.88
+[151/245 iteration of epoch 13/50] 
+ {loss} sup : 0.172, inf : 0.088, fac : 0.002, total : 0.139 
+ {acc} sup : 96.09, inf : 98.05
+[181/245 iteration of epoch 13/50] 
+ {loss} sup : 0.187, inf : 0.125, fac : 0.004, total : 0.175 
+ {acc} sup : 95.70, inf : 96.48
+[211/245 iteration of epoch 13/50] 
+ {loss} sup : 0.166, inf : 0.085, fac : 0.004, total : 0.143 
+ {acc} sup : 96.48, inf : 99.22
+[241/245 iteration of epoch 13/50] 
+ {loss} sup : 0.176, inf : 0.082, fac : 0.004, total : 0.149 
+ {acc} sup : 97.66, inf : 98.83
+------------------------------
+<Losses on train> sup : 0.210, inf : 0.120, fac : 0.004, total : 0.185
+<Accuracies on train> sup : 95.53, inf : 97.08
+Train epoch time: 599.022
+------------------------------
+<Accuracies on val> class : 66.58
+------------------------------
+<Accuracies on test> class : 55.38
+------------------------------
+Total epoch time: 619.374
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 14/50] 
+ {loss} sup : 0.179, inf : 0.082, fac : 0.005, total : 0.157 
+ {acc} sup : 97.66, inf : 98.83
+[31/245 iteration of epoch 14/50] 
+ {loss} sup : 0.184, inf : 0.094, fac : 0.003, total : 0.152 
+ {acc} sup : 96.48, inf : 98.05
+[61/245 iteration of epoch 14/50] 
+ {loss} sup : 0.200, inf : 0.107, fac : 0.004, total : 0.173 
+ {acc} sup : 95.31, inf : 97.66
+[91/245 iteration of epoch 14/50] 
+ {loss} sup : 0.151, inf : 0.073, fac : 0.003, total : 0.130 
+ {acc} sup : 97.66, inf : 98.83
+[121/245 iteration of epoch 14/50] 
+ {loss} sup : 0.203, inf : 0.118, fac : 0.005, total : 0.185 
+ {acc} sup : 95.31, inf : 96.88
+[151/245 iteration of epoch 14/50] 
+ {loss} sup : 0.221, inf : 0.136, fac : 0.004, total : 0.200 
+ {acc} sup : 94.53, inf : 96.09
+[181/245 iteration of epoch 14/50] 
+ {loss} sup : 0.164, inf : 0.117, fac : 0.005, total : 0.165 
+ {acc} sup : 96.88, inf : 96.88
+[211/245 iteration of epoch 14/50] 
+ {loss} sup : 0.133, inf : 0.069, fac : 0.003, total : 0.115 
+ {acc} sup : 96.88, inf : 99.61
+[241/245 iteration of epoch 14/50] 
+ {loss} sup : 0.156, inf : 0.088, fac : 0.005, total : 0.146 
+ {acc} sup : 97.27, inf : 97.66
+------------------------------
+<Losses on train> sup : 0.190, inf : 0.107, fac : 0.004, total : 0.168
+<Accuracies on train> sup : 96.04, inf : 97.45
+Train epoch time: 593.675
+------------------------------
+<Accuracies on val> class : 66.32
+------------------------------
+<Accuracies on test> class : 55.13
+------------------------------
+Total epoch time: 613.914
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 15/50] 
+ {loss} sup : 0.186, inf : 0.123, fac : 0.004, total : 0.176 
+ {acc} sup : 96.09, inf : 96.09
+[31/245 iteration of epoch 15/50] 
+ {loss} sup : 0.128, inf : 0.093, fac : 0.003, total : 0.127 
+ {acc} sup : 98.83, inf : 98.44
+[61/245 iteration of epoch 15/50] 
+ {loss} sup : 0.199, inf : 0.132, fac : 0.005, total : 0.189 
+ {acc} sup : 95.70, inf : 96.88
+[91/245 iteration of epoch 15/50] 
+ {loss} sup : 0.152, inf : 0.065, fac : 0.003, total : 0.122 
+ {acc} sup : 96.48, inf : 98.83
+[121/245 iteration of epoch 15/50] 
+ {loss} sup : 0.190, inf : 0.104, fac : 0.004, total : 0.168 
+ {acc} sup : 96.88, inf : 97.66
+[151/245 iteration of epoch 15/50] 
+ {loss} sup : 0.256, inf : 0.125, fac : 0.006, total : 0.219 
+ {acc} sup : 92.97, inf : 98.05
+[181/245 iteration of epoch 15/50] 
+ {loss} sup : 0.247, inf : 0.147, fac : 0.005, total : 0.220 
+ {acc} sup : 93.75, inf : 96.48
+[211/245 iteration of epoch 15/50] 
+ {loss} sup : 0.102, inf : 0.060, fac : 0.004, total : 0.099 
+ {acc} sup : 98.44, inf : 99.22
+[241/245 iteration of epoch 15/50] 
+ {loss} sup : 0.157, inf : 0.095, fac : 0.003, total : 0.141 
+ {acc} sup : 98.05, inf : 98.05
+------------------------------
+<Losses on train> sup : 0.178, inf : 0.097, fac : 0.004, total : 0.156
+<Accuracies on train> sup : 96.29, inf : 97.73
+Train epoch time: 595.823
+------------------------------
+<Accuracies on val> class : 65.36
+------------------------------
+<Accuracies on test> class : 55.34
+------------------------------
+Total epoch time: 616.244
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 16/50] 
+ {loss} sup : 0.244, inf : 0.141, fac : 0.008, total : 0.232 
+ {acc} sup : 94.53, inf : 95.70
+[31/245 iteration of epoch 16/50] 
+ {loss} sup : 0.137, inf : 0.076, fac : 0.002, total : 0.118 
+ {acc} sup : 96.88, inf : 98.05
+[61/245 iteration of epoch 16/50] 
+ {loss} sup : 0.151, inf : 0.068, fac : 0.004, total : 0.129 
+ {acc} sup : 97.66, inf : 98.83
+[91/245 iteration of epoch 16/50] 
+ {loss} sup : 0.162, inf : 0.092, fac : 0.004, total : 0.145 
+ {acc} sup : 95.70, inf : 98.83
+[121/245 iteration of epoch 16/50] 
+ {loss} sup : 0.189, inf : 0.093, fac : 0.003, total : 0.157 
+ {acc} sup : 94.92, inf : 96.88
+[151/245 iteration of epoch 16/50] 
+ {loss} sup : 0.188, inf : 0.114, fac : 0.005, total : 0.174 
+ {acc} sup : 97.27, inf : 98.05
+[181/245 iteration of epoch 16/50] 
+ {loss} sup : 0.121, inf : 0.053, fac : 0.004, total : 0.105 
+ {acc} sup : 97.66, inf : 99.61
+[211/245 iteration of epoch 16/50] 
+ {loss} sup : 0.171, inf : 0.087, fac : 0.003, total : 0.144 
+ {acc} sup : 96.09, inf : 98.44
+[241/245 iteration of epoch 16/50] 
+ {loss} sup : 0.150, inf : 0.052, fac : 0.004, total : 0.122 
+ {acc} sup : 97.27, inf : 99.22
+------------------------------
+<Losses on train> sup : 0.163, inf : 0.092, fac : 0.004, total : 0.145
+<Accuracies on train> sup : 96.74, inf : 97.79
+Train epoch time: 594.595
+------------------------------
+<Accuracies on val> class : 65.75
+------------------------------
+<Accuracies on test> class : 54.39
+------------------------------
+Total epoch time: 614.848
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 17/50] 
+ {loss} sup : 0.104, inf : 0.051, fac : 0.003, total : 0.090 
+ {acc} sup : 98.83, inf : 99.22
+[31/245 iteration of epoch 17/50] 
+ {loss} sup : 0.112, inf : 0.070, fac : 0.003, total : 0.105 
+ {acc} sup : 99.22, inf : 98.44
+[61/245 iteration of epoch 17/50] 
+ {loss} sup : 0.150, inf : 0.057, fac : 0.003, total : 0.120 
+ {acc} sup : 94.53, inf : 98.44
+[91/245 iteration of epoch 17/50] 
+ {loss} sup : 0.183, inf : 0.070, fac : 0.002, total : 0.139 
+ {acc} sup : 96.48, inf : 99.22
+[121/245 iteration of epoch 17/50] 
+ {loss} sup : 0.124, inf : 0.064, fac : 0.002, total : 0.106 
+ {acc} sup : 97.27, inf : 98.83
+[151/245 iteration of epoch 17/50] 
+ {loss} sup : 0.124, inf : 0.060, fac : 0.003, total : 0.104 
+ {acc} sup : 97.27, inf : 98.83
+[181/245 iteration of epoch 17/50] 
+ {loss} sup : 0.153, inf : 0.088, fac : 0.004, total : 0.141 
+ {acc} sup : 97.66, inf : 98.05
+[211/245 iteration of epoch 17/50] 
+ {loss} sup : 0.106, inf : 0.053, fac : 0.002, total : 0.089 
+ {acc} sup : 98.83, inf : 99.61
+[241/245 iteration of epoch 17/50] 
+ {loss} sup : 0.162, inf : 0.064, fac : 0.004, total : 0.135 
+ {acc} sup : 96.09, inf : 99.22
+------------------------------
+<Losses on train> sup : 0.154, inf : 0.084, fac : 0.004, total : 0.137
+<Accuracies on train> sup : 96.98, inf : 98.07
+Train epoch time: 597.076
+------------------------------
+<Accuracies on val> class : 65.75
+------------------------------
+<Accuracies on test> class : 55.09
+------------------------------
+Total epoch time: 617.268
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 18/50] 
+ {loss} sup : 0.125, inf : 0.058, fac : 0.003, total : 0.106 
+ {acc} sup : 98.05, inf : 98.83
+[31/245 iteration of epoch 18/50] 
+ {loss} sup : 0.147, inf : 0.129, fac : 0.004, total : 0.156 
+ {acc} sup : 98.05, inf : 97.66
+[61/245 iteration of epoch 18/50] 
+ {loss} sup : 0.116, inf : 0.070, fac : 0.003, total : 0.108 
+ {acc} sup : 98.83, inf : 98.44
+[91/245 iteration of epoch 18/50] 
+ {loss} sup : 0.125, inf : 0.049, fac : 0.003, total : 0.102 
+ {acc} sup : 96.88, inf : 98.83
+[121/245 iteration of epoch 18/50] 
+ {loss} sup : 0.136, inf : 0.082, fac : 0.002, total : 0.119 
+ {acc} sup : 97.66, inf : 98.44
+[151/245 iteration of epoch 18/50] 
+ {loss} sup : 0.152, inf : 0.070, fac : 0.004, total : 0.129 
+ {acc} sup : 96.88, inf : 98.05
+[181/245 iteration of epoch 18/50] 
+ {loss} sup : 0.218, inf : 0.122, fac : 0.003, total : 0.187 
+ {acc} sup : 94.53, inf : 96.48
+[211/245 iteration of epoch 18/50] 
+ {loss} sup : 0.115, inf : 0.057, fac : 0.003, total : 0.099 
+ {acc} sup : 98.83, inf : 98.44
+[241/245 iteration of epoch 18/50] 
+ {loss} sup : 0.156, inf : 0.068, fac : 0.003, total : 0.128 
+ {acc} sup : 97.66, inf : 98.44
+------------------------------
+<Losses on train> sup : 0.147, inf : 0.081, fac : 0.003, total : 0.131
+<Accuracies on train> sup : 97.21, inf : 98.14
+Train epoch time: 594.841
+------------------------------
+<Accuracies on val> class : 66.20
+------------------------------
+<Accuracies on test> class : 54.14
+------------------------------
+Total epoch time: 614.948
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 19/50] 
+ {loss} sup : 0.165, inf : 0.061, fac : 0.004, total : 0.133 
+ {acc} sup : 97.66, inf : 98.83
+[31/245 iteration of epoch 19/50] 
+ {loss} sup : 0.164, inf : 0.094, fac : 0.003, total : 0.144 
+ {acc} sup : 96.48, inf : 98.44
+[61/245 iteration of epoch 19/50] 
+ {loss} sup : 0.146, inf : 0.100, fac : 0.004, total : 0.142 
+ {acc} sup : 97.27, inf : 97.27
+[91/245 iteration of epoch 19/50] 
+ {loss} sup : 0.118, inf : 0.067, fac : 0.003, total : 0.108 
+ {acc} sup : 97.27, inf : 98.05
+[121/245 iteration of epoch 19/50] 
+ {loss} sup : 0.204, inf : 0.152, fac : 0.006, total : 0.209 
+ {acc} sup : 96.09, inf : 96.48
+[151/245 iteration of epoch 19/50] 
+ {loss} sup : 0.115, inf : 0.050, fac : 0.002, total : 0.091 
+ {acc} sup : 97.66, inf : 100.00
+[181/245 iteration of epoch 19/50] 
+ {loss} sup : 0.187, inf : 0.110, fac : 0.005, total : 0.173 
+ {acc} sup : 96.09, inf : 96.88
+[211/245 iteration of epoch 19/50] 
+ {loss} sup : 0.150, inf : 0.091, fac : 0.005, total : 0.144 
+ {acc} sup : 96.88, inf : 97.66
+[241/245 iteration of epoch 19/50] 
+ {loss} sup : 0.101, inf : 0.060, fac : 0.004, total : 0.098 
+ {acc} sup : 98.44, inf : 99.22
+------------------------------
+<Losses on train> sup : 0.138, inf : 0.077, fac : 0.003, total : 0.125
+<Accuracies on train> sup : 97.38, inf : 98.25
+Train epoch time: 596.388
+------------------------------
+<Accuracies on val> class : 65.75
+------------------------------
+<Accuracies on test> class : 53.85
+------------------------------
+Total epoch time: 616.565
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 20/50] 
+ {loss} sup : 0.115, inf : 0.047, fac : 0.002, total : 0.090 
+ {acc} sup : 98.83, inf : 99.22
+[31/245 iteration of epoch 20/50] 
+ {loss} sup : 0.139, inf : 0.066, fac : 0.003, total : 0.117 
+ {acc} sup : 97.66, inf : 98.83
+[61/245 iteration of epoch 20/50] 
+ {loss} sup : 0.142, inf : 0.083, fac : 0.003, total : 0.125 
+ {acc} sup : 98.83, inf : 98.44
+[91/245 iteration of epoch 20/50] 
+ {loss} sup : 0.163, inf : 0.078, fac : 0.004, total : 0.141 
+ {acc} sup : 96.88, inf : 98.05
+[121/245 iteration of epoch 20/50] 
+ {loss} sup : 0.151, inf : 0.106, fac : 0.004, total : 0.150 
+ {acc} sup : 96.48, inf : 97.27
+[151/245 iteration of epoch 20/50] 
+ {loss} sup : 0.118, inf : 0.047, fac : 0.004, total : 0.103 
+ {acc} sup : 98.44, inf : 99.22
+[181/245 iteration of epoch 20/50] 
+ {loss} sup : 0.116, inf : 0.048, fac : 0.003, total : 0.098 
+ {acc} sup : 96.48, inf : 99.22
+[211/245 iteration of epoch 20/50] 
+ {loss} sup : 0.153, inf : 0.098, fac : 0.003, total : 0.138 
+ {acc} sup : 96.09, inf : 98.44
+[241/245 iteration of epoch 20/50] 
+ {loss} sup : 0.122, inf : 0.078, fac : 0.005, total : 0.125 
+ {acc} sup : 97.66, inf : 98.44
+------------------------------
+<Losses on train> sup : 0.128, inf : 0.068, fac : 0.003, total : 0.114
+<Accuracies on train> sup : 97.57, inf : 98.47
+Train epoch time: 596.936
+------------------------------
+<Accuracies on val> class : 66.00
+------------------------------
+<Accuracies on test> class : 55.13
+------------------------------
+Total epoch time: 617.310
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 21/50] 
+ {loss} sup : 0.106, inf : 0.047, fac : 0.002, total : 0.088 
+ {acc} sup : 99.22, inf : 99.22
+[31/245 iteration of epoch 21/50] 
+ {loss} sup : 0.083, inf : 0.048, fac : 0.002, total : 0.077 
+ {acc} sup : 98.44, inf : 98.83
+[61/245 iteration of epoch 21/50] 
+ {loss} sup : 0.182, inf : 0.107, fac : 0.005, total : 0.168 
+ {acc} sup : 96.48, inf : 97.66
+[91/245 iteration of epoch 21/50] 
+ {loss} sup : 0.143, inf : 0.097, fac : 0.004, total : 0.141 
+ {acc} sup : 97.27, inf : 97.27
+[121/245 iteration of epoch 21/50] 
+ {loss} sup : 0.138, inf : 0.042, fac : 0.003, total : 0.104 
+ {acc} sup : 97.27, inf : 99.22
+[151/245 iteration of epoch 21/50] 
+ {loss} sup : 0.128, inf : 0.054, fac : 0.002, total : 0.100 
+ {acc} sup : 96.88, inf : 98.44
+[181/245 iteration of epoch 21/50] 
+ {loss} sup : 0.139, inf : 0.061, fac : 0.003, total : 0.114 
+ {acc} sup : 96.88, inf : 98.83
+[211/245 iteration of epoch 21/50] 
+ {loss} sup : 0.106, inf : 0.030, fac : 0.003, total : 0.080 
+ {acc} sup : 97.66, inf : 100.00
+[241/245 iteration of epoch 21/50] 
+ {loss} sup : 0.146, inf : 0.117, fac : 0.004, total : 0.149 
+ {acc} sup : 97.66, inf : 96.09
+------------------------------
+<Losses on train> sup : 0.123, inf : 0.068, fac : 0.003, total : 0.111
+<Accuracies on train> sup : 97.75, inf : 98.49
+Train epoch time: 594.080
+------------------------------
+<Accuracies on val> class : 65.17
+------------------------------
+<Accuracies on test> class : 54.64
+------------------------------
+Total epoch time: 614.537
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 22/50] 
+ {loss} sup : 0.092, inf : 0.033, fac : 0.003, total : 0.077 
+ {acc} sup : 98.83, inf : 99.22
+[31/245 iteration of epoch 22/50] 
+ {loss} sup : 0.123, inf : 0.065, fac : 0.003, total : 0.108 
+ {acc} sup : 96.88, inf : 99.22
+[61/245 iteration of epoch 22/50] 
+ {loss} sup : 0.099, inf : 0.054, fac : 0.003, total : 0.090 
+ {acc} sup : 97.66, inf : 98.83
+[91/245 iteration of epoch 22/50] 
+ {loss} sup : 0.130, inf : 0.069, fac : 0.005, total : 0.123 
+ {acc} sup : 97.66, inf : 98.44
+[121/245 iteration of epoch 22/50] 
+ {loss} sup : 0.122, inf : 0.095, fac : 0.002, total : 0.120 
+ {acc} sup : 98.05, inf : 97.27
+[151/245 iteration of epoch 22/50] 
+ {loss} sup : 0.087, inf : 0.046, fac : 0.002, total : 0.079 
+ {acc} sup : 98.44, inf : 99.61
+[181/245 iteration of epoch 22/50] 
+ {loss} sup : 0.080, inf : 0.038, fac : 0.001, total : 0.066 
+ {acc} sup : 98.44, inf : 99.61
+[211/245 iteration of epoch 22/50] 
+ {loss} sup : 0.111, inf : 0.074, fac : 0.003, total : 0.108 
+ {acc} sup : 98.44, inf : 98.44
+[241/245 iteration of epoch 22/50] 
+ {loss} sup : 0.100, inf : 0.067, fac : 0.003, total : 0.099 
+ {acc} sup : 99.22, inf : 97.66
+------------------------------
+<Losses on train> sup : 0.115, inf : 0.064, fac : 0.003, total : 0.104
+<Accuracies on train> sup : 98.01, inf : 98.66
+Train epoch time: 594.822
+------------------------------
+<Accuracies on val> class : 65.04
+------------------------------
+<Accuracies on test> class : 53.69
+------------------------------
+Total epoch time: 615.114
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 23/50] 
+ {loss} sup : 0.122, inf : 0.068, fac : 0.003, total : 0.112 
+ {acc} sup : 97.27, inf : 98.44
+[31/245 iteration of epoch 23/50] 
+ {loss} sup : 0.128, inf : 0.061, fac : 0.003, total : 0.110 
+ {acc} sup : 98.44, inf : 98.44
+[61/245 iteration of epoch 23/50] 
+ {loss} sup : 0.124, inf : 0.059, fac : 0.003, total : 0.108 
+ {acc} sup : 96.48, inf : 98.05
+[91/245 iteration of epoch 23/50] 
+ {loss} sup : 0.075, inf : 0.030, fac : 0.002, total : 0.064 
+ {acc} sup : 98.83, inf : 99.22
+[121/245 iteration of epoch 23/50] 
+ {loss} sup : 0.092, inf : 0.062, fac : 0.004, total : 0.095 
+ {acc} sup : 98.83, inf : 98.05
+[151/245 iteration of epoch 23/50] 
+ {loss} sup : 0.072, inf : 0.059, fac : 0.002, total : 0.076 
+ {acc} sup : 99.61, inf : 98.83
+[181/245 iteration of epoch 23/50] 
+ {loss} sup : 0.114, inf : 0.065, fac : 0.004, total : 0.110 
+ {acc} sup : 97.27, inf : 98.83
+[211/245 iteration of epoch 23/50] 
+ {loss} sup : 0.077, inf : 0.044, fac : 0.003, total : 0.076 
+ {acc} sup : 99.22, inf : 99.22
+[241/245 iteration of epoch 23/50] 
+ {loss} sup : 0.127, inf : 0.091, fac : 0.004, total : 0.129 
+ {acc} sup : 96.88, inf : 97.66
+------------------------------
+<Losses on train> sup : 0.110, inf : 0.061, fac : 0.003, total : 0.100
+<Accuracies on train> sup : 98.02, inf : 98.64
+Train epoch time: 596.721
+------------------------------
+<Accuracies on val> class : 65.30
+------------------------------
+<Accuracies on test> class : 54.88
+------------------------------
+Total epoch time: 616.891
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 24/50] 
+ {loss} sup : 0.165, inf : 0.113, fac : 0.005, total : 0.163 
+ {acc} sup : 97.27, inf : 98.05
+[31/245 iteration of epoch 24/50] 
+ {loss} sup : 0.070, inf : 0.039, fac : 0.003, total : 0.069 
+ {acc} sup : 99.61, inf : 99.61
+[61/245 iteration of epoch 24/50] 
+ {loss} sup : 0.096, inf : 0.039, fac : 0.002, total : 0.078 
+ {acc} sup : 98.44, inf : 99.22
+[91/245 iteration of epoch 24/50] 
+ {loss} sup : 0.098, inf : 0.045, fac : 0.002, total : 0.084 
+ {acc} sup : 99.22, inf : 99.61
+[121/245 iteration of epoch 24/50] 
+ {loss} sup : 0.111, inf : 0.055, fac : 0.003, total : 0.098 
+ {acc} sup : 96.88, inf : 98.83
+[151/245 iteration of epoch 24/50] 
+ {loss} sup : 0.105, inf : 0.099, fac : 0.004, total : 0.120 
+ {acc} sup : 97.66, inf : 98.05
+[181/245 iteration of epoch 24/50] 
+ {loss} sup : 0.132, inf : 0.110, fac : 0.003, total : 0.134 
+ {acc} sup : 97.66, inf : 97.66
+[211/245 iteration of epoch 24/50] 
+ {loss} sup : 0.125, inf : 0.065, fac : 0.002, total : 0.106 
+ {acc} sup : 98.44, inf : 98.44
+[241/245 iteration of epoch 24/50] 
+ {loss} sup : 0.133, inf : 0.078, fac : 0.004, total : 0.125 
+ {acc} sup : 98.44, inf : 98.83
+------------------------------
+<Losses on train> sup : 0.109, inf : 0.062, fac : 0.003, total : 0.099
+<Accuracies on train> sup : 98.06, inf : 98.68
+Train epoch time: 594.973
+------------------------------
+<Accuracies on val> class : 66.20
+------------------------------
+<Accuracies on test> class : 55.25
+------------------------------
+Total epoch time: 615.200
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 25/50] 
+ {loss} sup : 0.121, inf : 0.056, fac : 0.003, total : 0.101 
+ {acc} sup : 98.05, inf : 98.83
+[31/245 iteration of epoch 25/50] 
+ {loss} sup : 0.050, inf : 0.023, fac : 0.002, total : 0.045 
+ {acc} sup : 99.22, inf : 100.00
+[61/245 iteration of epoch 25/50] 
+ {loss} sup : 0.094, inf : 0.055, fac : 0.003, total : 0.091 
+ {acc} sup : 98.44, inf : 98.83
+[91/245 iteration of epoch 25/50] 
+ {loss} sup : 0.107, inf : 0.054, fac : 0.002, total : 0.090 
+ {acc} sup : 98.44, inf : 98.83
+[121/245 iteration of epoch 25/50] 
+ {loss} sup : 0.087, inf : 0.027, fac : 0.002, total : 0.066 
+ {acc} sup : 99.22, inf : 100.00
+[151/245 iteration of epoch 25/50] 
+ {loss} sup : 0.149, inf : 0.092, fac : 0.003, total : 0.138 
+ {acc} sup : 96.88, inf : 97.27
+[181/245 iteration of epoch 25/50] 
+ {loss} sup : 0.130, inf : 0.071, fac : 0.003, total : 0.115 
+ {acc} sup : 96.88, inf : 98.44
+[211/245 iteration of epoch 25/50] 
+ {loss} sup : 0.113, inf : 0.072, fac : 0.004, total : 0.114 
+ {acc} sup : 97.66, inf : 98.44
+[241/245 iteration of epoch 25/50] 
+ {loss} sup : 0.069, inf : 0.030, fac : 0.002, total : 0.059 
+ {acc} sup : 99.22, inf : 98.83
+------------------------------
+<Losses on train> sup : 0.104, inf : 0.057, fac : 0.003, total : 0.094
+<Accuracies on train> sup : 98.19, inf : 98.77
+Train epoch time: 596.474
+------------------------------
+<Accuracies on val> class : 65.81
+------------------------------
+<Accuracies on test> class : 54.68
+------------------------------
+Total epoch time: 616.705
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 26/50] 
+ {loss} sup : 0.105, inf : 0.060, fac : 0.004, total : 0.100 
+ {acc} sup : 98.44, inf : 98.44
+[31/245 iteration of epoch 26/50] 
+ {loss} sup : 0.090, inf : 0.050, fac : 0.003, total : 0.084 
+ {acc} sup : 98.44, inf : 99.61
+[61/245 iteration of epoch 26/50] 
+ {loss} sup : 0.139, inf : 0.083, fac : 0.003, total : 0.127 
+ {acc} sup : 97.27, inf : 98.83
+[91/245 iteration of epoch 26/50] 
+ {loss} sup : 0.102, inf : 0.047, fac : 0.002, total : 0.087 
+ {acc} sup : 98.05, inf : 98.83
+[121/245 iteration of epoch 26/50] 
+ {loss} sup : 0.077, inf : 0.045, fac : 0.003, total : 0.074 
+ {acc} sup : 99.22, inf : 98.83
+[151/245 iteration of epoch 26/50] 
+ {loss} sup : 0.071, inf : 0.031, fac : 0.003, total : 0.066 
+ {acc} sup : 100.00, inf : 99.61
+[181/245 iteration of epoch 26/50] 
+ {loss} sup : 0.112, inf : 0.059, fac : 0.003, total : 0.100 
+ {acc} sup : 98.05, inf : 98.44
+[211/245 iteration of epoch 26/50] 
+ {loss} sup : 0.071, inf : 0.032, fac : 0.002, total : 0.063 
+ {acc} sup : 99.22, inf : 99.61
+[241/245 iteration of epoch 26/50] 
+ {loss} sup : 0.124, inf : 0.082, fac : 0.003, total : 0.115 
+ {acc} sup : 97.66, inf : 98.44
+------------------------------
+<Losses on train> sup : 0.098, inf : 0.055, fac : 0.003, total : 0.090
+<Accuracies on train> sup : 98.29, inf : 98.82
+Train epoch time: 595.294
+------------------------------
+<Accuracies on val> class : 66.07
+------------------------------
+<Accuracies on test> class : 55.46
+------------------------------
+Total epoch time: 615.681
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 27/50] 
+ {loss} sup : 0.108, inf : 0.047, fac : 0.002, total : 0.090 
+ {acc} sup : 97.66, inf : 98.83
+[31/245 iteration of epoch 27/50] 
+ {loss} sup : 0.063, inf : 0.021, fac : 0.002, total : 0.052 
+ {acc} sup : 99.61, inf : 100.00
+[61/245 iteration of epoch 27/50] 
+ {loss} sup : 0.119, inf : 0.073, fac : 0.003, total : 0.110 
+ {acc} sup : 97.27, inf : 98.05
+[91/245 iteration of epoch 27/50] 
+ {loss} sup : 0.125, inf : 0.061, fac : 0.003, total : 0.109 
+ {acc} sup : 97.66, inf : 99.22
+[121/245 iteration of epoch 27/50] 
+ {loss} sup : 0.149, inf : 0.112, fac : 0.006, total : 0.161 
+ {acc} sup : 96.09, inf : 97.27
+[151/245 iteration of epoch 27/50] 
+ {loss} sup : 0.095, inf : 0.033, fac : 0.003, total : 0.079 
+ {acc} sup : 98.05, inf : 99.61
+[181/245 iteration of epoch 27/50] 
+ {loss} sup : 0.107, inf : 0.056, fac : 0.002, total : 0.093 
+ {acc} sup : 97.66, inf : 98.44
+[211/245 iteration of epoch 27/50] 
+ {loss} sup : 0.059, inf : 0.022, fac : 0.002, total : 0.049 
+ {acc} sup : 99.61, inf : 100.00
+[241/245 iteration of epoch 27/50] 
+ {loss} sup : 0.104, inf : 0.073, fac : 0.004, total : 0.106 
+ {acc} sup : 98.44, inf : 98.05
+------------------------------
+<Losses on train> sup : 0.097, inf : 0.054, fac : 0.003, total : 0.089
+<Accuracies on train> sup : 98.33, inf : 98.88
+Train epoch time: 595.156
+------------------------------
+<Accuracies on val> class : 64.65
+------------------------------
+<Accuracies on test> class : 53.61
+------------------------------
+Total epoch time: 615.346
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 28/50] 
+ {loss} sup : 0.070, inf : 0.024, fac : 0.003, total : 0.060 
+ {acc} sup : 98.83, inf : 99.61
+[31/245 iteration of epoch 28/50] 
+ {loss} sup : 0.090, inf : 0.040, fac : 0.004, total : 0.084 
+ {acc} sup : 98.83, inf : 99.22
+[61/245 iteration of epoch 28/50] 
+ {loss} sup : 0.057, inf : 0.021, fac : 0.002, total : 0.047 
+ {acc} sup : 99.61, inf : 100.00
+[91/245 iteration of epoch 28/50] 
+ {loss} sup : 0.100, inf : 0.050, fac : 0.003, total : 0.090 
+ {acc} sup : 98.05, inf : 99.22
+[121/245 iteration of epoch 28/50] 
+ {loss} sup : 0.098, inf : 0.055, fac : 0.003, total : 0.091 
+ {acc} sup : 99.61, inf : 98.83
+[151/245 iteration of epoch 28/50] 
+ {loss} sup : 0.076, inf : 0.023, fac : 0.002, total : 0.061 
+ {acc} sup : 98.83, inf : 100.00
+[181/245 iteration of epoch 28/50] 
+ {loss} sup : 0.140, inf : 0.087, fac : 0.004, total : 0.135 
+ {acc} sup : 96.48, inf : 97.66
+[211/245 iteration of epoch 28/50] 
+ {loss} sup : 0.087, inf : 0.035, fac : 0.002, total : 0.073 
+ {acc} sup : 98.83, inf : 100.00
+[241/245 iteration of epoch 28/50] 
+ {loss} sup : 0.107, inf : 0.066, fac : 0.003, total : 0.102 
+ {acc} sup : 98.05, inf : 98.83
+------------------------------
+<Losses on train> sup : 0.094, inf : 0.053, fac : 0.003, total : 0.086
+<Accuracies on train> sup : 98.47, inf : 98.87
+Train epoch time: 597.525
+------------------------------
+<Accuracies on val> class : 66.13
+------------------------------
+<Accuracies on test> class : 54.18
+------------------------------
+Total epoch time: 617.873
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 29/50] 
+ {loss} sup : 0.080, inf : 0.031, fac : 0.002, total : 0.064 
+ {acc} sup : 98.44, inf : 100.00
+[31/245 iteration of epoch 29/50] 
+ {loss} sup : 0.060, inf : 0.040, fac : 0.002, total : 0.063 
+ {acc} sup : 99.22, inf : 99.22
+[61/245 iteration of epoch 29/50] 
+ {loss} sup : 0.059, inf : 0.035, fac : 0.002, total : 0.059 
+ {acc} sup : 100.00, inf : 100.00
+[91/245 iteration of epoch 29/50] 
+ {loss} sup : 0.117, inf : 0.067, fac : 0.003, total : 0.107 
+ {acc} sup : 97.66, inf : 99.22
+[121/245 iteration of epoch 29/50] 
+ {loss} sup : 0.116, inf : 0.119, fac : 0.002, total : 0.130 
+ {acc} sup : 98.83, inf : 98.05
+[151/245 iteration of epoch 29/50] 
+ {loss} sup : 0.091, inf : 0.056, fac : 0.003, total : 0.088 
+ {acc} sup : 98.83, inf : 98.44
+[181/245 iteration of epoch 29/50] 
+ {loss} sup : 0.085, inf : 0.036, fac : 0.002, total : 0.073 
+ {acc} sup : 98.05, inf : 99.61
+[211/245 iteration of epoch 29/50] 
+ {loss} sup : 0.083, inf : 0.047, fac : 0.003, total : 0.078 
+ {acc} sup : 99.22, inf : 99.22
+[241/245 iteration of epoch 29/50] 
+ {loss} sup : 0.078, inf : 0.031, fac : 0.002, total : 0.066 
+ {acc} sup : 99.22, inf : 99.22
+------------------------------
+<Losses on train> sup : 0.089, inf : 0.050, fac : 0.002, total : 0.082
+<Accuracies on train> sup : 98.56, inf : 98.95
+Train epoch time: 599.999
+------------------------------
+<Accuracies on val> class : 64.97
+------------------------------
+<Accuracies on test> class : 54.31
+------------------------------
+Total epoch time: 620.392
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 30/50] 
+ {loss} sup : 0.069, inf : 0.033, fac : 0.002, total : 0.062 
+ {acc} sup : 98.44, inf : 99.22
+[31/245 iteration of epoch 30/50] 
+ {loss} sup : 0.127, inf : 0.073, fac : 0.003, total : 0.114 
+ {acc} sup : 97.27, inf : 98.05
+[61/245 iteration of epoch 30/50] 
+ {loss} sup : 0.059, inf : 0.038, fac : 0.002, total : 0.060 
+ {acc} sup : 99.22, inf : 99.22
+[91/245 iteration of epoch 30/50] 
+ {loss} sup : 0.120, inf : 0.043, fac : 0.002, total : 0.092 
+ {acc} sup : 98.05, inf : 98.83
+[121/245 iteration of epoch 30/50] 
+ {loss} sup : 0.094, inf : 0.039, fac : 0.002, total : 0.078 
+ {acc} sup : 98.05, inf : 99.22
+[151/245 iteration of epoch 30/50] 
+ {loss} sup : 0.077, inf : 0.030, fac : 0.002, total : 0.064 
+ {acc} sup : 98.83, inf : 99.61
+[181/245 iteration of epoch 30/50] 
+ {loss} sup : 0.079, inf : 0.058, fac : 0.002, total : 0.079 
+ {acc} sup : 98.83, inf : 98.83
+[211/245 iteration of epoch 30/50] 
+ {loss} sup : 0.073, inf : 0.028, fac : 0.002, total : 0.060 
+ {acc} sup : 99.22, inf : 99.61
+[241/245 iteration of epoch 30/50] 
+ {loss} sup : 0.096, inf : 0.053, fac : 0.004, total : 0.093 
+ {acc} sup : 98.05, inf : 98.44
+------------------------------
+<Losses on train> sup : 0.086, inf : 0.048, fac : 0.002, total : 0.079
+<Accuracies on train> sup : 98.63, inf : 99.01
+Train epoch time: 598.465
+------------------------------
+<Accuracies on val> class : 65.10
+------------------------------
+<Accuracies on test> class : 53.77
+------------------------------
+Total epoch time: 618.952
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 31/50] 
+ {loss} sup : 0.097, inf : 0.047, fac : 0.003, total : 0.088 
+ {acc} sup : 98.83, inf : 98.83
+[31/245 iteration of epoch 31/50] 
+ {loss} sup : 0.101, inf : 0.063, fac : 0.002, total : 0.093 
+ {acc} sup : 98.44, inf : 97.66
+[61/245 iteration of epoch 31/50] 
+ {loss} sup : 0.076, inf : 0.039, fac : 0.002, total : 0.069 
+ {acc} sup : 98.44, inf : 99.22
+[91/245 iteration of epoch 31/50] 
+ {loss} sup : 0.062, inf : 0.023, fac : 0.002, total : 0.054 
+ {acc} sup : 100.00, inf : 100.00
+[121/245 iteration of epoch 31/50] 
+ {loss} sup : 0.063, inf : 0.018, fac : 0.002, total : 0.050 
+ {acc} sup : 99.61, inf : 100.00
+[151/245 iteration of epoch 31/50] 
+ {loss} sup : 0.111, inf : 0.066, fac : 0.003, total : 0.103 
+ {acc} sup : 98.05, inf : 98.83
+[181/245 iteration of epoch 31/50] 
+ {loss} sup : 0.091, inf : 0.038, fac : 0.004, total : 0.084 
+ {acc} sup : 98.83, inf : 100.00
+[211/245 iteration of epoch 31/50] 
+ {loss} sup : 0.084, inf : 0.051, fac : 0.003, total : 0.084 
+ {acc} sup : 98.83, inf : 98.44
+[241/245 iteration of epoch 31/50] 
+ {loss} sup : 0.074, inf : 0.052, fac : 0.003, total : 0.076 
+ {acc} sup : 98.05, inf : 98.83
+------------------------------
+<Losses on train> sup : 0.084, inf : 0.047, fac : 0.002, total : 0.078
+<Accuracies on train> sup : 98.68, inf : 99.06
+Train epoch time: 598.645
+------------------------------
+<Accuracies on val> class : 65.62
+------------------------------
+<Accuracies on test> class : 53.93
+------------------------------
+Total epoch time: 619.366
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 32/50] 
+ {loss} sup : 0.034, inf : 0.019, fac : 0.002, total : 0.036 
+ {acc} sup : 99.61, inf : 100.00
+[31/245 iteration of epoch 32/50] 
+ {loss} sup : 0.075, inf : 0.051, fac : 0.003, total : 0.076 
+ {acc} sup : 99.22, inf : 99.61
+[61/245 iteration of epoch 32/50] 
+ {loss} sup : 0.083, inf : 0.047, fac : 0.003, total : 0.078 
+ {acc} sup : 98.83, inf : 98.83
+[91/245 iteration of epoch 32/50] 
+ {loss} sup : 0.086, inf : 0.038, fac : 0.002, total : 0.074 
+ {acc} sup : 99.22, inf : 98.83
+[121/245 iteration of epoch 32/50] 
+ {loss} sup : 0.103, inf : 0.051, fac : 0.002, total : 0.089 
+ {acc} sup : 98.44, inf : 98.44
+[151/245 iteration of epoch 32/50] 
+ {loss} sup : 0.078, inf : 0.040, fac : 0.003, total : 0.074 
+ {acc} sup : 98.83, inf : 98.83
+[181/245 iteration of epoch 32/50] 
+ {loss} sup : 0.087, inf : 0.041, fac : 0.002, total : 0.076 
+ {acc} sup : 98.05, inf : 99.61
+[211/245 iteration of epoch 32/50] 
+ {loss} sup : 0.119, inf : 0.071, fac : 0.003, total : 0.110 
+ {acc} sup : 98.44, inf : 97.66
+[241/245 iteration of epoch 32/50] 
+ {loss} sup : 0.092, inf : 0.055, fac : 0.002, total : 0.083 
+ {acc} sup : 98.44, inf : 98.83
+------------------------------
+<Losses on train> sup : 0.081, inf : 0.045, fac : 0.002, total : 0.075
+<Accuracies on train> sup : 98.77, inf : 99.13
+Train epoch time: 596.671
+------------------------------
+<Accuracies on val> class : 64.14
+------------------------------
+<Accuracies on test> class : 54.14
+------------------------------
+Total epoch time: 617.008
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 33/50] 
+ {loss} sup : 0.065, inf : 0.025, fac : 0.002, total : 0.056 
+ {acc} sup : 99.22, inf : 99.61
+[31/245 iteration of epoch 33/50] 
+ {loss} sup : 0.106, inf : 0.054, fac : 0.003, total : 0.094 
+ {acc} sup : 97.66, inf : 98.83
+[61/245 iteration of epoch 33/50] 
+ {loss} sup : 0.073, inf : 0.024, fac : 0.003, total : 0.063 
+ {acc} sup : 98.83, inf : 99.61
+[91/245 iteration of epoch 33/50] 
+ {loss} sup : 0.061, inf : 0.032, fac : 0.002, total : 0.055 
+ {acc} sup : 99.61, inf : 99.22
+[121/245 iteration of epoch 33/50] 
+ {loss} sup : 0.097, inf : 0.059, fac : 0.003, total : 0.091 
+ {acc} sup : 98.44, inf : 98.44
+[151/245 iteration of epoch 33/50] 
+ {loss} sup : 0.066, inf : 0.028, fac : 0.002, total : 0.056 
+ {acc} sup : 98.83, inf : 100.00
+[181/245 iteration of epoch 33/50] 
+ {loss} sup : 0.069, inf : 0.032, fac : 0.002, total : 0.060 
+ {acc} sup : 99.22, inf : 99.61
+[211/245 iteration of epoch 33/50] 
+ {loss} sup : 0.069, inf : 0.042, fac : 0.002, total : 0.066 
+ {acc} sup : 98.83, inf : 99.22
+[241/245 iteration of epoch 33/50] 
+ {loss} sup : 0.051, inf : 0.026, fac : 0.001, total : 0.046 
+ {acc} sup : 99.22, inf : 99.61
+------------------------------
+<Losses on train> sup : 0.078, inf : 0.042, fac : 0.002, total : 0.072
+<Accuracies on train> sup : 98.81, inf : 99.16
+Train epoch time: 595.170
+------------------------------
+<Accuracies on val> class : 65.04
+------------------------------
+<Accuracies on test> class : 54.43
+------------------------------
+Total epoch time: 615.615
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 34/50] 
+ {loss} sup : 0.109, inf : 0.071, fac : 0.003, total : 0.103 
+ {acc} sup : 98.44, inf : 98.44
+[31/245 iteration of epoch 34/50] 
+ {loss} sup : 0.071, inf : 0.045, fac : 0.002, total : 0.069 
+ {acc} sup : 98.44, inf : 99.22
+[61/245 iteration of epoch 34/50] 
+ {loss} sup : 0.053, inf : 0.027, fac : 0.002, total : 0.048 
+ {acc} sup : 99.61, inf : 100.00
+[91/245 iteration of epoch 34/50] 
+ {loss} sup : 0.091, inf : 0.042, fac : 0.002, total : 0.075 
+ {acc} sup : 98.83, inf : 99.61
+[121/245 iteration of epoch 34/50] 
+ {loss} sup : 0.071, inf : 0.035, fac : 0.002, total : 0.063 
+ {acc} sup : 98.83, inf : 99.61
+[151/245 iteration of epoch 34/50] 
+ {loss} sup : 0.057, inf : 0.026, fac : 0.002, total : 0.049 
+ {acc} sup : 99.22, inf : 100.00
+[181/245 iteration of epoch 34/50] 
+ {loss} sup : 0.113, inf : 0.076, fac : 0.002, total : 0.106 
+ {acc} sup : 97.66, inf : 98.05
+[211/245 iteration of epoch 34/50] 
+ {loss} sup : 0.047, inf : 0.034, fac : 0.002, total : 0.049 
+ {acc} sup : 100.00, inf : 99.61
+[241/245 iteration of epoch 34/50] 
+ {loss} sup : 0.072, inf : 0.034, fac : 0.003, total : 0.067 
+ {acc} sup : 98.83, inf : 99.22
+------------------------------
+<Losses on train> sup : 0.079, inf : 0.045, fac : 0.002, total : 0.073
+<Accuracies on train> sup : 98.77, inf : 99.12
+Train epoch time: 597.799
+------------------------------
+<Accuracies on val> class : 64.65
+------------------------------
+<Accuracies on test> class : 53.89
+------------------------------
+Total epoch time: 618.235
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 35/50] 
+ {loss} sup : 0.060, inf : 0.024, fac : 0.002, total : 0.052 
+ {acc} sup : 98.83, inf : 99.61
+[31/245 iteration of epoch 35/50] 
+ {loss} sup : 0.046, inf : 0.024, fac : 0.002, total : 0.043 
+ {acc} sup : 99.61, inf : 99.61
+[61/245 iteration of epoch 35/50] 
+ {loss} sup : 0.098, inf : 0.055, fac : 0.003, total : 0.089 
+ {acc} sup : 98.05, inf : 98.83
+[91/245 iteration of epoch 35/50] 
+ {loss} sup : 0.086, inf : 0.047, fac : 0.003, total : 0.079 
+ {acc} sup : 98.83, inf : 99.61
+[121/245 iteration of epoch 35/50] 
+ {loss} sup : 0.053, inf : 0.023, fac : 0.002, total : 0.050 
+ {acc} sup : 99.22, inf : 99.61
+[151/245 iteration of epoch 35/50] 
+ {loss} sup : 0.077, inf : 0.028, fac : 0.002, total : 0.062 
+ {acc} sup : 98.83, inf : 99.61
+[181/245 iteration of epoch 35/50] 
+ {loss} sup : 0.055, inf : 0.031, fac : 0.003, total : 0.056 
+ {acc} sup : 99.61, inf : 99.61
+[211/245 iteration of epoch 35/50] 
+ {loss} sup : 0.089, inf : 0.049, fac : 0.002, total : 0.080 
+ {acc} sup : 97.27, inf : 99.61
+[241/245 iteration of epoch 35/50] 
+ {loss} sup : 0.057, inf : 0.027, fac : 0.002, total : 0.051 
+ {acc} sup : 99.22, inf : 99.61
+------------------------------
+<Losses on train> sup : 0.074, inf : 0.041, fac : 0.002, total : 0.068
+<Accuracies on train> sup : 98.86, inf : 99.21
+Train epoch time: 595.202
+------------------------------
+<Accuracies on val> class : 65.49
+------------------------------
+<Accuracies on test> class : 54.76
+------------------------------
+Total epoch time: 615.130
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 36/50] 
+ {loss} sup : 0.082, inf : 0.034, fac : 0.002, total : 0.067 
+ {acc} sup : 98.83, inf : 99.61
+[31/245 iteration of epoch 36/50] 
+ {loss} sup : 0.077, inf : 0.044, fac : 0.002, total : 0.072 
+ {acc} sup : 98.05, inf : 99.22
+[61/245 iteration of epoch 36/50] 
+ {loss} sup : 0.070, inf : 0.030, fac : 0.002, total : 0.059 
+ {acc} sup : 98.83, inf : 99.22
+[91/245 iteration of epoch 36/50] 
+ {loss} sup : 0.103, inf : 0.064, fac : 0.002, total : 0.096 
+ {acc} sup : 98.44, inf : 99.22
+[121/245 iteration of epoch 36/50] 
+ {loss} sup : 0.077, inf : 0.055, fac : 0.002, total : 0.074 
+ {acc} sup : 99.22, inf : 98.83
+[151/245 iteration of epoch 36/50] 
+ {loss} sup : 0.053, inf : 0.034, fac : 0.002, total : 0.054 
+ {acc} sup : 99.61, inf : 99.61
+[181/245 iteration of epoch 36/50] 
+ {loss} sup : 0.056, inf : 0.029, fac : 0.002, total : 0.053 
+ {acc} sup : 99.22, inf : 99.61
+[211/245 iteration of epoch 36/50] 
+ {loss} sup : 0.056, inf : 0.039, fac : 0.002, total : 0.058 
+ {acc} sup : 99.61, inf : 99.22
+[241/245 iteration of epoch 36/50] 
+ {loss} sup : 0.077, inf : 0.042, fac : 0.002, total : 0.069 
+ {acc} sup : 98.44, inf : 98.83
+------------------------------
+<Losses on train> sup : 0.074, inf : 0.041, fac : 0.002, total : 0.069
+<Accuracies on train> sup : 98.92, inf : 99.19
+Train epoch time: 597.220
+------------------------------
+<Accuracies on val> class : 65.30
+------------------------------
+<Accuracies on test> class : 53.48
+------------------------------
+Total epoch time: 617.718
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 37/50] 
+ {loss} sup : 0.079, inf : 0.044, fac : 0.002, total : 0.073 
+ {acc} sup : 98.83, inf : 98.83
+[31/245 iteration of epoch 37/50] 
+ {loss} sup : 0.046, inf : 0.030, fac : 0.002, total : 0.047 
+ {acc} sup : 100.00, inf : 100.00
+[61/245 iteration of epoch 37/50] 
+ {loss} sup : 0.056, inf : 0.017, fac : 0.002, total : 0.046 
+ {acc} sup : 98.83, inf : 100.00
+[91/245 iteration of epoch 37/50] 
+ {loss} sup : 0.074, inf : 0.038, fac : 0.002, total : 0.066 
+ {acc} sup : 99.22, inf : 98.83
+[121/245 iteration of epoch 37/50] 
+ {loss} sup : 0.062, inf : 0.042, fac : 0.002, total : 0.063 
+ {acc} sup : 99.22, inf : 99.22
+[151/245 iteration of epoch 37/50] 
+ {loss} sup : 0.062, inf : 0.025, fac : 0.003, total : 0.058 
+ {acc} sup : 99.61, inf : 100.00
+[181/245 iteration of epoch 37/50] 
+ {loss} sup : 0.089, inf : 0.054, fac : 0.003, total : 0.085 
+ {acc} sup : 98.44, inf : 98.83
+[211/245 iteration of epoch 37/50] 
+ {loss} sup : 0.046, inf : 0.011, fac : 0.001, total : 0.035 
+ {acc} sup : 99.22, inf : 100.00
+[241/245 iteration of epoch 37/50] 
+ {loss} sup : 0.061, inf : 0.040, fac : 0.001, total : 0.057 
+ {acc} sup : 99.22, inf : 99.22
+------------------------------
+<Losses on train> sup : 0.072, inf : 0.040, fac : 0.002, total : 0.067
+<Accuracies on train> sup : 98.86, inf : 99.18
+Train epoch time: 596.845
+------------------------------
+<Accuracies on val> class : 65.42
+------------------------------
+<Accuracies on test> class : 53.40
+------------------------------
+Total epoch time: 617.304
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 38/50] 
+ {loss} sup : 0.078, inf : 0.031, fac : 0.002, total : 0.066 
+ {acc} sup : 98.44, inf : 99.61
+[31/245 iteration of epoch 38/50] 
+ {loss} sup : 0.070, inf : 0.047, fac : 0.002, total : 0.070 
+ {acc} sup : 99.61, inf : 98.44
+[61/245 iteration of epoch 38/50] 
+ {loss} sup : 0.067, inf : 0.027, fac : 0.002, total : 0.058 
+ {acc} sup : 98.44, inf : 99.22
+[91/245 iteration of epoch 38/50] 
+ {loss} sup : 0.054, inf : 0.029, fac : 0.002, total : 0.050 
+ {acc} sup : 99.61, inf : 99.61
+[121/245 iteration of epoch 38/50] 
+ {loss} sup : 0.054, inf : 0.027, fac : 0.001, total : 0.048 
+ {acc} sup : 98.83, inf : 99.61
+[151/245 iteration of epoch 38/50] 
+ {loss} sup : 0.066, inf : 0.037, fac : 0.002, total : 0.062 
+ {acc} sup : 98.83, inf : 99.22
+[181/245 iteration of epoch 38/50] 
+ {loss} sup : 0.066, inf : 0.031, fac : 0.002, total : 0.061 
+ {acc} sup : 99.22, inf : 99.61
+[211/245 iteration of epoch 38/50] 
+ {loss} sup : 0.063, inf : 0.026, fac : 0.002, total : 0.053 
+ {acc} sup : 98.83, inf : 99.61
+[241/245 iteration of epoch 38/50] 
+ {loss} sup : 0.077, inf : 0.041, fac : 0.002, total : 0.068 
+ {acc} sup : 99.22, inf : 99.61
+------------------------------
+<Losses on train> sup : 0.071, inf : 0.040, fac : 0.002, total : 0.066
+<Accuracies on train> sup : 98.99, inf : 99.25
+Train epoch time: 596.187
+------------------------------
+<Accuracies on val> class : 64.78
+------------------------------
+<Accuracies on test> class : 53.65
+------------------------------
+Total epoch time: 616.545
+
+New epoch - lr: 0.003
+[1/245 iteration of epoch 39/50] 
+ {loss} sup : 0.079, inf : 0.050, fac : 0.002, total : 0.073 
+ {acc} sup : 98.05, inf : 98.83
+[31/245 iteration of epoch 39/50] 
+ {loss} sup : 0.068, inf : 0.031, fac : 0.001, total : 0.057 
+ {acc} sup : 99.22, inf : 99.61
+[61/245 iteration of epoch 39/50] 
+ {loss} sup : 0.088, inf : 0.048, fac : 0.003, total : 0.081 
+ {acc} sup : 97.66, inf : 98.44
+[91/245 iteration of epoch 39/50] 
+ {loss} sup : 0.059, inf : 0.050, fac : 0.002, total : 0.067 
+ {acc} sup : 98.83, inf : 99.22
+[121/245 iteration of epoch 39/50] 
+ {loss} sup : 0.089, inf : 0.059, fac : 0.002, total : 0.084 
+ {acc} sup : 98.44, inf : 98.83
+[151/245 iteration of epoch 39/50] 
+ {loss} sup : 0.145, inf : 0.095, fac : 0.003, total : 0.134 
+ {acc} sup : 97.27, inf : 98.44
+[181/245 iteration of epoch 39/50] 
+ {loss} sup : 0.071, inf : 0.055, fac : 0.002, total : 0.072 
+ {acc} sup : 98.83, inf : 98.83
+[211/245 iteration of epoch 39/50] 
+ {loss} sup : 0.061, inf : 0.019, fac : 0.002, total : 0.049 
+ {acc} sup : 98.44, inf : 100.00
+[241/245 iteration of epoch 39/50] 
+ {loss} sup : 0.043, inf : 0.013, fac : 0.002, total : 0.037 
+ {acc} sup : 100.00, inf : 100.00
+------------------------------
+<Losses on train> sup : 0.070, inf : 0.039, fac : 0.002, total : 0.065
+<Accuracies on train> sup : 98.98, inf : 99.27
+Train epoch time: 596.050
+------------------------------
+<Accuracies on val> class : 64.07
+------------------------------
+<Accuracies on test> class : 53.36
+------------------------------
+Total epoch time: 616.388
+
+New epoch - lr: 0.0009000000000000002
+[1/245 iteration of epoch 40/50] 
+ {loss} sup : 0.083, inf : 0.054, fac : 0.002, total : 0.080 
+ {acc} sup : 98.83, inf : 98.83
+[31/245 iteration of epoch 40/50] 
+ {loss} sup : 0.052, inf : 0.016, fac : 0.001, total : 0.039 
+ {acc} sup : 99.22, inf : 100.00
+[61/245 iteration of epoch 40/50] 
+ {loss} sup : 0.080, inf : 0.054, fac : 0.002, total : 0.075 
+ {acc} sup : 98.05, inf : 98.44
+[91/245 iteration of epoch 40/50] 
+ {loss} sup : 0.069, inf : 0.036, fac : 0.003, total : 0.066 
+ {acc} sup : 99.22, inf : 99.61
+[121/245 iteration of epoch 40/50] 
+ {loss} sup : 0.065, inf : 0.046, fac : 0.002, total : 0.065 
+ {acc} sup : 99.22, inf : 98.44
+[151/245 iteration of epoch 40/50] 
+ {loss} sup : 0.061, inf : 0.029, fac : 0.002, total : 0.055 
+ {acc} sup : 99.22, inf : 99.61
+[181/245 iteration of epoch 40/50] 
+ {loss} sup : 0.056, inf : 0.027, fac : 0.003, total : 0.055 
+ {acc} sup : 98.83, inf : 99.61
+[211/245 iteration of epoch 40/50] 
+ {loss} sup : 0.044, inf : 0.019, fac : 0.002, total : 0.040 
+ {acc} sup : 99.61, inf : 99.61
+[241/245 iteration of epoch 40/50] 
+ {loss} sup : 0.059, inf : 0.038, fac : 0.002, total : 0.059 
+ {acc} sup : 98.83, inf : 99.22
+------------------------------
+<Losses on train> sup : 0.064, inf : 0.035, fac : 0.002, total : 0.060
+<Accuracies on train> sup : 99.14, inf : 99.36
+Train epoch time: 594.048
+------------------------------
+<Accuracies on val> class : 64.78
+------------------------------
+<Accuracies on test> class : 54.39
+------------------------------
+Total epoch time: 614.297
+
+New epoch - lr: 0.0009000000000000002
+[1/245 iteration of epoch 41/50] 
+ {loss} sup : 0.054, inf : 0.023, fac : 0.002, total : 0.049 
+ {acc} sup : 99.61, inf : 99.61
+[31/245 iteration of epoch 41/50] 
+ {loss} sup : 0.084, inf : 0.053, fac : 0.002, total : 0.080 
+ {acc} sup : 98.83, inf : 99.22
+[61/245 iteration of epoch 41/50] 
+ {loss} sup : 0.069, inf : 0.057, fac : 0.002, total : 0.073 
+ {acc} sup : 98.83, inf : 98.44
+[91/245 iteration of epoch 41/50] 
+ {loss} sup : 0.039, inf : 0.017, fac : 0.002, total : 0.037 
+ {acc} sup : 99.61, inf : 100.00
+[121/245 iteration of epoch 41/50] 
+ {loss} sup : 0.055, inf : 0.026, fac : 0.002, total : 0.049 
+ {acc} sup : 98.83, inf : 99.61
+[151/245 iteration of epoch 41/50] 
+ {loss} sup : 0.034, inf : 0.018, fac : 0.001, total : 0.033 
+ {acc} sup : 100.00, inf : 100.00
+[181/245 iteration of epoch 41/50] 
+ {loss} sup : 0.054, inf : 0.019, fac : 0.001, total : 0.043 
+ {acc} sup : 99.22, inf : 100.00
+[211/245 iteration of epoch 41/50] 
+ {loss} sup : 0.052, inf : 0.019, fac : 0.002, total : 0.043 
+ {acc} sup : 99.22, inf : 100.00
+[241/245 iteration of epoch 41/50] 
+ {loss} sup : 0.050, inf : 0.046, fac : 0.002, total : 0.057 
+ {acc} sup : 99.61, inf : 98.83
+------------------------------
+<Losses on train> sup : 0.060, inf : 0.033, fac : 0.002, total : 0.057
+<Accuracies on train> sup : 99.17, inf : 99.42
+Train epoch time: 598.136
+------------------------------
+<Accuracies on val> class : 64.65
+------------------------------
+<Accuracies on test> class : 53.98
+------------------------------
+Total epoch time: 618.561
+
+New epoch - lr: 0.0009000000000000002
+[1/245 iteration of epoch 42/50] 
+ {loss} sup : 0.080, inf : 0.043, fac : 0.003, total : 0.075 
+ {acc} sup : 98.44, inf : 98.44
+[31/245 iteration of epoch 42/50] 
+ {loss} sup : 0.051, inf : 0.029, fac : 0.002, total : 0.049 
+ {acc} sup : 100.00, inf : 99.61
+[61/245 iteration of epoch 42/50] 
+ {loss} sup : 0.074, inf : 0.030, fac : 0.002, total : 0.062 
+ {acc} sup : 98.83, inf : 100.00
+[91/245 iteration of epoch 42/50] 
+ {loss} sup : 0.049, inf : 0.028, fac : 0.003, total : 0.052 
+ {acc} sup : 99.61, inf : 99.22
+[121/245 iteration of epoch 42/50] 
+ {loss} sup : 0.070, inf : 0.024, fac : 0.002, total : 0.058 
+ {acc} sup : 99.22, inf : 100.00
+[151/245 iteration of epoch 42/50] 
+ {loss} sup : 0.057, inf : 0.045, fac : 0.002, total : 0.060 
+ {acc} sup : 99.22, inf : 98.44
+[181/245 iteration of epoch 42/50] 
+ {loss} sup : 0.077, inf : 0.036, fac : 0.002, total : 0.066 
+ {acc} sup : 98.44, inf : 99.22
+[211/245 iteration of epoch 42/50] 
+ {loss} sup : 0.038, inf : 0.025, fac : 0.002, total : 0.040 
+ {acc} sup : 100.00, inf : 99.61
+[241/245 iteration of epoch 42/50] 
+ {loss} sup : 0.065, inf : 0.036, fac : 0.002, total : 0.059 
+ {acc} sup : 98.83, inf : 98.83
+------------------------------
+<Losses on train> sup : 0.063, inf : 0.036, fac : 0.002, total : 0.060
+<Accuracies on train> sup : 99.14, inf : 99.31
+Train epoch time: 593.877
+------------------------------
+<Accuracies on val> class : 64.97
+------------------------------
+<Accuracies on test> class : 53.81
+------------------------------
+Total epoch time: 614.336
+
+New epoch - lr: 0.0009000000000000002
+[1/245 iteration of epoch 43/50] 
+ {loss} sup : 0.042, inf : 0.022, fac : 0.002, total : 0.040 
+ {acc} sup : 99.61, inf : 99.61
+[31/245 iteration of epoch 43/50] 
+ {loss} sup : 0.049, inf : 0.023, fac : 0.002, total : 0.046 
+ {acc} sup : 99.22, inf : 100.00
+[61/245 iteration of epoch 43/50] 
+ {loss} sup : 0.066, inf : 0.042, fac : 0.003, total : 0.068 
+ {acc} sup : 98.83, inf : 99.61
+[91/245 iteration of epoch 43/50] 
+ {loss} sup : 0.059, inf : 0.027, fac : 0.003, total : 0.056 
+ {acc} sup : 99.22, inf : 99.22
+[121/245 iteration of epoch 43/50] 
+ {loss} sup : 0.042, inf : 0.020, fac : 0.001, total : 0.037 
+ {acc} sup : 100.00, inf : 99.61
+[151/245 iteration of epoch 43/50] 
+ {loss} sup : 0.082, inf : 0.045, fac : 0.002, total : 0.074 
+ {acc} sup : 97.66, inf : 98.83
+[181/245 iteration of epoch 43/50] 
+ {loss} sup : 0.077, inf : 0.038, fac : 0.003, total : 0.072 
+ {acc} sup : 98.83, inf : 99.22
+[211/245 iteration of epoch 43/50] 
+ {loss} sup : 0.068, inf : 0.031, fac : 0.002, total : 0.060 
+ {acc} sup : 98.83, inf : 99.22
+[241/245 iteration of epoch 43/50] 
+ {loss} sup : 0.066, inf : 0.037, fac : 0.002, total : 0.060 
+ {acc} sup : 98.83, inf : 99.61
+------------------------------
+<Losses on train> sup : 0.059, inf : 0.033, fac : 0.002, total : 0.056
+<Accuracies on train> sup : 99.20, inf : 99.39
+Train epoch time: 598.387
+------------------------------
+<Accuracies on val> class : 64.72
+------------------------------
+<Accuracies on test> class : 53.85
+------------------------------
+Total epoch time: 618.692
+
+New epoch - lr: 0.0009000000000000002
+[1/245 iteration of epoch 44/50] 
+ {loss} sup : 0.061, inf : 0.031, fac : 0.002, total : 0.056 
+ {acc} sup : 98.83, inf : 99.22
+[31/245 iteration of epoch 44/50] 
+ {loss} sup : 0.053, inf : 0.045, fac : 0.003, total : 0.063 
+ {acc} sup : 99.61, inf : 98.44
+[61/245 iteration of epoch 44/50] 
+ {loss} sup : 0.056, inf : 0.029, fac : 0.002, total : 0.051 
+ {acc} sup : 98.83, inf : 99.61
+[91/245 iteration of epoch 44/50] 
+ {loss} sup : 0.075, inf : 0.043, fac : 0.002, total : 0.069 
+ {acc} sup : 98.05, inf : 98.44
+[121/245 iteration of epoch 44/50] 
+ {loss} sup : 0.042, inf : 0.026, fac : 0.002, total : 0.043 
+ {acc} sup : 99.61, inf : 99.61
+[151/245 iteration of epoch 44/50] 
+ {loss} sup : 0.072, inf : 0.034, fac : 0.003, total : 0.066 
+ {acc} sup : 98.83, inf : 99.61
+[181/245 iteration of epoch 44/50] 
+ {loss} sup : 0.067, inf : 0.038, fac : 0.002, total : 0.064 
+ {acc} sup : 99.22, inf : 99.22
+[211/245 iteration of epoch 44/50] 
+ {loss} sup : 0.066, inf : 0.031, fac : 0.001, total : 0.055 
+ {acc} sup : 99.22, inf : 99.61
+[241/245 iteration of epoch 44/50] 
+ {loss} sup : 0.063, inf : 0.046, fac : 0.002, total : 0.062 
+ {acc} sup : 98.83, inf : 98.83
+------------------------------
+<Losses on train> sup : 0.061, inf : 0.036, fac : 0.002, total : 0.058
+<Accuracies on train> sup : 99.12, inf : 99.30
+Train epoch time: 594.916
+------------------------------
+<Accuracies on val> class : 64.40
+------------------------------
+<Accuracies on test> class : 53.56
+------------------------------
+Total epoch time: 615.133
+
+New epoch - lr: 0.0009000000000000002
+[1/245 iteration of epoch 45/50] 
+ {loss} sup : 0.040, inf : 0.024, fac : 0.001, total : 0.039 
+ {acc} sup : 99.61, inf : 99.61
+[31/245 iteration of epoch 45/50] 
+ {loss} sup : 0.078, inf : 0.053, fac : 0.003, total : 0.079 
+ {acc} sup : 99.22, inf : 98.83
+[61/245 iteration of epoch 45/50] 
+ {loss} sup : 0.055, inf : 0.035, fac : 0.002, total : 0.056 
+ {acc} sup : 99.61, inf : 99.22
+[91/245 iteration of epoch 45/50] 
+ {loss} sup : 0.050, inf : 0.022, fac : 0.001, total : 0.042 
+ {acc} sup : 100.00, inf : 100.00
+[121/245 iteration of epoch 45/50] 
+ {loss} sup : 0.036, inf : 0.010, fac : 0.001, total : 0.029 
+ {acc} sup : 100.00, inf : 100.00
+[151/245 iteration of epoch 45/50] 
+ {loss} sup : 0.048, inf : 0.017, fac : 0.002, total : 0.043 
+ {acc} sup : 99.22, inf : 100.00
+[181/245 iteration of epoch 45/50] 
+ {loss} sup : 0.038, inf : 0.022, fac : 0.002, total : 0.040 
+ {acc} sup : 100.00, inf : 100.00
+[211/245 iteration of epoch 45/50] 
+ {loss} sup : 0.048, inf : 0.017, fac : 0.002, total : 0.041 
+ {acc} sup : 99.22, inf : 100.00
+[241/245 iteration of epoch 45/50] 
+ {loss} sup : 0.054, inf : 0.024, fac : 0.003, total : 0.052 
+ {acc} sup : 99.61, inf : 99.61
+------------------------------
+<Losses on train> sup : 0.059, inf : 0.033, fac : 0.002, total : 0.056
+<Accuracies on train> sup : 99.20, inf : 99.40
+Train epoch time: 595.765
+------------------------------
+<Accuracies on val> class : 64.97
+------------------------------
+<Accuracies on test> class : 53.98
+------------------------------
+Total epoch time: 616.018
+
+New epoch - lr: 0.0009000000000000002
+[1/245 iteration of epoch 46/50] 
+ {loss} sup : 0.069, inf : 0.037, fac : 0.002, total : 0.065 
+ {acc} sup : 98.83, inf : 98.83
+[31/245 iteration of epoch 46/50] 
+ {loss} sup : 0.046, inf : 0.030, fac : 0.002, total : 0.047 
+ {acc} sup : 98.83, inf : 99.22
+[61/245 iteration of epoch 46/50] 
+ {loss} sup : 0.045, inf : 0.019, fac : 0.002, total : 0.042 
+ {acc} sup : 99.61, inf : 100.00
+[91/245 iteration of epoch 46/50] 
+ {loss} sup : 0.033, inf : 0.011, fac : 0.001, total : 0.028 
+ {acc} sup : 100.00, inf : 100.00
+[121/245 iteration of epoch 46/50] 
+ {loss} sup : 0.042, inf : 0.029, fac : 0.002, total : 0.044 
+ {acc} sup : 99.61, inf : 99.22
+[151/245 iteration of epoch 46/50] 
+ {loss} sup : 0.078, inf : 0.049, fac : 0.004, total : 0.082 
+ {acc} sup : 98.44, inf : 99.22
+[181/245 iteration of epoch 46/50] 
+ {loss} sup : 0.038, inf : 0.013, fac : 0.002, total : 0.033 
+ {acc} sup : 99.61, inf : 100.00
+[211/245 iteration of epoch 46/50] 
+ {loss} sup : 0.069, inf : 0.045, fac : 0.002, total : 0.065 
+ {acc} sup : 99.22, inf : 98.83
+[241/245 iteration of epoch 46/50] 
+ {loss} sup : 0.034, inf : 0.015, fac : 0.001, total : 0.031 
+ {acc} sup : 100.00, inf : 100.00
+------------------------------
+<Losses on train> sup : 0.059, inf : 0.033, fac : 0.002, total : 0.056
+<Accuracies on train> sup : 99.19, inf : 99.40
+Train epoch time: 597.005
+------------------------------
+<Accuracies on val> class : 64.46
+------------------------------
+<Accuracies on test> class : 53.89
+------------------------------
+Total epoch time: 617.102
+
+New epoch - lr: 0.0009000000000000002
+[1/245 iteration of epoch 47/50] 
+ {loss} sup : 0.042, inf : 0.015, fac : 0.001, total : 0.036 
+ {acc} sup : 99.61, inf : 100.00
+[31/245 iteration of epoch 47/50] 
+ {loss} sup : 0.053, inf : 0.019, fac : 0.002, total : 0.044 
+ {acc} sup : 99.61, inf : 100.00
+[61/245 iteration of epoch 47/50] 
+ {loss} sup : 0.076, inf : 0.061, fac : 0.002, total : 0.078 
+ {acc} sup : 98.05, inf : 98.05
+[91/245 iteration of epoch 47/50] 
+ {loss} sup : 0.064, inf : 0.047, fac : 0.002, total : 0.066 
+ {acc} sup : 99.22, inf : 99.22
+[121/245 iteration of epoch 47/50] 
+ {loss} sup : 0.036, inf : 0.019, fac : 0.001, total : 0.033 
+ {acc} sup : 100.00, inf : 100.00
+[151/245 iteration of epoch 47/50] 
+ {loss} sup : 0.087, inf : 0.039, fac : 0.002, total : 0.073 
+ {acc} sup : 97.66, inf : 98.83
+[181/245 iteration of epoch 47/50] 
+ {loss} sup : 0.050, inf : 0.019, fac : 0.002, total : 0.043 
+ {acc} sup : 100.00, inf : 100.00
+[211/245 iteration of epoch 47/50] 
+ {loss} sup : 0.074, inf : 0.024, fac : 0.002, total : 0.060 
+ {acc} sup : 98.44, inf : 99.61
+[241/245 iteration of epoch 47/50] 
+ {loss} sup : 0.053, inf : 0.039, fac : 0.002, total : 0.057 
+ {acc} sup : 98.83, inf : 99.61
+------------------------------
+<Losses on train> sup : 0.058, inf : 0.033, fac : 0.002, total : 0.055
+<Accuracies on train> sup : 99.22, inf : 99.40
+Train epoch time: 596.773
+------------------------------
+<Accuracies on val> class : 64.85
+------------------------------
+<Accuracies on test> class : 53.93
+------------------------------
+Total epoch time: 616.928
+
+New epoch - lr: 0.0009000000000000002
+[1/245 iteration of epoch 48/50] 
+ {loss} sup : 0.076, inf : 0.046, fac : 0.003, total : 0.074 
+ {acc} sup : 98.05, inf : 98.44
+[31/245 iteration of epoch 48/50] 
+ {loss} sup : 0.121, inf : 0.092, fac : 0.004, total : 0.125 
+ {acc} sup : 97.66, inf : 98.44
+[61/245 iteration of epoch 48/50] 
+ {loss} sup : 0.063, inf : 0.032, fac : 0.002, total : 0.057 
+ {acc} sup : 99.61, inf : 99.61
+[91/245 iteration of epoch 48/50] 
+ {loss} sup : 0.032, inf : 0.018, fac : 0.002, total : 0.033 
+ {acc} sup : 99.61, inf : 100.00
+[121/245 iteration of epoch 48/50] 
+ {loss} sup : 0.050, inf : 0.034, fac : 0.002, total : 0.050 
+ {acc} sup : 100.00, inf : 99.22
+[151/245 iteration of epoch 48/50] 
+ {loss} sup : 0.050, inf : 0.017, fac : 0.002, total : 0.044 
+ {acc} sup : 99.61, inf : 99.61
+[181/245 iteration of epoch 48/50] 
+ {loss} sup : 0.079, inf : 0.060, fac : 0.002, total : 0.080 
+ {acc} sup : 99.22, inf : 98.83
+[211/245 iteration of epoch 48/50] 
+ {loss} sup : 0.034, inf : 0.017, fac : 0.001, total : 0.031 
+ {acc} sup : 100.00, inf : 99.61
+[241/245 iteration of epoch 48/50] 
+ {loss} sup : 0.068, inf : 0.029, fac : 0.002, total : 0.058 
+ {acc} sup : 99.22, inf : 99.61
+------------------------------
+<Losses on train> sup : 0.056, inf : 0.032, fac : 0.002, total : 0.054
+<Accuracies on train> sup : 99.30, inf : 99.44
+Train epoch time: 594.972
+------------------------------
+<Accuracies on val> class : 65.68
+------------------------------
+<Accuracies on test> class : 54.22
+------------------------------
+Total epoch time: 615.279
+
+New epoch - lr: 0.0009000000000000002
+[1/245 iteration of epoch 49/50] 
+ {loss} sup : 0.065, inf : 0.052, fac : 0.002, total : 0.070 
+ {acc} sup : 99.22, inf : 98.83
+[31/245 iteration of epoch 49/50] 
+ {loss} sup : 0.074, inf : 0.054, fac : 0.002, total : 0.076 
+ {acc} sup : 98.05, inf : 98.83
+[61/245 iteration of epoch 49/50] 
+ {loss} sup : 0.043, inf : 0.019, fac : 0.002, total : 0.041 
+ {acc} sup : 100.00, inf : 99.61
+[91/245 iteration of epoch 49/50] 
+ {loss} sup : 0.052, inf : 0.031, fac : 0.001, total : 0.048 
+ {acc} sup : 99.22, inf : 99.22
+[121/245 iteration of epoch 49/50] 
+ {loss} sup : 0.052, inf : 0.032, fac : 0.002, total : 0.050 
+ {acc} sup : 98.83, inf : 98.83
+[151/245 iteration of epoch 49/50] 
+ {loss} sup : 0.084, inf : 0.069, fac : 0.002, total : 0.085 
+ {acc} sup : 98.44, inf : 98.83
+[181/245 iteration of epoch 49/50] 
+ {loss} sup : 0.037, inf : 0.025, fac : 0.001, total : 0.037 
+ {acc} sup : 99.61, inf : 100.00
+[211/245 iteration of epoch 49/50] 
+ {loss} sup : 0.059, inf : 0.040, fac : 0.002, total : 0.062 
+ {acc} sup : 99.61, inf : 99.61
+[241/245 iteration of epoch 49/50] 
+ {loss} sup : 0.042, inf : 0.020, fac : 0.002, total : 0.041 
+ {acc} sup : 98.83, inf : 99.61
+------------------------------
+<Losses on train> sup : 0.057, inf : 0.033, fac : 0.002, total : 0.054
+<Accuracies on train> sup : 99.22, inf : 99.40
+Train epoch time: 599.612
+------------------------------
+<Accuracies on val> class : 64.78
+------------------------------
+<Accuracies on test> class : 54.35
+------------------------------
+Total epoch time: 619.808
+
+New epoch - lr: 0.0009000000000000002
+[1/245 iteration of epoch 50/50] 
+ {loss} sup : 0.063, inf : 0.036, fac : 0.002, total : 0.059 
+ {acc} sup : 98.83, inf : 99.61
+[31/245 iteration of epoch 50/50] 
+ {loss} sup : 0.054, inf : 0.055, fac : 0.002, total : 0.066 
+ {acc} sup : 98.83, inf : 98.83
+[61/245 iteration of epoch 50/50] 
+ {loss} sup : 0.052, inf : 0.046, fac : 0.002, total : 0.060 
+ {acc} sup : 99.22, inf : 99.22
+[91/245 iteration of epoch 50/50] 
+ {loss} sup : 0.054, inf : 0.030, fac : 0.002, total : 0.054 
+ {acc} sup : 100.00, inf : 100.00
+[121/245 iteration of epoch 50/50] 
+ {loss} sup : 0.084, inf : 0.050, fac : 0.003, total : 0.080 
+ {acc} sup : 98.44, inf : 98.83
+[151/245 iteration of epoch 50/50] 
+ {loss} sup : 0.038, inf : 0.019, fac : 0.002, total : 0.036 
+ {acc} sup : 99.61, inf : 100.00
+[181/245 iteration of epoch 50/50] 
+ {loss} sup : 0.078, inf : 0.036, fac : 0.002, total : 0.066 
+ {acc} sup : 98.83, inf : 99.22
+[211/245 iteration of epoch 50/50] 
+ {loss} sup : 0.033, inf : 0.025, fac : 0.002, total : 0.037 
+ {acc} sup : 100.00, inf : 100.00
+[241/245 iteration of epoch 50/50] 
+ {loss} sup : 0.061, inf : 0.032, fac : 0.001, total : 0.054 
+ {acc} sup : 98.83, inf : 99.61
+------------------------------
+<Losses on train> sup : 0.058, inf : 0.033, fac : 0.002, total : 0.055
+<Accuracies on train> sup : 99.21, inf : 99.44
+Train epoch time: 598.939
+------------------------------
+<Accuracies on val> class : 65.23
+------------------------------
+<Accuracies on test> class : 54.06
+------------------------------
+Total epoch time: 618.461
+
+******************************
+Best val 0.567367, corresponding test 0.567367 - best test: 0.567367

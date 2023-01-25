@@ -1,0 +1,1515 @@
+
+Loading experiment PACS/ResNet50
+
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 1/50] 
+ {loss} cls : 2.076, fac : 0.428, total : 2.076 
+ {acc} cls : 1.56
+[31/110 iteration of epoch 1/50] 
+ {loss} cls : 0.681, fac : 0.424, total : 0.681 
+ {acc} cls : 71.88
+[61/110 iteration of epoch 1/50] 
+ {loss} cls : 0.558, fac : 0.422, total : 0.558 
+ {acc} cls : 84.38
+[91/110 iteration of epoch 1/50] 
+ {loss} cls : 0.218, fac : 0.419, total : 0.218 
+ {acc} cls : 90.62
+------------------------------
+<Losses on train> cls : 0.679, fac : 0.422, total : 0.679
+<Accuracies on train> cls : 74.33
+Train epoch time: 74.145
+------------------------------
+<Accuracies on val> class : 89.20
+------------------------------
+<Accuracies on test> class : 36.19
+------------------------------
+<Accuracies on photo> test class : 40.54
+------------------------------
+<Accuracies on cartoon> test class : 42.92
+------------------------------
+<Accuracies on art_painting> test class : 24.95
+------------------------------
+Total epoch time: 116.668
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 2/50] 
+ {loss} cls : 0.181, fac : 0.419, total : 0.181 
+ {acc} cls : 96.88
+[31/110 iteration of epoch 2/50] 
+ {loss} cls : 0.242, fac : 0.418, total : 0.242 
+ {acc} cls : 89.06
+[61/110 iteration of epoch 2/50] 
+ {loss} cls : 0.204, fac : 0.415, total : 0.204 
+ {acc} cls : 92.19
+[91/110 iteration of epoch 2/50] 
+ {loss} cls : 0.103, fac : 0.416, total : 0.103 
+ {acc} cls : 93.75
+------------------------------
+<Losses on train> cls : 0.232, fac : 0.417, total : 0.232
+<Accuracies on train> cls : 92.07
+Train epoch time: 70.573
+------------------------------
+<Accuracies on val> class : 91.21
+------------------------------
+<Accuracies on test> class : 37.13
+------------------------------
+<Accuracies on photo> test class : 43.65
+------------------------------
+<Accuracies on cartoon> test class : 43.77
+------------------------------
+<Accuracies on art_painting> test class : 24.22
+------------------------------
+Total epoch time: 110.629
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 3/50] 
+ {loss} cls : 0.284, fac : 0.416, total : 0.284 
+ {acc} cls : 89.06
+[31/110 iteration of epoch 3/50] 
+ {loss} cls : 0.068, fac : 0.415, total : 0.068 
+ {acc} cls : 96.88
+[61/110 iteration of epoch 3/50] 
+ {loss} cls : 0.033, fac : 0.415, total : 0.033 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 3/50] 
+ {loss} cls : 0.078, fac : 0.414, total : 0.078 
+ {acc} cls : 98.44
+------------------------------
+<Losses on train> cls : 0.149, fac : 0.415, total : 0.149
+<Accuracies on train> cls : 94.84
+Train epoch time: 69.451
+------------------------------
+<Accuracies on val> class : 94.47
+------------------------------
+<Accuracies on test> class : 40.93
+------------------------------
+<Accuracies on photo> test class : 46.05
+------------------------------
+<Accuracies on cartoon> test class : 50.68
+------------------------------
+<Accuracies on art_painting> test class : 25.59
+------------------------------
+Total epoch time: 109.504
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 4/50] 
+ {loss} cls : 0.063, fac : 0.414, total : 0.063 
+ {acc} cls : 98.44
+[31/110 iteration of epoch 4/50] 
+ {loss} cls : 0.140, fac : 0.415, total : 0.140 
+ {acc} cls : 95.31
+[61/110 iteration of epoch 4/50] 
+ {loss} cls : 0.229, fac : 0.413, total : 0.229 
+ {acc} cls : 95.31
+[91/110 iteration of epoch 4/50] 
+ {loss} cls : 0.088, fac : 0.414, total : 0.088 
+ {acc} cls : 96.88
+------------------------------
+<Losses on train> cls : 0.110, fac : 0.414, total : 0.110
+<Accuracies on train> cls : 96.22
+Train epoch time: 67.673
+------------------------------
+<Accuracies on val> class : 93.47
+------------------------------
+<Accuracies on test> class : 51.78
+------------------------------
+<Accuracies on photo> test class : 58.38
+------------------------------
+<Accuracies on cartoon> test class : 58.06
+------------------------------
+<Accuracies on art_painting> test class : 39.21
+------------------------------
+Total epoch time: 107.147
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 5/50] 
+ {loss} cls : 0.075, fac : 0.413, total : 0.075 
+ {acc} cls : 96.88
+[31/110 iteration of epoch 5/50] 
+ {loss} cls : 0.015, fac : 0.413, total : 0.015 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 5/50] 
+ {loss} cls : 0.341, fac : 0.415, total : 0.341 
+ {acc} cls : 93.75
+[91/110 iteration of epoch 5/50] 
+ {loss} cls : 0.072, fac : 0.414, total : 0.072 
+ {acc} cls : 96.88
+------------------------------
+<Losses on train> cls : 0.075, fac : 0.414, total : 0.075
+<Accuracies on train> cls : 97.23
+Train epoch time: 68.251
+------------------------------
+<Accuracies on val> class : 93.47
+------------------------------
+<Accuracies on test> class : 44.67
+------------------------------
+<Accuracies on photo> test class : 46.65
+------------------------------
+<Accuracies on cartoon> test class : 56.40
+------------------------------
+<Accuracies on art_painting> test class : 29.64
+------------------------------
+Total epoch time: 107.388
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 6/50] 
+ {loss} cls : 0.046, fac : 0.413, total : 0.046 
+ {acc} cls : 98.44
+[31/110 iteration of epoch 6/50] 
+ {loss} cls : 0.034, fac : 0.414, total : 0.034 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 6/50] 
+ {loss} cls : 0.022, fac : 0.414, total : 0.022 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 6/50] 
+ {loss} cls : 0.030, fac : 0.414, total : 0.030 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.059, fac : 0.414, total : 0.059
+<Accuracies on train> cls : 97.94
+Train epoch time: 68.818
+------------------------------
+<Accuracies on val> class : 95.48
+------------------------------
+<Accuracies on test> class : 47.51
+------------------------------
+<Accuracies on photo> test class : 53.59
+------------------------------
+<Accuracies on cartoon> test class : 56.70
+------------------------------
+<Accuracies on art_painting> test class : 32.03
+------------------------------
+Total epoch time: 108.709
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 7/50] 
+ {loss} cls : 0.011, fac : 0.414, total : 0.011 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 7/50] 
+ {loss} cls : 0.114, fac : 0.413, total : 0.114 
+ {acc} cls : 96.88
+[61/110 iteration of epoch 7/50] 
+ {loss} cls : 0.050, fac : 0.413, total : 0.050 
+ {acc} cls : 98.44
+[91/110 iteration of epoch 7/50] 
+ {loss} cls : 0.038, fac : 0.413, total : 0.038 
+ {acc} cls : 98.44
+------------------------------
+<Losses on train> cls : 0.060, fac : 0.413, total : 0.060
+<Accuracies on train> cls : 97.77
+Train epoch time: 70.366
+------------------------------
+<Accuracies on val> class : 95.48
+------------------------------
+<Accuracies on test> class : 47.74
+------------------------------
+<Accuracies on photo> test class : 53.89
+------------------------------
+<Accuracies on cartoon> test class : 56.44
+------------------------------
+<Accuracies on art_painting> test class : 32.76
+------------------------------
+Total epoch time: 109.965
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 8/50] 
+ {loss} cls : 0.029, fac : 0.413, total : 0.029 
+ {acc} cls : 98.44
+[31/110 iteration of epoch 8/50] 
+ {loss} cls : 0.029, fac : 0.413, total : 0.029 
+ {acc} cls : 98.44
+[61/110 iteration of epoch 8/50] 
+ {loss} cls : 0.042, fac : 0.413, total : 0.042 
+ {acc} cls : 98.44
+[91/110 iteration of epoch 8/50] 
+ {loss} cls : 0.271, fac : 0.413, total : 0.271 
+ {acc} cls : 90.62
+------------------------------
+<Losses on train> cls : 0.046, fac : 0.413, total : 0.046
+<Accuracies on train> cls : 98.39
+Train epoch time: 69.929
+------------------------------
+<Accuracies on val> class : 94.97
+------------------------------
+<Accuracies on test> class : 42.87
+------------------------------
+<Accuracies on photo> test class : 42.93
+------------------------------
+<Accuracies on cartoon> test class : 56.36
+------------------------------
+<Accuracies on art_painting> test class : 27.39
+------------------------------
+Total epoch time: 108.750
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 9/50] 
+ {loss} cls : 0.024, fac : 0.413, total : 0.024 
+ {acc} cls : 98.44
+[31/110 iteration of epoch 9/50] 
+ {loss} cls : 0.011, fac : 0.413, total : 0.011 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 9/50] 
+ {loss} cls : 0.006, fac : 0.412, total : 0.006 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 9/50] 
+ {loss} cls : 0.064, fac : 0.413, total : 0.064 
+ {acc} cls : 96.88
+------------------------------
+<Losses on train> cls : 0.040, fac : 0.413, total : 0.040
+<Accuracies on train> cls : 98.58
+Train epoch time: 77.056
+------------------------------
+<Accuracies on val> class : 94.72
+------------------------------
+<Accuracies on test> class : 46.14
+------------------------------
+<Accuracies on photo> test class : 50.18
+------------------------------
+<Accuracies on cartoon> test class : 55.97
+------------------------------
+<Accuracies on art_painting> test class : 31.59
+------------------------------
+Total epoch time: 116.284
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 10/50] 
+ {loss} cls : 0.057, fac : 0.413, total : 0.057 
+ {acc} cls : 96.88
+[31/110 iteration of epoch 10/50] 
+ {loss} cls : 0.034, fac : 0.414, total : 0.034 
+ {acc} cls : 98.44
+[61/110 iteration of epoch 10/50] 
+ {loss} cls : 0.003, fac : 0.413, total : 0.003 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 10/50] 
+ {loss} cls : 0.007, fac : 0.413, total : 0.007 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.036, fac : 0.413, total : 0.036
+<Accuracies on train> cls : 98.68
+Train epoch time: 77.280
+------------------------------
+<Accuracies on val> class : 94.72
+------------------------------
+<Accuracies on test> class : 50.03
+------------------------------
+<Accuracies on photo> test class : 54.13
+------------------------------
+<Accuracies on cartoon> test class : 59.85
+------------------------------
+<Accuracies on art_painting> test class : 35.45
+------------------------------
+Total epoch time: 116.917
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 11/50] 
+ {loss} cls : 0.021, fac : 0.413, total : 0.021 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 11/50] 
+ {loss} cls : 0.029, fac : 0.412, total : 0.029 
+ {acc} cls : 98.44
+[61/110 iteration of epoch 11/50] 
+ {loss} cls : 0.044, fac : 0.413, total : 0.044 
+ {acc} cls : 98.44
+[91/110 iteration of epoch 11/50] 
+ {loss} cls : 0.001, fac : 0.414, total : 0.001 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.025, fac : 0.413, total : 0.025
+<Accuracies on train> cls : 99.18
+Train epoch time: 77.762
+------------------------------
+<Accuracies on val> class : 94.97
+------------------------------
+<Accuracies on test> class : 51.22
+------------------------------
+<Accuracies on photo> test class : 57.43
+------------------------------
+<Accuracies on cartoon> test class : 58.92
+------------------------------
+<Accuracies on art_painting> test class : 37.35
+------------------------------
+Total epoch time: 117.588
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 12/50] 
+ {loss} cls : 0.049, fac : 0.413, total : 0.049 
+ {acc} cls : 98.44
+[31/110 iteration of epoch 12/50] 
+ {loss} cls : 0.044, fac : 0.412, total : 0.044 
+ {acc} cls : 98.44
+[61/110 iteration of epoch 12/50] 
+ {loss} cls : 0.003, fac : 0.412, total : 0.003 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 12/50] 
+ {loss} cls : 0.027, fac : 0.413, total : 0.027 
+ {acc} cls : 98.44
+------------------------------
+<Losses on train> cls : 0.025, fac : 0.412, total : 0.025
+<Accuracies on train> cls : 99.12
+Train epoch time: 77.226
+------------------------------
+<Accuracies on val> class : 95.23
+------------------------------
+<Accuracies on test> class : 49.01
+------------------------------
+<Accuracies on photo> test class : 54.73
+------------------------------
+<Accuracies on cartoon> test class : 58.28
+------------------------------
+<Accuracies on art_painting> test class : 33.74
+------------------------------
+Total epoch time: 116.779
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 13/50] 
+ {loss} cls : 0.033, fac : 0.413, total : 0.033 
+ {acc} cls : 98.44
+[31/110 iteration of epoch 13/50] 
+ {loss} cls : 0.001, fac : 0.413, total : 0.001 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 13/50] 
+ {loss} cls : 0.002, fac : 0.412, total : 0.002 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 13/50] 
+ {loss} cls : 0.016, fac : 0.413, total : 0.016 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.020, fac : 0.412, total : 0.020
+<Accuracies on train> cls : 99.29
+Train epoch time: 74.834
+------------------------------
+<Accuracies on val> class : 92.96
+------------------------------
+<Accuracies on test> class : 53.25
+------------------------------
+<Accuracies on photo> test class : 56.83
+------------------------------
+<Accuracies on cartoon> test class : 60.84
+------------------------------
+<Accuracies on art_painting> test class : 41.65
+------------------------------
+Total epoch time: 114.536
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 14/50] 
+ {loss} cls : 0.022, fac : 0.413, total : 0.022 
+ {acc} cls : 98.44
+[31/110 iteration of epoch 14/50] 
+ {loss} cls : 0.007, fac : 0.412, total : 0.007 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 14/50] 
+ {loss} cls : 0.007, fac : 0.413, total : 0.007 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 14/50] 
+ {loss} cls : 0.005, fac : 0.412, total : 0.005 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.019, fac : 0.412, total : 0.019
+<Accuracies on train> cls : 99.38
+Train epoch time: 76.471
+------------------------------
+<Accuracies on val> class : 95.48
+------------------------------
+<Accuracies on test> class : 51.83
+------------------------------
+<Accuracies on photo> test class : 56.77
+------------------------------
+<Accuracies on cartoon> test class : 61.73
+------------------------------
+<Accuracies on art_painting> test class : 36.47
+------------------------------
+Total epoch time: 116.787
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 15/50] 
+ {loss} cls : 0.002, fac : 0.412, total : 0.002 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 15/50] 
+ {loss} cls : 0.018, fac : 0.413, total : 0.018 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 15/50] 
+ {loss} cls : 0.005, fac : 0.412, total : 0.005 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 15/50] 
+ {loss} cls : 0.008, fac : 0.412, total : 0.008 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.018, fac : 0.412, total : 0.018
+<Accuracies on train> cls : 99.50
+Train epoch time: 76.200
+------------------------------
+<Accuracies on val> class : 94.72
+------------------------------
+<Accuracies on test> class : 54.45
+------------------------------
+<Accuracies on photo> test class : 60.18
+------------------------------
+<Accuracies on cartoon> test class : 63.74
+------------------------------
+<Accuracies on art_painting> test class : 39.16
+------------------------------
+Total epoch time: 116.029
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 16/50] 
+ {loss} cls : 0.001, fac : 0.412, total : 0.001 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 16/50] 
+ {loss} cls : 0.004, fac : 0.412, total : 0.004 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 16/50] 
+ {loss} cls : 0.035, fac : 0.412, total : 0.035 
+ {acc} cls : 98.44
+[91/110 iteration of epoch 16/50] 
+ {loss} cls : 0.025, fac : 0.412, total : 0.025 
+ {acc} cls : 98.44
+------------------------------
+<Losses on train> cls : 0.017, fac : 0.412, total : 0.017
+<Accuracies on train> cls : 99.45
+Train epoch time: 77.596
+------------------------------
+<Accuracies on val> class : 94.97
+------------------------------
+<Accuracies on test> class : 55.00
+------------------------------
+<Accuracies on photo> test class : 61.92
+------------------------------
+<Accuracies on cartoon> test class : 61.69
+------------------------------
+<Accuracies on art_painting> test class : 41.70
+------------------------------
+Total epoch time: 116.786
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 17/50] 
+ {loss} cls : 0.207, fac : 0.412, total : 0.207 
+ {acc} cls : 92.19
+[31/110 iteration of epoch 17/50] 
+ {loss} cls : 0.047, fac : 0.413, total : 0.047 
+ {acc} cls : 96.88
+[61/110 iteration of epoch 17/50] 
+ {loss} cls : 0.006, fac : 0.412, total : 0.006 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 17/50] 
+ {loss} cls : 0.004, fac : 0.412, total : 0.004 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.026, fac : 0.412, total : 0.026
+<Accuracies on train> cls : 99.13
+Train epoch time: 76.090
+------------------------------
+<Accuracies on val> class : 96.23
+------------------------------
+<Accuracies on test> class : 54.78
+------------------------------
+<Accuracies on photo> test class : 59.52
+------------------------------
+<Accuracies on cartoon> test class : 64.89
+------------------------------
+<Accuracies on art_painting> test class : 39.36
+------------------------------
+Total epoch time: 116.362
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 18/50] 
+ {loss} cls : 0.004, fac : 0.412, total : 0.004 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 18/50] 
+ {loss} cls : 0.002, fac : 0.411, total : 0.002 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 18/50] 
+ {loss} cls : 0.012, fac : 0.413, total : 0.012 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 18/50] 
+ {loss} cls : 0.029, fac : 0.412, total : 0.029 
+ {acc} cls : 98.44
+------------------------------
+<Losses on train> cls : 0.015, fac : 0.412, total : 0.015
+<Accuracies on train> cls : 99.49
+Train epoch time: 76.091
+------------------------------
+<Accuracies on val> class : 94.72
+------------------------------
+<Accuracies on test> class : 54.09
+------------------------------
+<Accuracies on photo> test class : 60.36
+------------------------------
+<Accuracies on cartoon> test class : 61.82
+------------------------------
+<Accuracies on art_painting> test class : 40.14
+------------------------------
+Total epoch time: 115.643
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 19/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 19/50] 
+ {loss} cls : 0.008, fac : 0.411, total : 0.008 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 19/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 19/50] 
+ {loss} cls : 0.002, fac : 0.411, total : 0.002 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.013, fac : 0.412, total : 0.013
+<Accuracies on train> cls : 99.57
+Train epoch time: 78.766
+------------------------------
+<Accuracies on val> class : 95.73
+------------------------------
+<Accuracies on test> class : 55.79
+------------------------------
+<Accuracies on photo> test class : 62.81
+------------------------------
+<Accuracies on cartoon> test class : 63.74
+------------------------------
+<Accuracies on art_painting> test class : 40.97
+------------------------------
+Total epoch time: 118.292
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 20/50] 
+ {loss} cls : 0.001, fac : 0.412, total : 0.001 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 20/50] 
+ {loss} cls : 0.002, fac : 0.413, total : 0.002 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 20/50] 
+ {loss} cls : 0.016, fac : 0.412, total : 0.016 
+ {acc} cls : 98.44
+[91/110 iteration of epoch 20/50] 
+ {loss} cls : 0.091, fac : 0.411, total : 0.091 
+ {acc} cls : 98.44
+------------------------------
+<Losses on train> cls : 0.015, fac : 0.412, total : 0.015
+<Accuracies on train> cls : 99.59
+Train epoch time: 77.996
+------------------------------
+<Accuracies on val> class : 96.23
+------------------------------
+<Accuracies on test> class : 52.01
+------------------------------
+<Accuracies on photo> test class : 57.84
+------------------------------
+<Accuracies on cartoon> test class : 60.92
+------------------------------
+<Accuracies on art_painting> test class : 37.06
+------------------------------
+Total epoch time: 118.834
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 21/50] 
+ {loss} cls : 0.012, fac : 0.411, total : 0.012 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 21/50] 
+ {loss} cls : 0.002, fac : 0.411, total : 0.002 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 21/50] 
+ {loss} cls : 0.026, fac : 0.412, total : 0.026 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 21/50] 
+ {loss} cls : 0.014, fac : 0.412, total : 0.014 
+ {acc} cls : 98.44
+------------------------------
+<Losses on train> cls : 0.014, fac : 0.412, total : 0.014
+<Accuracies on train> cls : 99.50
+Train epoch time: 79.041
+------------------------------
+<Accuracies on val> class : 95.48
+------------------------------
+<Accuracies on test> class : 55.03
+------------------------------
+<Accuracies on photo> test class : 61.74
+------------------------------
+<Accuracies on cartoon> test class : 63.18
+------------------------------
+<Accuracies on art_painting> test class : 40.23
+------------------------------
+Total epoch time: 118.973
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 22/50] 
+ {loss} cls : 0.014, fac : 0.411, total : 0.014 
+ {acc} cls : 98.44
+[31/110 iteration of epoch 22/50] 
+ {loss} cls : 0.004, fac : 0.412, total : 0.004 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 22/50] 
+ {loss} cls : 0.007, fac : 0.412, total : 0.007 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 22/50] 
+ {loss} cls : 0.048, fac : 0.412, total : 0.048 
+ {acc} cls : 98.44
+------------------------------
+<Losses on train> cls : 0.010, fac : 0.412, total : 0.010
+<Accuracies on train> cls : 99.70
+Train epoch time: 79.832
+------------------------------
+<Accuracies on val> class : 95.73
+------------------------------
+<Accuracies on test> class : 55.56
+------------------------------
+<Accuracies on photo> test class : 62.93
+------------------------------
+<Accuracies on cartoon> test class : 63.35
+------------------------------
+<Accuracies on art_painting> test class : 40.62
+------------------------------
+Total epoch time: 119.392
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 23/50] 
+ {loss} cls : 0.042, fac : 0.413, total : 0.042 
+ {acc} cls : 98.44
+[31/110 iteration of epoch 23/50] 
+ {loss} cls : 0.015, fac : 0.411, total : 0.015 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 23/50] 
+ {loss} cls : 0.001, fac : 0.412, total : 0.001 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 23/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.010, fac : 0.412, total : 0.010
+<Accuracies on train> cls : 99.64
+Train epoch time: 80.907
+------------------------------
+<Accuracies on val> class : 94.47
+------------------------------
+<Accuracies on test> class : 56.50
+------------------------------
+<Accuracies on photo> test class : 66.11
+------------------------------
+<Accuracies on cartoon> test class : 62.63
+------------------------------
+<Accuracies on art_painting> test class : 41.65
+------------------------------
+Total epoch time: 120.233
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 24/50] 
+ {loss} cls : 0.002, fac : 0.412, total : 0.002 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 24/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 24/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 24/50] 
+ {loss} cls : 0.059, fac : 0.411, total : 0.059 
+ {acc} cls : 98.44
+------------------------------
+<Losses on train> cls : 0.007, fac : 0.412, total : 0.007
+<Accuracies on train> cls : 99.80
+Train epoch time: 79.102
+------------------------------
+<Accuracies on val> class : 96.23
+------------------------------
+<Accuracies on test> class : 55.91
+------------------------------
+<Accuracies on photo> test class : 62.63
+------------------------------
+<Accuracies on cartoon> test class : 63.23
+------------------------------
+<Accuracies on art_painting> test class : 42.04
+------------------------------
+Total epoch time: 119.781
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 25/50] 
+ {loss} cls : 0.041, fac : 0.412, total : 0.041 
+ {acc} cls : 98.44
+[31/110 iteration of epoch 25/50] 
+ {loss} cls : 0.001, fac : 0.412, total : 0.001 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 25/50] 
+ {loss} cls : 0.032, fac : 0.412, total : 0.032 
+ {acc} cls : 98.44
+[91/110 iteration of epoch 25/50] 
+ {loss} cls : 0.001, fac : 0.412, total : 0.001 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.011, fac : 0.412, total : 0.011
+<Accuracies on train> cls : 99.74
+Train epoch time: 80.640
+------------------------------
+<Accuracies on val> class : 96.23
+------------------------------
+<Accuracies on test> class : 57.03
+------------------------------
+<Accuracies on photo> test class : 63.11
+------------------------------
+<Accuracies on cartoon> test class : 63.14
+------------------------------
+<Accuracies on art_painting> test class : 45.07
+------------------------------
+Total epoch time: 121.677
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 26/50] 
+ {loss} cls : 0.013, fac : 0.412, total : 0.013 
+ {acc} cls : 98.44
+[31/110 iteration of epoch 26/50] 
+ {loss} cls : 0.002, fac : 0.412, total : 0.002 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 26/50] 
+ {loss} cls : 0.004, fac : 0.411, total : 0.004 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 26/50] 
+ {loss} cls : 0.002, fac : 0.411, total : 0.002 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.012, fac : 0.412, total : 0.012
+<Accuracies on train> cls : 99.69
+Train epoch time: 80.705
+------------------------------
+<Accuracies on val> class : 95.98
+------------------------------
+<Accuracies on test> class : 56.96
+------------------------------
+<Accuracies on photo> test class : 62.81
+------------------------------
+<Accuracies on cartoon> test class : 64.29
+------------------------------
+<Accuracies on art_painting> test class : 43.80
+------------------------------
+Total epoch time: 120.259
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 27/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 27/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 27/50] 
+ {loss} cls : 0.004, fac : 0.411, total : 0.004 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 27/50] 
+ {loss} cls : 0.003, fac : 0.411, total : 0.003 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.006, fac : 0.411, total : 0.006
+<Accuracies on train> cls : 99.86
+Train epoch time: 80.062
+------------------------------
+<Accuracies on val> class : 95.23
+------------------------------
+<Accuracies on test> class : 54.95
+------------------------------
+<Accuracies on photo> test class : 61.98
+------------------------------
+<Accuracies on cartoon> test class : 61.86
+------------------------------
+<Accuracies on art_painting> test class : 41.31
+------------------------------
+Total epoch time: 119.891
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 28/50] 
+ {loss} cls : 0.000, fac : 0.412, total : 0.000 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 28/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 28/50] 
+ {loss} cls : 0.012, fac : 0.411, total : 0.012 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 28/50] 
+ {loss} cls : 0.002, fac : 0.411, total : 0.002 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.006, fac : 0.411, total : 0.006
+<Accuracies on train> cls : 99.80
+Train epoch time: 80.395
+------------------------------
+<Accuracies on val> class : 95.48
+------------------------------
+<Accuracies on test> class : 57.92
+------------------------------
+<Accuracies on photo> test class : 64.01
+------------------------------
+<Accuracies on cartoon> test class : 64.38
+------------------------------
+<Accuracies on art_painting> test class : 45.56
+------------------------------
+Total epoch time: 120.385
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 29/50] 
+ {loss} cls : 0.002, fac : 0.411, total : 0.002 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 29/50] 
+ {loss} cls : 0.004, fac : 0.411, total : 0.004 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 29/50] 
+ {loss} cls : 0.002, fac : 0.411, total : 0.002 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 29/50] 
+ {loss} cls : 0.011, fac : 0.411, total : 0.011 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.008, fac : 0.411, total : 0.008
+<Accuracies on train> cls : 99.77
+Train epoch time: 80.016
+------------------------------
+<Accuracies on val> class : 95.48
+------------------------------
+<Accuracies on test> class : 50.58
+------------------------------
+<Accuracies on photo> test class : 55.33
+------------------------------
+<Accuracies on cartoon> test class : 60.24
+------------------------------
+<Accuracies on art_painting> test class : 35.64
+------------------------------
+Total epoch time: 119.822
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 30/50] 
+ {loss} cls : 0.002, fac : 0.412, total : 0.002 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 30/50] 
+ {loss} cls : 0.002, fac : 0.412, total : 0.002 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 30/50] 
+ {loss} cls : 0.016, fac : 0.412, total : 0.016 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 30/50] 
+ {loss} cls : 0.014, fac : 0.412, total : 0.014 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.009, fac : 0.411, total : 0.009
+<Accuracies on train> cls : 99.74
+Train epoch time: 80.282
+------------------------------
+<Accuracies on val> class : 95.23
+------------------------------
+<Accuracies on test> class : 53.66
+------------------------------
+<Accuracies on photo> test class : 58.26
+------------------------------
+<Accuracies on cartoon> test class : 62.29
+------------------------------
+<Accuracies on art_painting> test class : 40.04
+------------------------------
+Total epoch time: 119.910
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 31/50] 
+ {loss} cls : 0.003, fac : 0.411, total : 0.003 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 31/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 31/50] 
+ {loss} cls : 0.041, fac : 0.411, total : 0.041 
+ {acc} cls : 98.44
+[91/110 iteration of epoch 31/50] 
+ {loss} cls : 0.004, fac : 0.412, total : 0.004 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.007, fac : 0.411, total : 0.007
+<Accuracies on train> cls : 99.79
+Train epoch time: 79.854
+------------------------------
+<Accuracies on val> class : 95.23
+------------------------------
+<Accuracies on test> class : 58.58
+------------------------------
+<Accuracies on photo> test class : 66.71
+------------------------------
+<Accuracies on cartoon> test class : 65.44
+------------------------------
+<Accuracies on art_painting> test class : 44.09
+------------------------------
+Total epoch time: 119.894
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 32/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 32/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 32/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 32/50] 
+ {loss} cls : 0.002, fac : 0.411, total : 0.002 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.008, fac : 0.411, total : 0.008
+<Accuracies on train> cls : 99.82
+Train epoch time: 80.675
+------------------------------
+<Accuracies on val> class : 95.73
+------------------------------
+<Accuracies on test> class : 53.38
+------------------------------
+<Accuracies on photo> test class : 58.14
+------------------------------
+<Accuracies on cartoon> test class : 62.67
+------------------------------
+<Accuracies on art_painting> test class : 38.87
+------------------------------
+Total epoch time: 120.395
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 33/50] 
+ {loss} cls : 0.002, fac : 0.411, total : 0.002 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 33/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 33/50] 
+ {loss} cls : 0.033, fac : 0.411, total : 0.033 
+ {acc} cls : 98.44
+[91/110 iteration of epoch 33/50] 
+ {loss} cls : 0.003, fac : 0.411, total : 0.003 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.005, fac : 0.411, total : 0.005
+<Accuracies on train> cls : 99.86
+Train epoch time: 77.214
+------------------------------
+<Accuracies on val> class : 95.48
+------------------------------
+<Accuracies on test> class : 55.72
+------------------------------
+<Accuracies on photo> test class : 60.78
+------------------------------
+<Accuracies on cartoon> test class : 64.72
+------------------------------
+<Accuracies on art_painting> test class : 41.31
+------------------------------
+Total epoch time: 116.750
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 34/50] 
+ {loss} cls : 0.001, fac : 0.412, total : 0.001 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 34/50] 
+ {loss} cls : 0.003, fac : 0.411, total : 0.003 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 34/50] 
+ {loss} cls : 0.005, fac : 0.411, total : 0.005 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 34/50] 
+ {loss} cls : 0.003, fac : 0.412, total : 0.003 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.003, fac : 0.411, total : 0.003
+<Accuracies on train> cls : 99.91
+Train epoch time: 78.048
+------------------------------
+<Accuracies on val> class : 95.23
+------------------------------
+<Accuracies on test> class : 54.04
+------------------------------
+<Accuracies on photo> test class : 58.50
+------------------------------
+<Accuracies on cartoon> test class : 63.52
+------------------------------
+<Accuracies on art_painting> test class : 39.55
+------------------------------
+Total epoch time: 117.647
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 35/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 35/50] 
+ {loss} cls : 0.002, fac : 0.411, total : 0.002 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 35/50] 
+ {loss} cls : 0.010, fac : 0.411, total : 0.010 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 35/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.007, fac : 0.411, total : 0.007
+<Accuracies on train> cls : 99.77
+Train epoch time: 81.012
+------------------------------
+<Accuracies on val> class : 93.97
+------------------------------
+<Accuracies on test> class : 54.82
+------------------------------
+<Accuracies on photo> test class : 59.46
+------------------------------
+<Accuracies on cartoon> test class : 63.65
+------------------------------
+<Accuracies on art_painting> test class : 40.92
+------------------------------
+Total epoch time: 120.725
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 36/50] 
+ {loss} cls : 0.010, fac : 0.411, total : 0.010 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 36/50] 
+ {loss} cls : 0.003, fac : 0.411, total : 0.003 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 36/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 36/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.005, fac : 0.411, total : 0.005
+<Accuracies on train> cls : 99.84
+Train epoch time: 80.607
+------------------------------
+<Accuracies on val> class : 95.73
+------------------------------
+<Accuracies on test> class : 55.86
+------------------------------
+<Accuracies on photo> test class : 61.38
+------------------------------
+<Accuracies on cartoon> test class : 64.29
+------------------------------
+<Accuracies on art_painting> test class : 41.70
+------------------------------
+Total epoch time: 120.217
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 37/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 37/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 37/50] 
+ {loss} cls : 0.002, fac : 0.411, total : 0.002 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 37/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.004, fac : 0.411, total : 0.004
+<Accuracies on train> cls : 99.87
+Train epoch time: 77.727
+------------------------------
+<Accuracies on val> class : 95.23
+------------------------------
+<Accuracies on test> class : 55.92
+------------------------------
+<Accuracies on photo> test class : 61.08
+------------------------------
+<Accuracies on cartoon> test class : 65.36
+------------------------------
+<Accuracies on art_painting> test class : 40.92
+------------------------------
+Total epoch time: 120.515
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 38/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 38/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 38/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 38/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.004, fac : 0.411, total : 0.004
+<Accuracies on train> cls : 99.90
+Train epoch time: 81.783
+------------------------------
+<Accuracies on val> class : 94.47
+------------------------------
+<Accuracies on test> class : 54.77
+------------------------------
+<Accuracies on photo> test class : 59.88
+------------------------------
+<Accuracies on cartoon> test class : 64.33
+------------------------------
+<Accuracies on art_painting> test class : 39.65
+------------------------------
+Total epoch time: 121.125
+
+New epoch - lr: 0.001
+[1/110 iteration of epoch 39/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 39/50] 
+ {loss} cls : 0.007, fac : 0.411, total : 0.007 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 39/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 39/50] 
+ {loss} cls : 0.002, fac : 0.410, total : 0.002 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.004, fac : 0.411, total : 0.004
+<Accuracies on train> cls : 99.87
+Train epoch time: 73.071
+------------------------------
+<Accuracies on val> class : 96.23
+------------------------------
+<Accuracies on test> class : 55.38
+------------------------------
+<Accuracies on photo> test class : 61.14
+------------------------------
+<Accuracies on cartoon> test class : 63.01
+------------------------------
+<Accuracies on art_painting> test class : 41.94
+------------------------------
+Total epoch time: 113.509
+
+New epoch - lr: 0.0001
+[1/110 iteration of epoch 40/50] 
+ {loss} cls : 0.063, fac : 0.412, total : 0.063 
+ {acc} cls : 96.88
+[31/110 iteration of epoch 40/50] 
+ {loss} cls : 0.005, fac : 0.411, total : 0.005 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 40/50] 
+ {loss} cls : 0.002, fac : 0.411, total : 0.002 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 40/50] 
+ {loss} cls : 0.000, fac : 0.410, total : 0.000 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.006, fac : 0.411, total : 0.006
+<Accuracies on train> cls : 99.89
+Train epoch time: 72.347
+------------------------------
+<Accuracies on val> class : 95.48
+------------------------------
+<Accuracies on test> class : 54.27
+------------------------------
+<Accuracies on photo> test class : 59.16
+------------------------------
+<Accuracies on cartoon> test class : 64.04
+------------------------------
+<Accuracies on art_painting> test class : 39.11
+------------------------------
+Total epoch time: 111.419
+
+New epoch - lr: 0.0001
+[1/110 iteration of epoch 41/50] 
+ {loss} cls : 0.019, fac : 0.412, total : 0.019 
+ {acc} cls : 98.44
+[31/110 iteration of epoch 41/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 41/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 41/50] 
+ {loss} cls : 0.000, fac : 0.410, total : 0.000 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.005, fac : 0.411, total : 0.005
+<Accuracies on train> cls : 99.84
+Train epoch time: 76.433
+------------------------------
+<Accuracies on val> class : 95.23
+------------------------------
+<Accuracies on test> class : 55.41
+------------------------------
+<Accuracies on photo> test class : 60.30
+------------------------------
+<Accuracies on cartoon> test class : 64.63
+------------------------------
+<Accuracies on art_painting> test class : 40.87
+------------------------------
+Total epoch time: 115.573
+
+New epoch - lr: 0.0001
+[1/110 iteration of epoch 42/50] 
+ {loss} cls : 0.003, fac : 0.411, total : 0.003 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 42/50] 
+ {loss} cls : 0.003, fac : 0.411, total : 0.003 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 42/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 42/50] 
+ {loss} cls : 0.001, fac : 0.412, total : 0.001 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.004, fac : 0.411, total : 0.004
+<Accuracies on train> cls : 99.90
+Train epoch time: 72.532
+------------------------------
+<Accuracies on val> class : 94.72
+------------------------------
+<Accuracies on test> class : 55.84
+------------------------------
+<Accuracies on photo> test class : 61.44
+------------------------------
+<Accuracies on cartoon> test class : 64.33
+------------------------------
+<Accuracies on art_painting> test class : 41.55
+------------------------------
+Total epoch time: 111.917
+
+New epoch - lr: 0.0001
+[1/110 iteration of epoch 43/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 43/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 43/50] 
+ {loss} cls : 0.011, fac : 0.412, total : 0.011 
+ {acc} cls : 98.44
+[91/110 iteration of epoch 43/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.004, fac : 0.411, total : 0.004
+<Accuracies on train> cls : 99.93
+Train epoch time: 73.652
+------------------------------
+<Accuracies on val> class : 95.73
+------------------------------
+<Accuracies on test> class : 56.93
+------------------------------
+<Accuracies on photo> test class : 61.80
+------------------------------
+<Accuracies on cartoon> test class : 65.61
+------------------------------
+<Accuracies on art_painting> test class : 43.02
+------------------------------
+Total epoch time: 112.907
+
+New epoch - lr: 0.0001
+[1/110 iteration of epoch 44/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 44/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 44/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 44/50] 
+ {loss} cls : 0.002, fac : 0.410, total : 0.002 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.003, fac : 0.411, total : 0.003
+<Accuracies on train> cls : 99.91
+Train epoch time: 72.718
+------------------------------
+<Accuracies on val> class : 95.98
+------------------------------
+<Accuracies on test> class : 55.99
+------------------------------
+<Accuracies on photo> test class : 61.14
+------------------------------
+<Accuracies on cartoon> test class : 64.68
+------------------------------
+<Accuracies on art_painting> test class : 41.85
+------------------------------
+Total epoch time: 112.149
+
+New epoch - lr: 0.0001
+[1/110 iteration of epoch 45/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 45/50] 
+ {loss} cls : 0.002, fac : 0.410, total : 0.002 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 45/50] 
+ {loss} cls : 0.004, fac : 0.411, total : 0.004 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 45/50] 
+ {loss} cls : 0.000, fac : 0.410, total : 0.000 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.003, fac : 0.411, total : 0.003
+<Accuracies on train> cls : 99.94
+Train epoch time: 68.350
+------------------------------
+<Accuracies on val> class : 94.97
+------------------------------
+<Accuracies on test> class : 57.09
+------------------------------
+<Accuracies on photo> test class : 62.81
+------------------------------
+<Accuracies on cartoon> test class : 64.97
+------------------------------
+<Accuracies on art_painting> test class : 43.41
+------------------------------
+Total epoch time: 107.021
+
+New epoch - lr: 0.0001
+[1/110 iteration of epoch 46/50] 
+ {loss} cls : 0.005, fac : 0.411, total : 0.005 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 46/50] 
+ {loss} cls : 0.004, fac : 0.412, total : 0.004 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 46/50] 
+ {loss} cls : 0.004, fac : 0.412, total : 0.004 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 46/50] 
+ {loss} cls : 0.039, fac : 0.411, total : 0.039 
+ {acc} cls : 98.44
+------------------------------
+<Losses on train> cls : 0.005, fac : 0.411, total : 0.005
+<Accuracies on train> cls : 99.86
+Train epoch time: 67.092
+------------------------------
+<Accuracies on val> class : 95.98
+------------------------------
+<Accuracies on test> class : 57.24
+------------------------------
+<Accuracies on photo> test class : 62.04
+------------------------------
+<Accuracies on cartoon> test class : 65.36
+------------------------------
+<Accuracies on art_painting> test class : 44.04
+------------------------------
+Total epoch time: 105.795
+
+New epoch - lr: 0.0001
+[1/110 iteration of epoch 47/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 47/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 47/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 47/50] 
+ {loss} cls : 0.000, fac : 0.412, total : 0.000 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.003, fac : 0.411, total : 0.003
+<Accuracies on train> cls : 99.94
+Train epoch time: 66.744
+------------------------------
+<Accuracies on val> class : 95.23
+------------------------------
+<Accuracies on test> class : 57.82
+------------------------------
+<Accuracies on photo> test class : 64.43
+------------------------------
+<Accuracies on cartoon> test class : 65.32
+------------------------------
+<Accuracies on art_painting> test class : 43.85
+------------------------------
+Total epoch time: 105.661
+
+New epoch - lr: 0.0001
+[1/110 iteration of epoch 48/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[31/110 iteration of epoch 48/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 48/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 48/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.003, fac : 0.411, total : 0.003
+<Accuracies on train> cls : 99.91
+Train epoch time: 69.451
+------------------------------
+<Accuracies on val> class : 95.48
+------------------------------
+<Accuracies on test> class : 58.30
+------------------------------
+<Accuracies on photo> test class : 64.49
+------------------------------
+<Accuracies on cartoon> test class : 65.74
+------------------------------
+<Accuracies on art_painting> test class : 44.73
+------------------------------
+Total epoch time: 108.176
+
+New epoch - lr: 0.0001
+[1/110 iteration of epoch 49/50] 
+ {loss} cls : 0.042, fac : 0.413, total : 0.042 
+ {acc} cls : 98.44
+[31/110 iteration of epoch 49/50] 
+ {loss} cls : 0.001, fac : 0.410, total : 0.001 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 49/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 49/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.003, fac : 0.411, total : 0.003
+<Accuracies on train> cls : 99.93
+Train epoch time: 66.960
+------------------------------
+<Accuracies on val> class : 95.73
+------------------------------
+<Accuracies on test> class : 57.47
+------------------------------
+<Accuracies on photo> test class : 63.47
+------------------------------
+<Accuracies on cartoon> test class : 65.49
+------------------------------
+<Accuracies on art_painting> test class : 43.41
+------------------------------
+Total epoch time: 105.631
+
+New epoch - lr: 0.0001
+[1/110 iteration of epoch 50/50] 
+ {loss} cls : 0.022, fac : 0.412, total : 0.022 
+ {acc} cls : 98.44
+[31/110 iteration of epoch 50/50] 
+ {loss} cls : 0.001, fac : 0.411, total : 0.001 
+ {acc} cls : 100.00
+[61/110 iteration of epoch 50/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+[91/110 iteration of epoch 50/50] 
+ {loss} cls : 0.000, fac : 0.411, total : 0.000 
+ {acc} cls : 100.00
+------------------------------
+<Losses on train> cls : 0.003, fac : 0.411, total : 0.003
+<Accuracies on train> cls : 99.93
+Train epoch time: 67.439
+------------------------------
+<Accuracies on val> class : 95.98
+------------------------------
+<Accuracies on test> class : 56.52
+------------------------------
+<Accuracies on photo> test class : 62.40
+------------------------------
+<Accuracies on cartoon> test class : 65.23
+------------------------------
+<Accuracies on art_painting> test class : 41.75
+------------------------------
+Total epoch time: 106.295
+
+******************************
+Best val 0.962312, corresponding test 0.553778 - best test: 0.58578
+
+******************************
+Best val 0.9623115658760071, corresponding photo test 0.6113772392272949
+
+******************************
+Best val 0.9623115658760071, corresponding cartoon test 0.6301194429397583
+
+******************************
+Best val 0.9623115658760071, corresponding art_painting test 0.41943359375

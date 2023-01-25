@@ -1,0 +1,28 @@
+
+Loading experiment Officehome/ResNet18
+
+Fetching 19 files:   0%|          | 0/19 [00:00<?, ?it/s]Fetching 19 files: 100%|██████████| 19/19 [00:00<00:00, 2813.38it/s]
+{'trained_betas'} was not found in config. Values will be initialized to default values.
+Traceback (most recent call last):
+  File "intervention.py", line 707, in <module>
+    main()
+  File "intervention.py", line 703, in main
+    handler.imagenet9_intervene_sd_inpaint()
+  File "intervention.py", line 502, in imagenet9_intervene_sd_inpaint
+    ).to('cuda')
+  File "/homes/55/jianhaoy/anaconda3/envs/eki/lib/python3.7/site-packages/diffusers/pipeline_utils.py", line 168, in to
+    module.to(torch_device)
+  File "/homes/55/jianhaoy/anaconda3/envs/eki/lib/python3.7/site-packages/torch/nn/modules/module.py", line 852, in to
+    return self._apply(convert)
+  File "/homes/55/jianhaoy/anaconda3/envs/eki/lib/python3.7/site-packages/torch/nn/modules/module.py", line 530, in _apply
+    module._apply(fn)
+  File "/homes/55/jianhaoy/anaconda3/envs/eki/lib/python3.7/site-packages/torch/nn/modules/module.py", line 530, in _apply
+    module._apply(fn)
+  File "/homes/55/jianhaoy/anaconda3/envs/eki/lib/python3.7/site-packages/torch/nn/modules/module.py", line 530, in _apply
+    module._apply(fn)
+  [Previous line repeated 2 more times]
+  File "/homes/55/jianhaoy/anaconda3/envs/eki/lib/python3.7/site-packages/torch/nn/modules/module.py", line 552, in _apply
+    param_applied = fn(param)
+  File "/homes/55/jianhaoy/anaconda3/envs/eki/lib/python3.7/site-packages/torch/nn/modules/module.py", line 850, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 15.78 GiB total capacity; 2.75 GiB already allocated; 8.69 MiB free; 2.82 GiB reserved in total by PyTorch)

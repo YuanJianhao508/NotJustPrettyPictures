@@ -1,0 +1,41 @@
+
+Loading experiment Officehome/ResNet18_step
+
+
+New epoch - lr: 0.003
+[1/31 iteration of epoch 1/50] 
+ {loss} cls : 4.327, total : 4.327 
+ {acc} cls : 2.34
+[31/31 iteration of epoch 1/50] 
+ {loss} cls : 0.944, total : 0.944 
+ {acc} cls : 73.44
+------------------------------
+<Losses on train> cls : 2.208, total : 2.208
+<Accuracies on train> cls : 50.91
+Train epoch time: 77.207
+------------------------------
+<Accuracies on val> class : 75.62
+------------------------------
+<Accuracies on test> class : 44.23
+------------------------------
+<Accuracies on Art> test class : 36.42
+------------------------------
+<Accuracies on Clipart> test class : 33.49
+------------------------------
+<Accuracies on Real_World> test class : 59.33
+------------------------------
+Total epoch time: 307.948
+
+New epoch - lr: 0.003
+[1/31 iteration of epoch 2/50] 
+ {loss} cls : 0.719, total : 0.719 
+ {acc} cls : 85.16
+[31/31 iteration of epoch 2/50] 
+ {loss} cls : 0.497, total : 0.497 
+ {acc} cls : 83.59
+------------------------------
+<Losses on train> cls : 0.610, total : 0.610
+<Accuracies on train> cls : 84.10
+Train epoch time: 24.498
+------------------------------
+<Accuracies on val> class : 83.07
