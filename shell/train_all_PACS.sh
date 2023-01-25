@@ -1,32 +1,9 @@
-
-# algorithms="OURS ERM AugMix RandAugment CutOut MixUp CutMix RSC MEADA ACVC PixMix"
-# algorithms="AugMix RandAugment CutOut MixUp CutMix RSC"
-algorithms="ACVC L2D"
-# algorithms="ERM OURS AugMix RandAugment CutOut MixUp CutMix RSC MEADA ACVC PixMix L2D"
-# trails="Contrastive/handcrafted/1 Contrastive/handcrafted/2 Contrastive/handcrafted/3 Contrastive/handcrafted/4 Contrastive/handcrafted/5"
-# trails="E30_PRET_CE1 E30_PRET_CE2 E30_PRET_CE3 E30_PRET_CE4 E30_PRET_CE5"
+algorithms="ERM OURS"
 trails="Rebuttal"
 loss="ce"
 
 # For dumb Stable Diffusion
-# linkpath="/homes/55/jianhaoy/projects/EKI/link/pacs/pacs_sd_dumb_link.json"
-
-# For auto-prompt moderate
-# linkpath="/homes/55/jianhaoy/projects/EKI/link/pacs/pacs_sd_autoprompt_link.json"
-
-# For auto-prompt conservative
-# linkpath="/homes/55/jianhaoy/projects/EKI/link/pacs/pacs_sd_conservative_autoprompt_link.json"
-
-# For dumb VQGAN_CLIP
-# linkpath="/homes/55/jianhaoy/projects/EKI/link/pacs/pacs_vc_dumb_link.json"
-
-# For hand-crafted SD
-linkpath="/homes/55/jianhaoy/projects/EKI/link/pacs/pacs_sd_engi_link.json"
-
-# For text inversion
-# linkpath="/homes/55/jianhaoy/projects/EKI/link/pacs/pacs_sd_text_inv_8_link.json"
-
-
+linkpath="/homes/55/jianhaoy/projects/NJP/link/pacs_sd_dumb_link.json"
 
 for algo in $algorithms; do
     for out in $trails; do

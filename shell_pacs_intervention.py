@@ -22,14 +22,7 @@ input_dir = '/datasets/jianhaoy/PACSC/updated_label_files'
 
 output_dir = '/datasets/jianhaoy/PACS_SD/adaptation_noclass'
 
-config = "PACS/ResNet18"
-
-# source = ['Art','Clipart','Product','Real_World']
-
-# input_dir = '/datasets/jianhaoy/officehome/OfficeHome/data_labels'
-# output_dir = '/datasets/jianhaoy/officehome/augmented_images'
-
-# config = "Officehome/ResNet18"
+config = "PACS/ResNet50"
 
 workeri = args.workeri
 

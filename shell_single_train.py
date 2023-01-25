@@ -23,12 +23,10 @@ source.remove(target)
 algo = args.algo
 
 input_dir = '/datasets/jianhaoy/PACSC/updated_label_files'
-# output_dir = f'/datasets/jianhaoy/Gen_PACS/{algo}'
 output_dir = f'/datasets/jianhaoy/PACS_TEST/{algo}'
 
 
-# config = "PACS/ResNet18_step"
-config = "PACS/ResNet50"
+config = "PACS/ResNet18_step"
 
 domain_name = target
 test_domain = args.test_domain
@@ -42,7 +40,7 @@ link_dict = args.link_path
 
 for i in range(args.times):
     os.system(f'CUDA_VISIBLE_DEVICES={args.gpu} '
-              f'python aug_single_{algo}.py '
+              f'python ./algos/aug_single_{algo}.py '
               f'--source {source[0]} {source[1]} {source[2]} '
               f'--target {target} '
               f'--input_dir {input_dir} '

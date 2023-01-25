@@ -348,7 +348,7 @@
 # nohup python -u shell_officehome_intervention.py -g=3 -wi=2 > ./link/officehome_log/Product_1.out & 
 # nohup python -u shell_officehome_intervention.py -g=4 -wi=3 > ./link/officehome_log/Real_World_1.out & 
 
-python -u shell_pacs_intervention.py -g=4 -wi=0 > ./link/log/get_pair.out
+python -u shell_pacs_intervention.py -g=0 -wi=1
 # nohup python -u shell_pacs_intervention.py -g=1 -wi=1 > ./link/log/photo_4.out & 
 # nohup python -u shell_pacs_intervention.py -g=2 -wi=2 > ./link/log/cartoon_4.out & 
 # nohup python -u shell_pacs_intervention.py -g=0 -wi=3 > ./link/log/sketch_4.out & 
