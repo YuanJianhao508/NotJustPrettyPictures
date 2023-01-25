@@ -17,10 +17,8 @@ source = ["art_painting","photo", "cartoon","sketch"]
 target = args.domain
 
 input_dir = '/datasets/jianhaoy/PACSC/updated_label_files'
-# output_dir = '/datasets/jianhaoy/PACS_SD/dumb'
-# output_dir = '/datasets/jianhaoy/PACS_SD/auto_prompt'
+output_dir = '/datasets/jianhaoy/PACS_SD/dumb'
 
-output_dir = '/datasets/jianhaoy/PACS_SD/adaptation_noclass'
 
 config = "PACS/ResNet50"
 

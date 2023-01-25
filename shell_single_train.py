@@ -40,7 +40,7 @@ link_dict = args.link_path
 
 for i in range(args.times):
     os.system(f'CUDA_VISIBLE_DEVICES={args.gpu} '
-              f'python ./algos/aug_single_{algo}.py '
+              f'python aug_single_{algo}.py '
               f'--source {source[0]} {source[1]} {source[2]} '
               f'--target {target} '
               f'--input_dir {input_dir} '
