@@ -59,4 +59,6 @@
    python ./read_log/read_log.py
    ```
 
-   
+
+#### Acknowledgement
+This repo is adapted from https://github.com/BIT-DA/CIRL. We thanks them for their excellent project!
