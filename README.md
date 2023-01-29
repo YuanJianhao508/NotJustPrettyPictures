@@ -33,9 +33,9 @@ Google colab: https://drive.google.com/file/d/17595l3D_882SZUzxONYpigY_EwGwjfMe/
 
      
 
-3. Pre-generate intervention data or use generated augmented images available in the link: (xxx).
+3. Pre-generate intervention data.
 
-   To generate data locally, please set up stable diffusion following this link: ()
+   To generate data locally, please set up Huggingface stable diffusion following this link: (https://huggingface.co/spaces/stabilityai/stable-diffusion)
 
    Please specify the output_dir in shell_pacs_intervention.py and run: 
 
