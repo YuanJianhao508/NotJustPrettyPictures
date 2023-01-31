@@ -2,8 +2,9 @@
 ## Not Just Pretty Pictures: Text-to-Image Generators Enable Interpretable Interventions for Robust Representations:
 
 #### Demo for Visualisation of Different Data Augmentation techniques: 
+Notebook: ./Demo/NotJustPrettyPicturesDemo.ipynb
 Google colab: https://drive.google.com/file/d/17595l3D_882SZUzxONYpigY_EwGwjfMe/view?usp=sharing
-##### Examples (for more samples see the notebook above or in ./Demo folder):
+##### Examples (for more samples see the notebook or samples in ./Demo folder):
 ![avatar](./Demo/Visualisation_Dog.png)
 
 #### Usage:
