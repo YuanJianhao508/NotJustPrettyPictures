@@ -3,7 +3,7 @@
 
 #### Demo for Visualisation of Different Data Augmentation techniques: 
 Google colab: https://drive.google.com/file/d/17595l3D_882SZUzxONYpigY_EwGwjfMe/view?usp=sharing
-##### Example:
+##### Example (for more samples see the notebook above):
 ![avatar](./Demo/Visualisation.png)
 
 #### Usage:
@@ -45,6 +45,11 @@ Google colab: https://drive.google.com/file/d/17595l3D_882SZUzxONYpigY_EwGwjfMe/
    bash intervene.sh
    ```
 
+   Make a json file link original image and augment images with 
+
+   ```
+   python ./script/combine_linkdict.py
+   ```
 
 
 4. Run Training:

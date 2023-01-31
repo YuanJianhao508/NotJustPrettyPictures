@@ -5,7 +5,7 @@ def mkdir(path):
 	if not folder:             
 		os.makedirs(path)           
 
-base_dirs = [f'/homes/55/jianhaoy/projects/NJP/results/Trail{i}' for i in [1]]
+base_dirs = [f'./results/Trail{i}' for i in [1]]
 algo_lis = ['OURS','ERM']
 
 for base_dir in base_dirs:

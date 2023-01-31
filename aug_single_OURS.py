@@ -12,7 +12,6 @@ from optimizer.optimizer_helper import get_optim_and_scheduler
 from data import *
 from utils.Logger import Logger
 from utils.tools import *
-from models.classifier import Masker
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -90,7 +89,6 @@ class Trainer:
             num_samples_dict = {}
             total_loss = 0.0
 
-            ## --------------------------step 1 : update G and C -----------------------------------
             features = self.encoder(batch)
             scores = self.classifier(features)
 
@@ -100,32 +98,7 @@ class Trainer:
             num_samples_dict["cls"] = int(scores.size(0))
 
 
-            if self.args.ifcons == "ceclip":
-                assert batch.size(0) % 2 == 0
-                split_idx = int(batch.size(0) / 2)
-                features_ori, features_aug = torch.split(features, split_idx)
-                assert features_ori.size(0) == features_aug.size(0)
-                # factorization loss for features between ori and aug
-                loss_fac = clip_loss_v2(features_ori,features_aug,self.device)
-                loss_dict["fac"] = loss_fac.item()
-
-                # calculate total loss
-                total_loss = loss_cls + loss_fac
-
-            elif self.args.ifcons == "cel2":
-                assert batch.size(0) % 2 == 0
-                split_idx = int(batch.size(0) / 2)
-                features_ori, features_aug = torch.split(features, split_idx)
-                assert features_ori.size(0) == features_aug.size(0)
-                # factorization loss for features between ori and aug
-                loss_fac = l2_loss(features_ori,features_aug)
-                loss_dict["fac"] = loss_fac.item()
-
-                # calculate total loss
-                total_loss = loss_cls + loss_fac
-                
-            elif self.args.ifcons == 'ce':
-                total_loss = loss_cls
+            total_loss = loss_cls
 
 
             loss_dict["total"] = total_loss.item()
