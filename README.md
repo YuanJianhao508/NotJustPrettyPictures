@@ -22,7 +22,7 @@ Google colab: https://drive.google.com/file/d/17595l3D_882SZUzxONYpigY_EwGwjfMe/
 
   2. Download Dataset
 
-     Please download the PACS dataset from http://www.eecs.qmul.ac.uk/~dl307/project_iccv2017. Then update metadata in the following format (see data/data_lists):
+     Please download the PACS dataset from http://www.eecs.qmul.ac.uk/~dl307/project_iccv2017 or https://pan.baidu.com/s/1KxMA6SiQX1jdRxwkeKMqOw. Then update metadata in the following format (see data/data_lists):
 
      ```
      /home/user/data/images/PACS/kfold/art_painting/dog/pic_001.jpg 0
