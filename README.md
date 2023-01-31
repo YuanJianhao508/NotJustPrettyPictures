@@ -4,7 +4,7 @@
 #### Demo for Visualisation of Different Data Augmentation techniques: 
 Google colab: https://drive.google.com/file/d/17595l3D_882SZUzxONYpigY_EwGwjfMe/view?usp=sharing
 ##### Example (for more samples see the notebook above or in ./Demo folder):
-![avatar](./Demo/Visualisation.png)
+![avatar](./Demo/Visualisation_dog.png)
 
 #### Usage:
 
