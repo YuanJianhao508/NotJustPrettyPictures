@@ -13,6 +13,6 @@ L2D & $80.06$ & $23.55$ & $62.12$ \\
 OURS(SD_I2I_h) & $85.94$ & $31.48$ & $55.46$  \\
 OURS(SD_T2I_h) & $86.44$ & $35.23$ & $51.21$  \\
 OURS(SD_ControlNet_h) & $84.13$ & $21.88$ & $62.58$  \\
-OURS(InstructPix2Pix_instruct) & $79.75$ & $26.17$ & $5.08$  \\
+OURS(InstructPix2Pix_instruct) & $79.75$ & $26.17$ & $53.58$  \\
 OURS(Ret_T_h) & $85.85$ & $33.91$ & $53.58$  \\
 '''

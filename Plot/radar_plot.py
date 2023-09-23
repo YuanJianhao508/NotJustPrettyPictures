@@ -92,9 +92,6 @@ def plot_radar_sbs(data_dict1, data_dict2, save_path="sample.png"):
         normalized_data2[algo] = {label: (values[label] - mins[label]) / (maxs[label] - mins[label]) for label in labels
                                   if label in values}
 
-    # Set figure and axis with increased space between subplots
-    # fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, 8), subplot_kw=dict(polar=True))
-
     # Create a GridSpec object
     gs = gridspec.GridSpec(1, 2, width_ratios=[1, 1], wspace=0.6)  # Adjust width_ratios and wspace as needed
 
@@ -117,13 +114,13 @@ def plot_radar_sbs(data_dict1, data_dict2, save_path="sample.png"):
 
             # Highlight OURS methods with solid lines and others with dashed lines
             if "OURS" in algo:
-                ax.plot(angles, values_list, marker='o',
+                ax.plot(angles, values_list, marker='^', markersize=10,
                         label=f"{algo}{padding_spaces} - {data_dict[algo]['Average']:.2f}%", color=color, linewidth=2,
-                        alpha=0.8)
+                        alpha=0.4)
             else:
                 ax.plot(angles, values_list, marker='o',
                         label=f"{algo}{padding_spaces} - {data_dict[algo]['Average']:.2f}%", color=color,
-                        linestyle='--', alpha=0.6)
+                        linestyle='--', alpha=0.4)
 
             # Fix axis to go in the right order and start at 12 o'clock.
             ax.set_theta_offset(np.pi / 2)
