@@ -1,6 +1,5 @@
-# NotJustPrettyPictures
-## Not Just Pretty Pictures: Text-to-Image Generators Enable Interpretable Interventions for Robust Representations:
-
+## Not Just Pretty Pictures: Toward Interventional Data Augmentation Using Text-to-Image Generators
+[PDF](https://arxiv.org/abs/2212.11237) [Project Page](https://torrvision.com/njpp/)
 #### Demo for Visualisation of Different Data Augmentation techniques: 
 Notebook: ./Demo/NotJustPrettyPicturesDemo.ipynb
 (Download and upload to Google Colab)
