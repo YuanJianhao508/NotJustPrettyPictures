@@ -78,8 +78,8 @@ class Trainer:
             # preprocessing
             batch = torch.cat(batch, dim=0).to(self.device)
             labels = torch.cat(label, dim=0).to(self.device)
-            # if self.args.target in pacs_dataset:
-            #     labels -= 1
+            if self.args.target in pacs_dataset:
+                labels -= 1
 
             # generate mixed sample
             lam = np.random.beta(self.alpha, self.alpha)
@@ -172,8 +172,8 @@ class Trainer:
         correct = 0
         for it, (batch, domain) in enumerate(loader):
             data, labels, domains = batch[0].to(self.device), batch[1].to(self.device), domain.to(self.device)
-            # if self.args.target in pacs_dataset:
-            #     labels -= 1
+            if self.args.target in pacs_dataset:
+                labels -= 1
             features = self.encoder(data)
             scores = self.classifier(features)
             correct += calculate_correct(scores, labels)

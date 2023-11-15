@@ -76,8 +76,8 @@ class Trainer:
             # preprocessing
             batch = torch.cat(batch, dim=0).to(self.device)
             labels = torch.cat(label, dim=0).to(self.device)
-            # if self.args.target in pacs_dataset:
-            #     labels -= 1
+            if self.args.target in pacs_dataset:
+                labels -= 1
             # zero grad
             self.encoder_optim.zero_grad()
             self.classifier_optim.zero_grad()
@@ -167,8 +167,8 @@ class Trainer:
         correct = 0
         for it, (batch, domain) in enumerate(loader):
             data, labels, domains = batch[0].to(self.device), batch[1].to(self.device), domain.to(self.device)
-            # if self.args.target in pacs_dataset:
-            #     labels -= 1
+            if self.args.target in pacs_dataset:
+                labels -= 1
             features = self.encoder(data)
             #Add
             scores = self.classifier(features)

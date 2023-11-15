@@ -58,7 +58,6 @@ class Trainer:
 
         # dataloaders
         self.train_loader = get_single_pixmix_train_dataloader(args=self.args, config=self.config)
-        # self.train_loader = get_fourier_train_dataloader(args=self.args, config=self.config)
         self.val_loader = get_single_val_dataloader(args=self.args, config=self.config)
         self.test_loader = get_single_test_loader(args=self.args, config=self.config)
         self.eval_loader = {'val': self.val_loader, 'test': self.test_loader}

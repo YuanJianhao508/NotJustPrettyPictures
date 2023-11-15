@@ -36,39 +36,6 @@ class DGDataset(Dataset):
         label = self.labels[index]
         return img, label
 
-class TestAdaptationDataset(Dataset):
-    def __init__(self, args, names, labels, transformer=None):
-        self.args = args
-        self.names = names
-        self.labels = labels
-        self.transformer = transformer
-        link_dict = '/homes/55/jianhaoy/projects/EKI/link/pacs/pacs_dumb_adaptation_noclass_link.json'
-        self.link_dict = json.load(open(link_dict))
-        self.target = self.args.target
-
-    def __len__(self):
-        return len(self.names)
-
-    def __getitem__(self, index):
-        img_name = self.names[index]
-        img_name = os.path.join(self.args.input_dir, img_name)
-        img_aug_name = self.link_dict[img_name][self.target]
-
-        img = Image.open(img_aug_name).convert('RGB')
-        if self.transformer is not None:
-            img = self.transformer(img)
-        label = self.labels[index]
-        return img, label
-
-def get_testadap_dataset(args, path, train=False, image_size=224, crop=False, jitter=0, config=None):
-    names, labels = dataset_info(path)
-    if config:
-        image_size = config["image_size"]
-        crop = config["use_crop"]
-        jitter = config["jitter"]
-    img_transform = get_img_transform(train, image_size, crop, jitter)
-    return TestAdaptationDataset(args, names, labels, img_transform)
-
 
 class FourierDGDataset(Dataset):
     def __init__(self, args, names, labels, transformer=None, from_domain=None, alpha=1.0):
@@ -1048,7 +1015,7 @@ class PixMixDGDataset(Dataset):
         assert len(self.flat_names) == len(self.flat_labels)
         assert len(self.flat_names) == len(self.flat_domains)
 
-        self.mixing_name_list = self.get_mixing_name_list('/datasets/jianhaoy/fractals_and_fvis/fractals/images')
+        self.mixing_name_list = self.get_mixing_name_list('/path/to/fractals_and_fvis/fractals/images')
 
     def __len__(self):
         return len(self.flat_names)

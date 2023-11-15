@@ -58,14 +58,12 @@ class Trainer:
 
         # dataloaders
         self.train_loader = get_single_augmix_train_dataloader(args=self.args, config=self.config)
-        # self.train_loader = get_fourier_train_dataloader(args=self.args, config=self.config)
         self.val_loader = get_single_val_dataloader(args=self.args, config=self.config)
         self.test_loader = get_single_test_loader(args=self.args, config=self.config)
         self.eval_loader = {'val': self.val_loader, 'test': self.test_loader}
         self.separate_test_loader = get_separate_test_loader(args=self.args, config=self.config)
         
-        # for test_domain, loader in self.separate_test_loader.items():
-        #     print(test_domain,len(loader))
+
 
     def _do_epoch(self):
         criterion = nn.CrossEntropyLoss()
@@ -179,8 +177,8 @@ class Trainer:
         correct = 0
         for it, (batch, domain) in enumerate(loader):
             data, labels, domains = batch[0].to(self.device), batch[1].to(self.device), domain.to(self.device)
-            # if self.args.target in pacs_dataset:
-            #     labels -= 1
+            if self.args.target in pacs_dataset:
+                labels -= 1
             features = self.encoder(data)
             #Add
             scores = self.classifier(features)
