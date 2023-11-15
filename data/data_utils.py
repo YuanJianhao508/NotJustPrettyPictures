@@ -13,11 +13,14 @@ def dataset_info(filepath):
     labels = []
     # print(filepath)
     for row in images_list:
-        # print(row)
+        
         row = row.strip().split(' ')
         if len(row) == 2:
           file_names.append(row[0])
           labels.append(int(row[1]))
+        elif len(row) == 4:
+          file_names.append(f'{row[0]} {row[1]} {row[2]}')
+          labels.append(int(row[-1]))
         else:
           file_names.append(f'{row[0]} {row[1]}')
           labels.append(int(row[-1]))

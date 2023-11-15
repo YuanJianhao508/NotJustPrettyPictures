@@ -12,6 +12,7 @@ from optimizer.optimizer_helper import get_optim_and_scheduler
 from data import *
 from utils.Logger import Logger
 from utils.tools import *
+from models.classifier import Masker
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -56,7 +57,8 @@ class Trainer:
             get_optim_and_scheduler(self.classifier, self.config["optimizer"]["classifier_optimizer"])
 
         # dataloaders
-        self.train_loader = get_single_train_dataloader(args=self.args, config=self.config)
+        self.train_loader = get_single_cutout_train_dataloader(args=self.args, config=self.config)
+        # self.train_loader = get_fourier_train_dataloader(args=self.args, config=self.config)
         self.val_loader = get_single_val_dataloader(args=self.args, config=self.config)
         self.test_loader = get_single_test_loader(args=self.args, config=self.config)
         self.eval_loader = {'val': self.val_loader, 'test': self.test_loader}
@@ -90,17 +92,28 @@ class Trainer:
             features = self.encoder(batch)
             scores = self.classifier(features)
 
-            # print(scores,labels)
             loss_cls = criterion(scores, labels)
-
             loss_dict["cls"] = loss_cls.item()
             correct_dict["cls"] = calculate_correct(scores, labels)
             num_samples_dict["cls"] = int(scores.size(0))
 
-            # calculate total loss
-            total_loss = loss_cls
-            loss_dict["total"] = total_loss.item()
 
+            if self.args.ifcons == "ceclip":
+                assert batch.size(0) % 2 == 0
+                split_idx = int(batch.size(0) / 2)
+                features_ori, features_aug = torch.split(features, split_idx)
+                assert features_ori.size(0) == features_aug.size(0)
+                # factorization loss for features between ori and aug
+                loss_fac = clip_loss_v2(features_ori,features_aug,self.device)
+                loss_dict["fac"] = loss_fac.item()
+
+                # calculate total loss
+                total_loss = loss_cls + loss_fac
+                
+            elif self.args.ifcons == 'ce':
+                total_loss = loss_cls
+
+            loss_dict["total"] = total_loss.item()
             # backward
             total_loss.backward()
 
@@ -124,7 +137,7 @@ class Trainer:
         self.classifier.eval()
 
         # evaluation
-        if self.current_epoch > 30:
+        if self.current_epoch >= 40:
             with torch.no_grad():
                 for phase, loader in self.eval_loader.items():
                     if phase != "test":
@@ -136,19 +149,18 @@ class Trainer:
                     else:
                         self.logger.log_test(phase, {'class': 0.1})
                         self.results[phase][self.current_epoch] = 0.1
+                # save from best val
+                if self.results['val'][self.current_epoch] >= self.best_val_acc:
+                    self.best_val_acc = self.results['val'][self.current_epoch]
+                    self.best_val_epoch = self.current_epoch + 1
+                    self.logger.save_best_model(self.encoder, self.classifier, self.best_val_acc)
 
-            # save from best val
-            if self.results['val'][self.current_epoch] >= self.best_val_acc:
-                self.best_val_acc = self.results['val'][self.current_epoch]
-                self.best_val_epoch = self.current_epoch + 1
-                self.logger.save_best_model(self.encoder, self.classifier, self.best_val_acc)
-
-            for test_domain, loader in self.separate_test_loader.items():
-                total = len(loader.dataset)
-                class_correct = self.do_eval(loader)
-                class_acc = float(class_correct) / total
-                self.logger.log_test(test_domain, {'test class': class_acc})
-                self.results[test_domain][self.current_epoch] = class_acc
+                for test_domain, loader in self.separate_test_loader.items():
+                    total = len(loader.dataset)
+                    class_correct = self.do_eval(loader)
+                    class_acc = float(class_correct) / total
+                    self.logger.log_test(test_domain, {'test class': class_acc})
+                    self.results[test_domain][self.current_epoch] = class_acc
 
     def do_eval(self, loader):
         correct = 0

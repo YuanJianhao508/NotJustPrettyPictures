@@ -6,12 +6,14 @@ import numpy as np
 import torch
 from torch import nn
 import torch.nn.functional as F
+from torch.autograd import Variable
 
 from models.model_factory import *
 from optimizer.optimizer_helper import get_optim_and_scheduler
 from data import *
 from utils.Logger import Logger
 from utils.tools import *
+from models.classifier import Masker
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -56,11 +58,14 @@ class Trainer:
             get_optim_and_scheduler(self.classifier, self.config["optimizer"]["classifier_optimizer"])
 
         # dataloaders
-        self.train_loader = get_single_train_dataloader(args=self.args, config=self.config)
+        self.train_loader = get_single_mixup_train_dataloader(args=self.args, config=self.config)
+        # self.train_loader = get_fourier_train_dataloader(args=self.args, config=self.config)
         self.val_loader = get_single_val_dataloader(args=self.args, config=self.config)
         self.test_loader = get_single_test_loader(args=self.args, config=self.config)
         self.eval_loader = {'val': self.val_loader, 'test': self.test_loader}
         self.separate_test_loader = get_separate_test_loader(args=self.args, config=self.config)
+
+        self.alpha = 0.1
 
     def _do_epoch(self):
         criterion = nn.CrossEntropyLoss()
@@ -70,12 +75,15 @@ class Trainer:
         self.classifier.train()
 
         for it, (batch, label, domain) in enumerate(self.train_loader):
-
             # preprocessing
             batch = torch.cat(batch, dim=0).to(self.device)
             labels = torch.cat(label, dim=0).to(self.device)
             # if self.args.target in pacs_dataset:
             #     labels -= 1
+
+            x_mix, y_a, y_b, lam = self.mixup_data(batch, labels, alpha=self.alpha, use_cuda=True)
+            x_mix, y_a, y_b = map(Variable, (x_mix, y_a, y_b))
+
             # zero grad
             self.encoder_optim.zero_grad()
             self.classifier_optim.zero_grad()
@@ -87,12 +95,12 @@ class Trainer:
             total_loss = 0.0
 
             ## --------------------------step 1 : update G and C -----------------------------------
-            features = self.encoder(batch)
+            features = self.encoder(x_mix)
             scores = self.classifier(features)
 
-            # print(scores,labels)
-            loss_cls = criterion(scores, labels)
+            loss_cls = lam * criterion(scores, y_a) + (1 - lam) * criterion(scores, y_b)
 
+            
             loss_dict["cls"] = loss_cls.item()
             correct_dict["cls"] = calculate_correct(scores, labels)
             num_samples_dict["cls"] = int(scores.size(0))
@@ -124,7 +132,7 @@ class Trainer:
         self.classifier.eval()
 
         # evaluation
-        if self.current_epoch > 30:
+        if self.current_epoch >= 40:
             with torch.no_grad():
                 for phase, loader in self.eval_loader.items():
                     if phase != "test":
@@ -137,18 +145,18 @@ class Trainer:
                         self.logger.log_test(phase, {'class': 0.1})
                         self.results[phase][self.current_epoch] = 0.1
 
-            # save from best val
-            if self.results['val'][self.current_epoch] >= self.best_val_acc:
-                self.best_val_acc = self.results['val'][self.current_epoch]
-                self.best_val_epoch = self.current_epoch + 1
-                self.logger.save_best_model(self.encoder, self.classifier, self.best_val_acc)
+                # save from best val
+                if self.results['val'][self.current_epoch] >= self.best_val_acc:
+                    self.best_val_acc = self.results['val'][self.current_epoch]
+                    self.best_val_epoch = self.current_epoch + 1
+                    self.logger.save_best_model(self.encoder, self.classifier, self.best_val_acc)
 
-            for test_domain, loader in self.separate_test_loader.items():
-                total = len(loader.dataset)
-                class_correct = self.do_eval(loader)
-                class_acc = float(class_correct) / total
-                self.logger.log_test(test_domain, {'test class': class_acc})
-                self.results[test_domain][self.current_epoch] = class_acc
+                for test_domain, loader in self.separate_test_loader.items():
+                    total = len(loader.dataset)
+                    class_correct = self.do_eval(loader)
+                    class_acc = float(class_correct) / total
+                    self.logger.log_test(test_domain, {'test class': class_acc})
+                    self.results[test_domain][self.current_epoch] = class_acc
 
     def do_eval(self, loader):
         correct = 0
@@ -193,6 +201,23 @@ class Trainer:
             self.logger.save_single_best_acc(val_res, single_res, self.best_val_acc, self.best_val_epoch - 1, test_domain)
 
         return self.logger
+    
+    def mixup_data(self, x, y, alpha=1.0, use_cuda=True):
+        '''Returns mixed inputs, pairs of targets, and lambda'''
+        if alpha > 0:
+            lam = np.random.beta(alpha, alpha)
+        else:
+            lam = 1
+
+        batch_size = x.size()[0]
+        if use_cuda:
+            index = torch.randperm(batch_size).cuda()
+        else:
+            index = torch.randperm(batch_size)
+
+        mixed_x = lam * x + (1 - lam) * x[index, :]
+        y_a, y_b = y, y[index]
+        return mixed_x, y_a, y_b, lam
 
 
 def main():

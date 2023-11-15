@@ -6,12 +6,14 @@ import numpy as np
 import torch
 from torch import nn
 import torch.nn.functional as F
+from torch.autograd import Variable
 
 from models.model_factory import *
 from optimizer.optimizer_helper import get_optim_and_scheduler
 from data import *
 from utils.Logger import Logger
 from utils.tools import *
+from models.classifier import Masker
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -56,11 +58,14 @@ class Trainer:
             get_optim_and_scheduler(self.classifier, self.config["optimizer"]["classifier_optimizer"])
 
         # dataloaders
-        self.train_loader = get_single_train_dataloader(args=self.args, config=self.config)
+        self.train_loader = get_single_mixup_train_dataloader(args=self.args, config=self.config)
+        # self.train_loader = get_fourier_train_dataloader(args=self.args, config=self.config)
         self.val_loader = get_single_val_dataloader(args=self.args, config=self.config)
         self.test_loader = get_single_test_loader(args=self.args, config=self.config)
         self.eval_loader = {'val': self.val_loader, 'test': self.test_loader}
         self.separate_test_loader = get_separate_test_loader(args=self.args, config=self.config)
+
+        self.alpha = 1
 
     def _do_epoch(self):
         criterion = nn.CrossEntropyLoss()
@@ -70,12 +75,25 @@ class Trainer:
         self.classifier.train()
 
         for it, (batch, label, domain) in enumerate(self.train_loader):
-
             # preprocessing
             batch = torch.cat(batch, dim=0).to(self.device)
             labels = torch.cat(label, dim=0).to(self.device)
             # if self.args.target in pacs_dataset:
             #     labels -= 1
+
+            # generate mixed sample
+            lam = np.random.beta(self.alpha, self.alpha)
+            rand_index = torch.randperm(batch.size()[0]).cuda()
+            target_a = labels
+            target_b = labels[rand_index]
+            bbx1, bby1, bbx2, bby2 = self.rand_bbox(batch.size(), lam)
+            batch[:, :, bbx1:bbx2, bby1:bby2] = batch[rand_index, :, bbx1:bbx2, bby1:bby2]
+            # adjust lambda to exactly match pixel ratio
+            lam = 1 - ((bbx2 - bbx1) * (bby2 - bby1) / (batch.size()[-1] * batch.size()[-2]))
+
+            
+            
+
             # zero grad
             self.encoder_optim.zero_grad()
             self.classifier_optim.zero_grad()
@@ -90,9 +108,9 @@ class Trainer:
             features = self.encoder(batch)
             scores = self.classifier(features)
 
-            # print(scores,labels)
-            loss_cls = criterion(scores, labels)
+            loss_cls = criterion(scores, target_a) * lam + criterion(scores, target_b) * (1. - lam)
 
+            
             loss_dict["cls"] = loss_cls.item()
             correct_dict["cls"] = calculate_correct(scores, labels)
             num_samples_dict["cls"] = int(scores.size(0))
@@ -124,7 +142,7 @@ class Trainer:
         self.classifier.eval()
 
         # evaluation
-        if self.current_epoch > 30:
+        if self.current_epoch >= 40:
             with torch.no_grad():
                 for phase, loader in self.eval_loader.items():
                     if phase != "test":
@@ -137,18 +155,18 @@ class Trainer:
                         self.logger.log_test(phase, {'class': 0.1})
                         self.results[phase][self.current_epoch] = 0.1
 
-            # save from best val
-            if self.results['val'][self.current_epoch] >= self.best_val_acc:
-                self.best_val_acc = self.results['val'][self.current_epoch]
-                self.best_val_epoch = self.current_epoch + 1
-                self.logger.save_best_model(self.encoder, self.classifier, self.best_val_acc)
+                # save from best val
+                if self.results['val'][self.current_epoch] >= self.best_val_acc:
+                    self.best_val_acc = self.results['val'][self.current_epoch]
+                    self.best_val_epoch = self.current_epoch + 1
+                    self.logger.save_best_model(self.encoder, self.classifier, self.best_val_acc)
 
-            for test_domain, loader in self.separate_test_loader.items():
-                total = len(loader.dataset)
-                class_correct = self.do_eval(loader)
-                class_acc = float(class_correct) / total
-                self.logger.log_test(test_domain, {'test class': class_acc})
-                self.results[test_domain][self.current_epoch] = class_acc
+                for test_domain, loader in self.separate_test_loader.items():
+                    total = len(loader.dataset)
+                    class_correct = self.do_eval(loader)
+                    class_acc = float(class_correct) / total
+                    self.logger.log_test(test_domain, {'test class': class_acc})
+                    self.results[test_domain][self.current_epoch] = class_acc
 
     def do_eval(self, loader):
         correct = 0
@@ -157,7 +175,6 @@ class Trainer:
             # if self.args.target in pacs_dataset:
             #     labels -= 1
             features = self.encoder(data)
-            #Add
             scores = self.classifier(features)
             correct += calculate_correct(scores, labels)
         return correct
@@ -192,8 +209,26 @@ class Trainer:
             single_res = self.results[test_domain]
             self.logger.save_single_best_acc(val_res, single_res, self.best_val_acc, self.best_val_epoch - 1, test_domain)
 
-        return self.logger
 
+        return self.logger
+    
+    def rand_bbox(self,size, lam):
+        W = size[2]
+        H = size[3]
+        cut_rat = np.sqrt(1. - lam)
+        cut_w = np.int(W * cut_rat)
+        cut_h = np.int(H * cut_rat)
+
+        # uniform
+        cx = np.random.randint(W)
+        cy = np.random.randint(H)
+
+        bbx1 = np.clip(cx - cut_w // 2, 0, W)
+        bby1 = np.clip(cy - cut_h // 2, 0, H)
+        bbx2 = np.clip(cx + cut_w // 2, 0, W)
+        bby2 = np.clip(cy + cut_h // 2, 0, H)
+
+        return bbx1, bby1, bbx2, bby2
 
 def main():
     args, config = get_args()

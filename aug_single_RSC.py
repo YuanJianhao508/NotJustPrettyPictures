@@ -6,6 +6,7 @@ import numpy as np
 import torch
 from torch import nn
 import torch.nn.functional as F
+import torch.autograd as autograd
 
 from models.model_factory import *
 from optimizer.optimizer_helper import get_optim_and_scheduler
@@ -62,6 +63,10 @@ class Trainer:
         self.eval_loader = {'val': self.val_loader, 'test': self.test_loader}
         self.separate_test_loader = get_separate_test_loader(args=self.args, config=self.config)
 
+        rsc_f_drop_factor, rsc_b_drop_factor = 1/3, 1/3
+        self.drop_f = (1 - rsc_f_drop_factor) * 100
+        self.drop_b = (1 - rsc_b_drop_factor) * 100
+
     def _do_epoch(self):
         criterion = nn.CrossEntropyLoss()
 
@@ -74,8 +79,9 @@ class Trainer:
             # preprocessing
             batch = torch.cat(batch, dim=0).to(self.device)
             labels = torch.cat(label, dim=0).to(self.device)
-            # if self.args.target in pacs_dataset:
-            #     labels -= 1
+            if self.args.target in pacs_dataset:
+                labels -= 1
+            
             # zero grad
             self.encoder_optim.zero_grad()
             self.classifier_optim.zero_grad()
@@ -86,16 +92,41 @@ class Trainer:
             num_samples_dict = {}
             total_loss = 0.0
 
-            ## --------------------------step 1 : update G and C -----------------------------------
-            features = self.encoder(batch)
-            scores = self.classifier(features)
+            #RSC
+            all_f = self.encoder(batch)
+            all_p = self.classifier(all_f)
+            all_o = F.one_hot(labels, self.config["num_classes"])
 
-            # print(scores,labels)
-            loss_cls = criterion(scores, labels)
+            # Equation (1): compute gradients with respect to representation
+            all_g = autograd.grad((all_p * all_o).sum(), all_f)[0]
 
+            # Equation (2): compute top-gradient-percentile mask
+            percentiles = np.percentile(all_g.cpu(), self.drop_f, axis=1)
+            percentiles = torch.Tensor(percentiles)
+            percentiles = percentiles.unsqueeze(1).repeat(1, all_g.size(1))
+            mask_f = all_g.lt(percentiles.cuda()).float()
+
+            # Equation (3): mute top-gradient-percentile activations
+            all_f_muted = all_f * mask_f
+
+            # Equation (4): compute muted predictions
+            all_p_muted = self.classifier(all_f_muted)
+
+            # Section 3.3: Batch Percentage
+            all_s = F.softmax(all_p, dim=1)
+            all_s_muted = F.softmax(all_p_muted, dim=1)
+            changes = (all_s * all_o).sum(1) - (all_s_muted * all_o).sum(1)
+            percentile = np.percentile(changes.detach().cpu(), self.drop_b)
+            mask_b = changes.lt(percentile).float().view(-1, 1)
+            mask = torch.logical_or(mask_f, mask_b).float()
+
+            # Equations (3) and (4) again, this time mutting over examples
+            all_p_muted_again = self.classifier(all_f * mask)
+
+            loss_cls = criterion(all_p_muted_again, labels)
             loss_dict["cls"] = loss_cls.item()
-            correct_dict["cls"] = calculate_correct(scores, labels)
-            num_samples_dict["cls"] = int(scores.size(0))
+            correct_dict["cls"] = calculate_correct(all_p_muted_again, labels)
+            num_samples_dict["cls"] = int(all_p_muted_again.size(0))
 
             # calculate total loss
             total_loss = loss_cls
@@ -124,7 +155,7 @@ class Trainer:
         self.classifier.eval()
 
         # evaluation
-        if self.current_epoch > 30:
+        if self.current_epoch > 40:
             with torch.no_grad():
                 for phase, loader in self.eval_loader.items():
                     if phase != "test":
@@ -137,25 +168,25 @@ class Trainer:
                         self.logger.log_test(phase, {'class': 0.1})
                         self.results[phase][self.current_epoch] = 0.1
 
-            # save from best val
-            if self.results['val'][self.current_epoch] >= self.best_val_acc:
-                self.best_val_acc = self.results['val'][self.current_epoch]
-                self.best_val_epoch = self.current_epoch + 1
-                self.logger.save_best_model(self.encoder, self.classifier, self.best_val_acc)
+                # save from best val
+                if self.results['val'][self.current_epoch] >= self.best_val_acc:
+                    self.best_val_acc = self.results['val'][self.current_epoch]
+                    self.best_val_epoch = self.current_epoch + 1
+                    self.logger.save_best_model(self.encoder, self.classifier, self.best_val_acc)
 
-            for test_domain, loader in self.separate_test_loader.items():
-                total = len(loader.dataset)
-                class_correct = self.do_eval(loader)
-                class_acc = float(class_correct) / total
-                self.logger.log_test(test_domain, {'test class': class_acc})
-                self.results[test_domain][self.current_epoch] = class_acc
+                for test_domain, loader in self.separate_test_loader.items():
+                    total = len(loader.dataset)
+                    class_correct = self.do_eval(loader)
+                    class_acc = float(class_correct) / total
+                    self.logger.log_test(test_domain, {'test class': class_acc})
+                    self.results[test_domain][self.current_epoch] = class_acc
 
     def do_eval(self, loader):
         correct = 0
         for it, (batch, domain) in enumerate(loader):
             data, labels, domains = batch[0].to(self.device), batch[1].to(self.device), domain.to(self.device)
-            # if self.args.target in pacs_dataset:
-            #     labels -= 1
+            if self.args.target in pacs_dataset:
+                labels -= 1
             features = self.encoder(data)
             #Add
             scores = self.classifier(features)
