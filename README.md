@@ -2,8 +2,7 @@
 
 #### Demo for Visualisation of Different Data Augmentation techniques: 
 Notebook: ./Demo/NotJustPrettyPicturesDemo.ipynb
-(Download and upload to Google Colab)
-Google colab: https://drive.google.com/file/d/17595l3D_882SZUzxONYpigY_EwGwjfMe/view?usp=sharing
+
 ##### Examples (for more samples see the notebook or generated png samples in ./Demo folder):
 ![avatar](./Demo/Visualisation_Dog.png)
 
