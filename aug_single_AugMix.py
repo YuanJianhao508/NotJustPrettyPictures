@@ -112,17 +112,23 @@ class Trainer:
                 total_loss = loss_cls + loss_fac
                 
             elif self.args.ifcons == 'ce':
-                assert batch.size(0) % 2 == 0
-                split_idx = int(batch.size(0) / 2)
-                features_ori, features_aug = torch.split(features, split_idx)
-                assert features_ori.size(0) == features_aug.size(0)
-                # factorization loss for features between ori and aug
-                loss_fac = KL_loss(features_ori,features_aug)
-                loss_dict["fac"] = loss_fac.item()
+                assert batch.size(0) % 3 == 0
+                split_idx = int(batch.size(0) / 3)
+                logits_clean, logits_aug1,logits_aug2 = torch.split(features, split_idx)
+                
+                p_clean, p_aug1, p_aug2 = F.softmax(
+                    logits_clean, dim=1), F.softmax(
+                        logits_aug1, dim=1), F.softmax(
+                            logits_aug2, dim=1)
+                
+                loss_cls = criterion(scores, labels)
+                p_mixture = torch.clamp((p_clean + p_aug1 + p_aug2) / 3., 1e-7, 1).log()
+                loss_js = 12 * (F.kl_div(p_mixture, p_clean, reduction='batchmean') +
+                    F.kl_div(p_mixture, p_aug1, reduction='batchmean') +
+                    F.kl_div(p_mixture, p_aug2, reduction='batchmean')) / 3.
 
-                # calculate total loss
-                total_loss = loss_cls
-
+                total_loss = loss_cls + loss_js
+                
             loss_dict["total"] = total_loss.item()
             # backward
             total_loss.backward()
