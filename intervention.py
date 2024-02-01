@@ -51,7 +51,7 @@ class InterventionHandler:
     def pacs_sd_intervene(self):
         # SD hyper-parameters
         pipe = StableDiffusionImg2ImgPipeline.from_pretrained(
-            'CompVis/stable-diffusion-v1-4',
+            "runwayml/stable-diffusion-v1-5",
             use_auth_token=True
         ).to('cuda')
         num_samples = 1
@@ -88,8 +88,8 @@ class InterventionHandler:
                 try:
                     image_res = pipe(
                         prompt=[to_text]*num_samples, init_image=init_image,
-                        num_inference_steps=80, 
-                        strength=0.9, guidance_scale=7.5).images[0]
+                        num_inference_steps=50, 
+                        strength=0.75, guidance_scale=2.0).images[0]
                     image_res.save(out_path)
                     aug_path_dict.update({to_domain:out_path})
                 except:
