@@ -1,5 +1,11 @@
 ## Not Just Pretty Pictures: Toward Interventional Data Augmentation Using Text-to-Image Generators
 
+#### Setting Demonstration
+![Settings](./Demo/NJPP_Header.png)
+
+#### Duplication Check
+
+
 #### Demo for Visualisation of Different Data Augmentation techniques: 
 Notebook: ./Demo/NotJustPrettyPicturesDemo.ipynb
 
