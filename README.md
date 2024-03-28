@@ -4,7 +4,7 @@
 ![Settings](./Demo/NJPP_Header.png)
 
 #### Duplication Check
-
+![Settings](./Demo/DuplicationCheck.png)
 
 #### Demo for Visualisation of Different Data Augmentation techniques: 
 Notebook: ./Demo/NotJustPrettyPicturesDemo.ipynb
