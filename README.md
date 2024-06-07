@@ -1,4 +1,6 @@
-## Not Just Pretty Pictures: Toward Interventional Data Augmentation Using Text-to-Image Generators
+# Not Just Pretty Pictures: Toward Interventional Data Augmentation Using Text-to-Image Generators
+
+Here, we include the code necessary to reproduce the results presented in our paper *Not Just Pretty Pictures: Toward Interventional Data Augmentation Using Text-to-Image Generators* (accepted for publication at ICML 2024). See our [full paper](https://openreview.net/forum?id=b89JtZj9gm) and [project page](https://torrvision.com/njpp/).
 
 #### Setting Demonstration
 ![Settings](./Demo/NJPP_Header.png)
